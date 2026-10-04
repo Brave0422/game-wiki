@@ -1,0 +1,19 @@
+# @author Brave
+# @date 2026-10-04T17:29:14+08:00
+# @description 排除依赖、构建产物、本地环境和资源提取临时文件。
+node_modules/
+.nuxt/
+.output/
+.data/
+.cache/
+.tools/
+.playwright-cli/
+output/playwright/
+dist/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

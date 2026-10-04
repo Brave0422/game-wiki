@@ -1,0 +1,62 @@
+[
+  {
+    "id": "popcorn-explosion-build",
+    "title": "爆米花搭配：先处理自身爆炸伤害",
+    "summary": "用老大哥保护自己，再考虑爆炸范围和多弹道；区分自身爆炸免疫与全部爆炸免疫。",
+    "paragraphs": [
+      "爆米花会让子弹在命中目标或飞行一定距离后爆炸。靠墙和贴近敌人开火时，也要考虑爆炸与自身的距离。",
+      "搭配思路是先取得老大哥：它免疫自身产生的爆炸，适合承担爆米花造成的自伤风险。随后再根据手里的武器、弹道和房间空间选择输出道具。",
+      "老大哥不能当作全部爆炸免疫。钢铁意志套装才提供全部爆炸免疫；套装需要集齐同一套装中的四件道具。"
+    ],
+    "sources": [
+      {
+        "label": "Veewo · 爆炸免疫范围调整",
+        "url": "https://www.veewo.com/na-log?lang=zh"
+      },
+      {
+        "label": "Neon Abyss Wiki · Items（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Items"
+      },
+      {
+        "label": "Neon Abyss Wiki · Item Sets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Item_Sets"
+      }
+    ]
+  },
+  {
+    "id": "keygun-resource-management",
+    "title": "钥匙枪：把开锁能力变成资源优势",
+    "summary": "蓄力金钥匙能开锁，但并非所有宝箱都适用。换枪前先规划当前层的开锁目标。",
+    "paragraphs": [
+      "钥匙枪在蓄满后射出一把金钥匙，可以打开带锁的门和金宝箱。金钥匙能穿过地形，射程也很长。",
+      "石宝箱和水晶宝箱没有对应的锁，不能用这种方式打开。遇到宝箱时先辨认类型，避免把开锁能力误当成通用破箱能力。",
+      "操作思路是换枪前先探索当前层，把可以用钥匙枪处理的锁处理完，再保留钥匙给后续楼层。"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Keygun",
+        "url": "https://neonabyss.fandom.com/wiki/Keygun"
+      }
+    ]
+  },
+  {
+    "id": "photon-pet-merge",
+    "title": "光子合体：认准三只成熟宠物",
+    "summary": "曼哈顿、小皮皮和桔宝同时在场会合体。幼年形态需要先完成进化。",
+    "paragraphs": [
+      "光子由曼哈顿、小皮皮和桔宝合体获得。英文资料中的 Blue Doctor、Peter、Grabber，与更新公告使用的 Dr. Manhattan、Peter、Agent Grey 指的是这三只宠物。",
+      "对应幼年形态分别是曼小顿、小小皮和宝宝桔。规划合体时需要区分幼年形态与成熟形态，保护它们继续成长。",
+      "光子保持开心状态时，战斗结束有机会掉落礼物。保护它避开敌人攻击，是围绕这只宠物规划战斗的重点。"
+    ],
+    "sources": [
+      {
+        "label": "Steam · Call of Hades 宠物合体更新",
+        "url": "https://steamcommunity.com/games/788100/announcements/detail/3096765393287424721"
+      },
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  }
+]

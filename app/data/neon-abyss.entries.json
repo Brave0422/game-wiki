@@ -1,0 +1,5333 @@
+[
+  {
+    "id": "0_coin_ares",
+    "category": "items",
+    "name": "阿瑞斯币",
+    "englishName": "Ares Token",
+    "description": "你感到愤怒！",
+    "image": "/images/neon-abyss/0_coin_ares.png",
+    "tags": [
+      "特殊关卡"
+    ]
+  },
+  {
+    "id": "0_coin_athena",
+    "category": "items",
+    "name": "雅典娜币",
+    "englishName": "Athena Token",
+    "description": "你感到平静。",
+    "image": "/images/neon-abyss/0_coin_athena.png",
+    "tags": [
+      "特殊关卡"
+    ]
+  },
+  {
+    "id": "0_pickup_key_infinity",
+    "category": "items",
+    "name": "无限钥匙",
+    "englishName": "Infinite Key",
+    "description": "开锁不再消耗钥匙（只在本层有效）",
+    "image": "/images/neon-abyss/0_pickup_key_infinity.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "0_ticket_bettery",
+    "category": "items",
+    "name": "6号门票",
+    "englishName": "Ticket-6",
+    "description": "我占领了高地！",
+    "image": "/images/neon-abyss/0_ticket_bettery.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_chaos",
+    "category": "items",
+    "name": "混沌门票",
+    "englishName": "Chaos Ticket",
+    "description": "我喜欢早上起来时一切都是未知的，不知会遇见什么人，会有怎样的结局。",
+    "image": "/images/neon-abyss/0_ticket_chaos.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_chest",
+    "category": "items",
+    "name": "1号门票",
+    "englishName": "Ticket-1",
+    "description": "既然做梦，那就做大点儿！",
+    "image": "/images/neon-abyss/0_ticket_chest.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_choice",
+    "category": "items",
+    "name": "5号门票",
+    "englishName": "Ticket-5",
+    "description": "路就在你脚下，你自己决定。",
+    "image": "/images/neon-abyss/0_ticket_choice.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_egg",
+    "category": "items",
+    "name": "4号门票",
+    "englishName": "Ticket-4",
+    "description": "是你花费在玫瑰上的时间，让它变得如此珍贵。",
+    "image": "/images/neon-abyss/0_ticket_egg.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_game",
+    "category": "items",
+    "name": "2号门票",
+    "englishName": "Ticket-2",
+    "description": "只工作不玩耍，聪明孩子也变傻！",
+    "image": "/images/neon-abyss/0_ticket_game.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "0_ticket_trade",
+    "category": "items",
+    "name": "3号门票",
+    "englishName": "Ticket-3",
+    "description": "写作业的时间到了！",
+    "image": "/images/neon-abyss/0_ticket_trade.png",
+    "tags": [
+      "门票"
+    ]
+  },
+  {
+    "id": "3_item_all_01",
+    "category": "items",
+    "name": "禁忌面具",
+    "englishName": "Forbidden Mask",
+    "description": "迎接第三次冲击！你获得了全方面的提升！觉醒吧！",
+    "image": "/images/neon-abyss/3_item_all_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_01",
+    "category": "items",
+    "name": "生化改造",
+    "englishName": "Cyborg",
+    "description": "减少红心容器，增加伤害，增加护盾。生命中唯一不变的就是变化。",
+    "image": "/images/neon-abyss/3_item_blue_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_02",
+    "category": "items",
+    "name": "强化脑神经",
+    "englishName": "Nerve System 6.0",
+    "description": "提高武器伤害和移动速度。我是谁，我在哪，我要干啥？",
+    "image": "/images/neon-abyss/3_item_blue_02.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_03",
+    "category": "items",
+    "name": "海洋之心",
+    "englishName": "Heart Of The Ocean",
+    "description": "爱的力量！增加护盾，并提高武器伤害。",
+    "image": "/images/neon-abyss/3_item_blue_03.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_04",
+    "category": "items",
+    "name": "未来科技",
+    "englishName": "Future Tech",
+    "description": "增加护盾，提高你的武器射速。你不懂，也不理解。",
+    "image": "/images/neon-abyss/3_item_blue_04.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_05",
+    "category": "items",
+    "name": "队长盾",
+    "englishName": "Sturdy Shield",
+    "description": "你突然变帅了。增加护盾，当你受到攻击时有一定几率免疫伤害。",
+    "image": "/images/neon-abyss/3_item_blue_05.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_06",
+    "category": "items",
+    "name": "能量方块",
+    "englishName": "Energy Cube",
+    "description": "来自金属星球的圣物，每次激活传送石都有概率掉落能量护盾。",
+    "image": "/images/neon-abyss/3_item_blue_06.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_07",
+    "category": "items",
+    "name": "最后的希望",
+    "englishName": "Last Hope",
+    "description": "斯巴达战士的意志在你心中燃烧！每次清理完房间都有一定概率掉落护盾。",
+    "image": "/images/neon-abyss/3_item_blue_07.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_blue_08",
+    "category": "items",
+    "name": "量子核心",
+    "englishName": "Quantum Core",
+    "description": "增加能量护盾，提高你的武器伤害。你尝试过阅读说明手册，但总是卡在第一行。",
+    "image": "/images/neon-abyss/3_item_blue_08.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_luck_01",
+    "category": "items",
+    "name": "幸运金币",
+    "englishName": "Lucky Gold Coin",
+    "description": "你感觉到自己变得很幸运，这真的不是错觉吗？",
+    "image": "/images/neon-abyss/3_item_luck_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_01",
+    "category": "items",
+    "name": "僧帽",
+    "englishName": "Monk Hat",
+    "description": "增加心之容器和水晶容器。虔诚的心可以驱走一切黑暗。",
+    "image": "/images/neon-abyss/3_item_mana_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_02",
+    "category": "items",
+    "name": "木乃伊头套",
+    "englishName": "Shroud",
+    "description": "增加水晶容器，消灭敌人有概率掉落水晶。一卷讲述着千年历史的破布。",
+    "image": "/images/neon-abyss/3_item_mana_02.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_03",
+    "category": "items",
+    "name": "弯勺子",
+    "englishName": "Bent Spoon",
+    "description": "98%...99%...增加水晶容器，增加武器伤害。",
+    "image": "/images/neon-abyss/3_item_mana_03.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_04",
+    "category": "items",
+    "name": "波斯头巾",
+    "englishName": "Persian Turban",
+    "description": "上边沾满了风吹来的沙子。极大的增加水晶容器。",
+    "image": "/images/neon-abyss/3_item_mana_04.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_05",
+    "category": "items",
+    "name": "仪式面具",
+    "englishName": "Ritual Mask",
+    "description": "似乎有点唬人。增加水晶容器，每使用一定数量水晶即可恢复红心。",
+    "image": "/images/neon-abyss/3_item_mana_05.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_mana_06",
+    "category": "items",
+    "name": "魔能头盔",
+    "englishName": "Unknown Mask",
+    "description": "一个让人心生恐惧的面具。增加水晶容器和护盾。",
+    "image": "/images/neon-abyss/3_item_mana_06.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_01",
+    "category": "items",
+    "name": "融化的日历",
+    "englishName": "Melting Calendar",
+    "description": "时间只是一种错觉。提高你的移动速度和子弹飞行速度。",
+    "image": "/images/neon-abyss/3_item_move_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_02",
+    "category": "items",
+    "name": "变异桔子",
+    "englishName": "Mutated Orange",
+    "description": "你并未了解这个水果有多么的与众不同。提高你的移动速度和武器伤害。",
+    "image": "/images/neon-abyss/3_item_move_02.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_03",
+    "category": "items",
+    "name": "皇家鹿角",
+    "englishName": "Royal Antlers",
+    "description": "提高你的移动速度，每次使用钥匙掉落金币。",
+    "image": "/images/neon-abyss/3_item_move_03.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_04",
+    "category": "items",
+    "name": "精灵饼干",
+    "englishName": "Elf Bread",
+    "description": "只要一小口，就可以撑一整天！回复红心，并提高你的移动速度。",
+    "image": "/images/neon-abyss/3_item_move_04.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_05",
+    "category": "items",
+    "name": "滑板鞋",
+    "englishName": "Running Shoes",
+    "description": "摩擦摩擦，是魔鬼的步伐。提高你的移动速度。",
+    "image": "/images/neon-abyss/3_item_move_05.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_move_06",
+    "category": "items",
+    "name": "机车头盔",
+    "englishName": "Motorcycle Helmet",
+    "description": "就是这么拽！提高你的移动速度，增加近战伤害和武器伤害。",
+    "image": "/images/neon-abyss/3_item_move_06.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "3_item_red_06",
+    "category": "items",
+    "name": "秘制寿司",
+    "englishName": "Sashimi Sushi",
+    "description": "想要品尝这世代流传的美味，需要提前一年预定。增加一个红心容器",
+    "image": "/images/neon-abyss/3_item_red_06.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "4_item_range_01",
+    "category": "items",
+    "name": "粉色飞镖",
+    "englishName": "Pink Dart",
+    "description": "仅供大师锦标赛专用。提高你的武器射程和速度。",
+    "image": "/images/neon-abyss/4_item_range_01.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "4_item_range_02",
+    "category": "items",
+    "name": "纸飞机",
+    "englishName": "Paper Plane",
+    "description": "童年的快乐。提高你的武器射程和伤害。",
+    "image": "/images/neon-abyss/4_item_range_02.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "4_item_range_03",
+    "category": "items",
+    "name": "影子行动",
+    "englishName": "Shadow Operation",
+    "description": "你懂得如何在战斗中速战速决。提高你的武器射程，增加角色移动速度。",
+    "image": "/images/neon-abyss/4_item_range_03.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "4_item_range_04",
+    "category": "items",
+    "name": "瞄准镜",
+    "englishName": "Telescopic Sight",
+    "description": "虽然已经烂大街了，但是有用！提高你的武器射程和角色跳跃高度。",
+    "image": "/images/neon-abyss/4_item_range_04.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "5_01_item_aura_elec",
+    "category": "items",
+    "name": "特斯拉电圈",
+    "englishName": "Tesla Coil",
+    "description": "会在角色周围间歇性的生成一个闪电光环，对敌人造成接触闪电伤害。",
+    "image": "/images/neon-abyss/5_01_item_aura_elec.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_fly_devil",
+    "category": "items",
+    "name": "黑暗之翼",
+    "englishName": "Demon Wings",
+    "description": "这点牺牲算什么？用一个红心容器换取伤害加强和飞行能力！",
+    "image": "/images/neon-abyss/5_01_item_fly_devil.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_fly_god",
+    "category": "items",
+    "name": "神性",
+    "englishName": "Divinity",
+    "description": "你似乎有点明白这个世界是怎么回事了。获得飞行能力，移动速度增加。",
+    "image": "/images/neon-abyss/5_01_item_fly_god.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_fly_pega",
+    "category": "items",
+    "name": "天马的祝福",
+    "englishName": "Pegasus",
+    "description": "来自古希腊的祝福！获得飞行能力！这感觉太妙了！",
+    "image": "/images/neon-abyss/5_01_item_fly_pega.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_hero_sizeDOWN",
+    "category": "items",
+    "name": "缩小帽",
+    "englishName": "Green Cap",
+    "description": "一顶可以让你变小的帽子。对，是绿色的。",
+    "image": "/images/neon-abyss/5_01_item_hero_sizeDOWN.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_hero_sizeUP",
+    "category": "items",
+    "name": "生日蛋糕",
+    "englishName": "Birthday Cake",
+    "description": "生日快乐！你长大了！增加两个红心容器！",
+    "image": "/images/neon-abyss/5_01_item_hero_sizeUP.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_hero_size_down",
+    "category": "items",
+    "name": "沙漠药剂",
+    "englishName": "Desert Elixir",
+    "description": "一瓶神奇的药水，上边写着“不要喝我”。",
+    "image": "/images/neon-abyss/5_01_item_hero_size_down.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_jump_attack",
+    "category": "items",
+    "name": "水管工帽",
+    "englishName": "Red Hat",
+    "description": "跳跃可以对敌人造成伤害（同时免疫敌人的触碰伤害）。公主在哪里？",
+    "image": "/images/neon-abyss/5_01_item_jump_attack.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_jump_bomb",
+    "category": "items",
+    "name": "弹性地雷",
+    "englishName": "Dangerous Mine",
+    "description": "每次跳跃，都将在脚下生成一个延时地雷。是不是很带感？",
+    "image": "/images/neon-abyss/5_01_item_jump_bomb.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_jump_shootdown",
+    "category": "items",
+    "name": "御姐之舞",
+    "englishName": "Fatal Dance",
+    "description": "在空中状态可以向下发射子弹。让他们在仰视你的过程中消亡吧！",
+    "image": "/images/neon-abyss/5_01_item_jump_shootdown.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_extra_golden",
+    "category": "items",
+    "name": "金色火炬",
+    "englishName": "Golden Torch",
+    "description": "光芒似乎很温暖。从下层开始，每层多一个道具房间。",
+    "image": "/images/neon-abyss/5_01_item_map_extra_golden.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_eye",
+    "category": "items",
+    "name": "魔君之眼",
+    "englishName": "Lidless Eye",
+    "description": "它可以看到所有的一切。包括你内心的渴望和恐惧。",
+    "image": "/images/neon-abyss/5_01_item_map_eye.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_full",
+    "category": "items",
+    "name": "白银罗盘",
+    "englishName": "Silver Compass",
+    "description": "显示出每一层的地图结构，很多人拿它来干坏事。",
+    "image": "/images/neon-abyss/5_01_item_map_full.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_icon_hidden",
+    "category": "items",
+    "name": "藏宝图",
+    "englishName": "Treasure Map",
+    "description": "在地图上显示所有隐藏房间图标。背后有个模糊的署名：杰克船长。",
+    "image": "/images/neon-abyss/5_01_item_map_icon_hidden.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_icon_sp",
+    "category": "items",
+    "name": "寻宝雷达",
+    "englishName": "Mini Radar",
+    "description": "嘀嘀嘀，目标已经锁定。在地图上显示所有特殊房间图标。",
+    "image": "/images/neon-abyss/5_01_item_map_icon_sp.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_map_reveal",
+    "category": "items",
+    "name": "小锄头",
+    "englishName": "Little Pickaxe",
+    "description": "一把非常实用的小工具，可以自动打开附近的隐藏房间。",
+    "image": "/images/neon-abyss/5_01_item_map_reveal.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_revive_aegis",
+    "category": "items",
+    "name": "不朽之心",
+    "englishName": "Immortal Heart",
+    "description": "这是一件传奇的战利品。当你被击败后可以原地复活！（只可使用一次）",
+    "image": "/images/neon-abyss/5_01_item_revive_aegis.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_revive_coin",
+    "category": "items",
+    "name": "太阳金币",
+    "englishName": "Sun Coin",
+    "description": "依靠它的力量，你将再次站起来。但是你感觉有些不同…（只可使用一次）",
+    "image": "/images/neon-abyss/5_01_item_revive_coin.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_revive_fire",
+    "category": "items",
+    "name": "圣焰之心",
+    "englishName": "Heart Of Fire",
+    "description": "依靠它的力量，你将再次站起来。但是你感觉有些不同…（只能使用一次）",
+    "image": "/images/neon-abyss/5_01_item_revive_fire.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_revive_gamble",
+    "category": "items",
+    "name": "薛定谔的筹码",
+    "englishName": "Schrödinger'S Bet",
+    "description": "你处于一种难以描述的状态…当你被击败后有一定概率复活。",
+    "image": "/images/neon-abyss/5_01_item_revive_gamble.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_useless",
+    "category": "items",
+    "name": "无用之物",
+    "englishName": "Useless Item",
+    "description": "这个东西一无是处，也许你有什么办法把它变得有用？",
+    "image": "/images/neon-abyss/5_01_item_useless.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_01_item_wiki",
+    "category": "items",
+    "name": "天眼",
+    "englishName": "Inner Eye",
+    "description": "不必拾取道具也可以预览到道具的详细信息。",
+    "image": "/images/neon-abyss/5_01_item_wiki.png",
+    "tags": [
+      "特殊效果"
+    ]
+  },
+  {
+    "id": "5_02_item_coin_bomb",
+    "category": "items",
+    "name": "金币炸弹",
+    "englishName": "Coin Bomb",
+    "description": "你拾取金币会获得三倍收益！但是金币3秒之后不捡会爆炸。时间就是金钱，对吗。",
+    "image": "/images/neon-abyss/5_02_item_coin_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_coin_damage",
+    "category": "items",
+    "name": "佣兵之王",
+    "englishName": "Mercenary Lord",
+    "description": "你拥有的金币越多，你的武器伤害就越高。",
+    "image": "/images/neon-abyss/5_02_item_coin_damage.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_coin_gs",
+    "category": "items",
+    "name": "小金人",
+    "englishName": "Golden Statuette",
+    "description": "使用金币后有概率获得一个守护精灵。谁不想捧起它亲一口呢。",
+    "image": "/images/neon-abyss/5_02_item_coin_gs.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_coin_gun",
+    "category": "items",
+    "name": "金卡",
+    "englishName": "Battle Pass",
+    "description": "付费玩家！拥有的金币越多，你能发射的子弹数量就越多。",
+    "image": "/images/neon-abyss/5_02_item_coin_gun.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_coin_rpm",
+    "category": "items",
+    "name": "黄金鸟",
+    "englishName": "Golden Bird",
+    "description": "有钱之后，鸟叫都比之前悦耳了。你拥有的金币越多，武器射速越快。",
+    "image": "/images/neon-abyss/5_02_item_coin_rpm.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_egg_instead_bomb",
+    "category": "items",
+    "name": "鲨鱼诱饵",
+    "englishName": "Shark Bait",
+    "description": "如果没有炸弹，你可以消耗蛋来替代。",
+    "image": "/images/neon-abyss/5_02_item_egg_instead_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_egg_instead_key",
+    "category": "items",
+    "name": "空罐头",
+    "englishName": "Empty Can",
+    "description": "如果没有钥匙，你可以消耗蛋来替代。",
+    "image": "/images/neon-abyss/5_02_item_egg_instead_key.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_doublecure",
+    "category": "items",
+    "name": "宽恕兜帽",
+    "englishName": "Mercy Hood",
+    "description": "愿圣光与你同在。红心恢复量翻倍！",
+    "image": "/images/neon-abyss/5_02_item_heart_doublecure.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_full_damageUP",
+    "category": "items",
+    "name": "王者之冠",
+    "englishName": "King'S Crown",
+    "description": "怒火燎原！满红心时伤害提高。",
+    "image": "/images/neon-abyss/5_02_item_heart_full_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_full_recover",
+    "category": "items",
+    "name": "仙豆",
+    "englishName": "Magical Bean",
+    "description": "这个小豆子可不得了。恢复你的所有红心，武器射程提高。",
+    "image": "/images/neon-abyss/5_02_item_heart_full_recover.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_less_damageUP",
+    "category": "items",
+    "name": "斯巴达血统",
+    "englishName": "Spartan Lineage",
+    "description": "空的红心容器越多，你的武器伤害越高。斯巴达！！！",
+    "image": "/images/neon-abyss/5_02_item_heart_less_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_less_gunlevelUP",
+    "category": "items",
+    "name": "狂战士之怒",
+    "englishName": "Berserker Blood",
+    "description": "愤怒驱使着你。空的红心容器越多，你能发射的子弹越多。",
+    "image": "/images/neon-abyss/5_02_item_heart_less_gunlevelUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_heart_to_shield",
+    "category": "items",
+    "name": "方舟反应炉",
+    "englishName": "Howard Reactor",
+    "description": "所有红心掉落转化为护盾掉落。创造者稍稍修改了一点宇宙的规则。",
+    "image": "/images/neon-abyss/5_02_item_heart_to_shield.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_hurt_doubleHeart",
+    "category": "items",
+    "name": "爱心酵母",
+    "englishName": "Love Yeast",
+    "description": "红心掉落后3秒会变成两个霉心。",
+    "image": "/images/neon-abyss/5_02_item_hurt_doubleHeart.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_dmg_up",
+    "category": "items",
+    "name": "特工手表",
+    "englishName": "Agent Watch",
+    "description": "每拾取一把钥匙，武器伤害会提高。每使用一把钥匙，武器伤害会降低。",
+    "image": "/images/neon-abyss/5_02_item_key_dmg_up.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_instead_bomb",
+    "category": "items",
+    "name": "邦德钢笔",
+    "englishName": "Pen No.7",
+    "description": "如果没有炸弹，你可以消耗钥匙来替代。这种小装置在某些时刻非常好用。",
+    "image": "/images/neon-abyss/5_02_item_key_instead_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_rpm_up",
+    "category": "items",
+    "name": "钢铁齿轮",
+    "englishName": "Steel Gear",
+    "description": "你拥有的钥匙越多，你的武器射速越高。",
+    "image": "/images/neon-abyss/5_02_item_key_rpm_up.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_bomb",
+    "category": "items",
+    "name": "铁锈钥匙",
+    "englishName": "Rusty Key",
+    "description": "使用钥匙后，有概率掉落即爆炸弹或普通炸弹。",
+    "image": "/images/neon-abyss/5_02_item_key_use_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_egg",
+    "category": "items",
+    "name": "小熊吊坠",
+    "englishName": "Bear Pendant",
+    "description": "使用钥匙后，有概率掉落蛋。",
+    "image": "/images/neon-abyss/5_02_item_key_use_egg.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_fs",
+    "category": "items",
+    "name": "愤怒手环",
+    "englishName": "Evil Bracelet",
+    "description": "使用钥匙后，都会获得愤怒精灵。",
+    "image": "/images/neon-abyss/5_02_item_key_use_fs.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_heart",
+    "category": "items",
+    "name": "爱心项链",
+    "englishName": "Heart Necklace",
+    "description": "使用钥匙后，有概率掉落红心。",
+    "image": "/images/neon-abyss/5_02_item_key_use_heart.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_shell",
+    "category": "items",
+    "name": "华丽首饰盒",
+    "englishName": "Jewelry Box",
+    "description": "使用钥匙后，就会获得保护罩，抵挡一次伤害。",
+    "image": "/images/neon-abyss/5_02_item_key_use_shell.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_key_use_shield",
+    "category": "items",
+    "name": "黑匣子",
+    "englishName": "Black Box",
+    "description": "使用钥匙后，有概率掉落护盾。",
+    "image": "/images/neon-abyss/5_02_item_key_use_shield.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_mana_full_damageUP",
+    "category": "items",
+    "name": "魔法漩涡",
+    "englishName": "Magic Vortex",
+    "description": "你似乎有一个天大的计划。满水晶的时候武器伤害增加。",
+    "image": "/images/neon-abyss/5_02_item_mana_full_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_mana_less_damageUP",
+    "category": "items",
+    "name": "白猫徽章",
+    "englishName": "Cat Medallion",
+    "description": "它似乎能感应到魔法。空的水晶容器越多，你的武器伤害越高。",
+    "image": "/images/neon-abyss/5_02_item_mana_less_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_coin_dropBomb",
+    "category": "items",
+    "name": "翡翠手环",
+    "englishName": "Emerald Bracelet",
+    "description": "每次捡起硬币时有几率获得炸弹。",
+    "image": "/images/neon-abyss/5_02_item_pick_coin_dropBomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_coin_dropHeart",
+    "category": "items",
+    "name": "红宝石耳坠",
+    "englishName": "Ruby Earrings",
+    "description": "每次捡起硬币时有几率获得红心。",
+    "image": "/images/neon-abyss/5_02_item_pick_coin_dropHeart.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_coin_dropKey",
+    "category": "items",
+    "name": "银色胸针",
+    "englishName": "Silver Brooch",
+    "description": "每次捡起硬币时有几率获得钥匙。",
+    "image": "/images/neon-abyss/5_02_item_pick_coin_dropKey.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_coin_dropMana",
+    "category": "items",
+    "name": "紫水晶项链",
+    "englishName": "Amethyst Necklace",
+    "description": "每次捡起硬币时有几率获得水晶。",
+    "image": "/images/neon-abyss/5_02_item_pick_coin_dropMana.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_coin_dropShield",
+    "category": "items",
+    "name": "蓝宝石戒指",
+    "englishName": "Sapphire Ring",
+    "description": "每次捡起硬币时有几率获得护盾。",
+    "image": "/images/neon-abyss/5_02_item_pick_coin_dropShield.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_damageUP",
+    "category": "items",
+    "name": "丐帮会员证",
+    "englishName": "Beggar'S Card",
+    "description": "拾取物品后，在当前房间内攻击力提升。",
+    "image": "/images/neon-abyss/5_02_item_pick_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_pick_speedUP",
+    "category": "items",
+    "name": "兄弟会徽章",
+    "englishName": "Rogue'S Badge",
+    "description": "拾取物品后，在当前房间内移动速度和跳跃高度提升。",
+    "image": "/images/neon-abyss/5_02_item_pick_speedUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_bomb",
+    "category": "items",
+    "name": "军火收据",
+    "englishName": "Dangerous Receipt",
+    "description": "你获得了一批炸弹。你的嘴角露出了不易察觉的微笑。",
+    "image": "/images/neon-abyss/5_02_item_res_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_chest_to_curse",
+    "category": "items",
+    "name": "诅咒金币",
+    "englishName": "Cursed Coin",
+    "description": "所有的木宝箱都会变成诅咒宝箱",
+    "image": "/images/neon-abyss/5_02_item_res_chest_to_curse.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_coin250",
+    "category": "items",
+    "name": "意外之财",
+    "englishName": "Accidental Wealth",
+    "description": "获得250金币！你正好需要它！",
+    "image": "/images/neon-abyss/5_02_item_res_coin250.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_coin999",
+    "category": "items",
+    "name": "彩票",
+    "englishName": "Lottery Ticket",
+    "description": "777金币！你感到如此的幸运......和孤独。",
+    "image": "/images/neon-abyss/5_02_item_res_coin999.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_coin_instead_key",
+    "category": "items",
+    "name": "开锁热线",
+    "englishName": "Locksmith",
+    "description": "如果没有钥匙，你可以花费金币替代。",
+    "image": "/images/neon-abyss/5_02_item_res_coin_instead_key.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_double_bomb",
+    "category": "items",
+    "name": "火药阴谋",
+    "englishName": "Gunpowder Plot",
+    "description": "拾取炸弹时多获得一个。这有助于你的事业。",
+    "image": "/images/neon-abyss/5_02_item_res_double_bomb.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_extra_coin",
+    "category": "items",
+    "name": "招财猫",
+    "englishName": "Maneki-Neko",
+    "description": "喵~拾取金币时将会获得额外收益。",
+    "image": "/images/neon-abyss/5_02_item_res_extra_coin.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_extra_key",
+    "category": "items",
+    "name": "魔术师帽",
+    "englishName": "Magician Hat",
+    "description": "拾取钥匙时多获得一个。你根本看不出任何破绽。",
+    "image": "/images/neon-abyss/5_02_item_res_extra_key.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_heart_instead_key",
+    "category": "items",
+    "name": "血色钥匙",
+    "englishName": "Heart Key",
+    "description": "如果没有钥匙，你可以花费红心替代。",
+    "image": "/images/neon-abyss/5_02_item_res_heart_instead_key.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_key99",
+    "category": "items",
+    "name": "黑客工具",
+    "englishName": "Hacking Tool",
+    "description": "让我试试看...哈！搞定！钥匙不再是问题了。",
+    "image": "/images/neon-abyss/5_02_item_res_key99.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_shop_halfprice",
+    "category": "items",
+    "name": "双十三",
+    "englishName": "Black Friday",
+    "description": "剁手党的狂欢！商店里所有物品半价！",
+    "image": "/images/neon-abyss/5_02_item_res_shop_halfprice.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_res_shop_refesh",
+    "category": "items",
+    "name": "口红",
+    "englishName": "Lipstick",
+    "description": "不要浪费！都涂到牙齿上了！所有商店物品将会自动补货。",
+    "image": "/images/neon-abyss/5_02_item_res_shop_refesh.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_damageUP",
+    "category": "items",
+    "name": "2077",
+    "englishName": "2077",
+    "description": "瞧，这就是未来。你拥有的护盾越多，你的武器伤害越高。",
+    "image": "/images/neon-abyss/5_02_item_shield_damageUP.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_frist",
+    "category": "items",
+    "name": "钢铁心脏",
+    "englishName": "Iron Heart",
+    "description": "受伤后优先消耗红心，而不是护盾。你正在逐渐接受这个事实。",
+    "image": "/images/neon-abyss/5_02_item_shield_frist.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_levelup",
+    "category": "items",
+    "name": "陆战头盔",
+    "englishName": "Combat Helmet",
+    "description": "你拥有的护盾越多，你能发射子弹越多。",
+    "image": "/images/neon-abyss/5_02_item_shield_levelup.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_melee_dmgup",
+    "category": "items",
+    "name": "震动粒子刀",
+    "englishName": "Advanced Knife",
+    "description": "你拥有的护盾越多，你的近战伤害越高。",
+    "image": "/images/neon-abyss/5_02_item_shield_melee_dmgup.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_rpmup",
+    "category": "items",
+    "name": "雷电引擎",
+    "englishName": "Thunder Engine",
+    "description": "你拥有的护盾越多，你的武器射速越快。",
+    "image": "/images/neon-abyss/5_02_item_shield_rpmup.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_to_coins",
+    "category": "items",
+    "name": "能量转化器",
+    "englishName": "Energy Converter",
+    "description": "你获得的护盾都会自动转化成金币。",
+    "image": "/images/neon-abyss/5_02_item_shield_to_coins.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_zero_defend",
+    "category": "items",
+    "name": "智能助手",
+    "englishName": "Virtual Assistant",
+    "description": "当消耗护盾时，有几率获得一个守护精灵。",
+    "image": "/images/neon-abyss/5_02_item_shield_zero_defend.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_02_item_shield_zero_jump",
+    "category": "items",
+    "name": "电子羊",
+    "englishName": "Electric Sheep",
+    "description": "仿生人也会做梦吗？当你有护盾时，可以增加一次额外跳跃次数",
+    "image": "/images/neon-abyss/5_02_item_shield_zero_jump.png",
+    "tags": [
+      "资源"
+    ]
+  },
+  {
+    "id": "5_03_item_defend_back",
+    "category": "items",
+    "name": "乌龟帽",
+    "englishName": "Turtle Hat",
+    "description": "后背有一定的概率抵挡伤害。这是什么？？",
+    "image": "/images/neon-abyss/5_03_item_defend_back.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_defend_bullet",
+    "category": "items",
+    "name": "平底锅",
+    "englishName": "Frying Pan",
+    "description": "你有一定概率抵挡所有远程伤害。人见人爱花见花开的好东西。",
+    "image": "/images/neon-abyss/5_03_item_defend_bullet.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_defend_melee",
+    "category": "items",
+    "name": "剑道护面",
+    "englishName": "Kendo Mask",
+    "description": "你有一定概率抵挡近战伤害。最重要的是守护住自己的心。",
+    "image": "/images/neon-abyss/5_03_item_defend_melee.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_defend_once_room",
+    "category": "items",
+    "name": "洋葱头盔",
+    "englishName": "Onion Helmet",
+    "description": "每个房间获得一个短暂的防护壳，抵挡一次伤害。",
+    "image": "/images/neon-abyss/5_03_item_defend_once_room.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_defend_trap",
+    "category": "items",
+    "name": "安全帽",
+    "englishName": "Hard Hat",
+    "description": "你不再受到地形伤害。安全第一，搬砖第二。",
+    "image": "/images/neon-abyss/5_03_item_defend_trap.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_Contra",
+    "category": "items",
+    "name": "空投物资",
+    "englishName": "Airdrop Supply",
+    "description": "注意抬头！战斗后有时会有空投飞过。",
+    "image": "/images/neon-abyss/5_03_item_hurt_Contra.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_Sensates",
+    "category": "items",
+    "name": "过期狗粮",
+    "englishName": "Expired Dog Food",
+    "description": "心连心，宠物受伤时触发玩家受伤的效果。",
+    "image": "/images/neon-abyss/5_03_item_hurt_Sensates.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_attack_gunlevel_up",
+    "category": "items",
+    "name": "舞会面具",
+    "englishName": "Dance Mask",
+    "description": "受伤后，在当前房间中武器等级提升。",
+    "image": "/images/neon-abyss/5_03_item_hurt_attack_gunlevel_up.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_attack_speed_up",
+    "category": "items",
+    "name": "怪异童话",
+    "englishName": "Scarlet Tale",
+    "description": "受伤后，在当前房间中射速上升。",
+    "image": "/images/neon-abyss/5_03_item_hurt_attack_speed_up.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_crystal",
+    "category": "items",
+    "name": "防护魔法卷轴",
+    "englishName": "Defensive Magic Scroll",
+    "description": "濒死后水晶会变成环绕物，可以阻挡一次子弹。",
+    "image": "/images/neon-abyss/5_03_item_hurt_crystal.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_damageUP",
+    "category": "items",
+    "name": "午夜面具",
+    "englishName": "Midnight Mask",
+    "description": "周五到了！受伤后暂时提高武器伤害！",
+    "image": "/images/neon-abyss/5_03_item_hurt_damageUP.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_defibrillator",
+    "category": "items",
+    "name": "心脏除颤器",
+    "englishName": "Defibrillator",
+    "description": "玩家死亡时成功跳舞后复活。",
+    "image": "/images/neon-abyss/5_03_item_hurt_defibrillator.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_bomb",
+    "category": "items",
+    "name": "防弹内裤",
+    "englishName": "Metal Panties",
+    "description": "动我一下试试？每次受到伤害掉落6枚安全炸弹。",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_bomb.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_coin",
+    "category": "items",
+    "name": "金牙",
+    "englishName": "Golden Teeth",
+    "description": "受伤时掉落随机金币。别别别，打人别打脸，哎呀！",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_coin.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_crystal",
+    "category": "items",
+    "name": "烦人的帽子",
+    "englishName": "Annoying Hat",
+    "description": "受伤时有概率掉落水晶。它总是喜欢说一些损你的话。",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_crystal.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_fly",
+    "category": "items",
+    "name": "天使号角",
+    "englishName": "Angel Horn",
+    "description": "还有一次机会！受伤后掉落飞心飞盾。",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_fly.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_random_pickup",
+    "category": "items",
+    "name": "次元袋",
+    "englishName": "Dimensional Bags",
+    "description": "受伤时概率掉落各种好东西。说不定还有铜锣烧！",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_random_pickup.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_drop_shield",
+    "category": "items",
+    "name": "机械战盔",
+    "englishName": "Robot Armor",
+    "description": "受伤时有概率掉落护盾。但是你似乎失去了一些记忆。",
+    "image": "/images/neon-abyss/5_03_item_hurt_drop_shield.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_elec_ring",
+    "category": "items",
+    "name": "电力头盔",
+    "englishName": "Power Helmet",
+    "description": "受伤后会在身上生成一个闪电环，对敌人造成触碰伤害。",
+    "image": "/images/neon-abyss/5_03_item_hurt_elec_ring.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_explo_key",
+    "category": "items",
+    "name": "电焊面罩",
+    "englishName": "Welding Mask",
+    "description": "受到爆炸伤害时，有一定概率掉落钥匙。",
+    "image": "/images/neon-abyss/5_03_item_hurt_explo_key.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_explosion",
+    "category": "items",
+    "name": "南瓜头",
+    "englishName": "Pumpkinhead",
+    "description": "当你受伤时会发生爆炸。你的脾气和这个南瓜一样。",
+    "image": "/images/neon-abyss/5_03_item_hurt_explosion.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_fs",
+    "category": "items",
+    "name": "梦魇面具",
+    "englishName": "Nightmare Mask",
+    "description": "受伤会得到一个愤怒精灵。你似乎察觉到有些东西在你体内涌动。",
+    "image": "/images/neon-abyss/5_03_item_hurt_fs.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_gain_mana",
+    "category": "items",
+    "name": "魔杖",
+    "englishName": "Magic Wand",
+    "description": "受伤后可以回复水晶。是它选择的你！",
+    "image": "/images/neon-abyss/5_03_item_hurt_gain_mana.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_gain_shield",
+    "category": "items",
+    "name": "攻壳机动盔",
+    "englishName": "Ghost Shell",
+    "description": "受伤后有概率获得护盾。有些问题无法回避。",
+    "image": "/images/neon-abyss/5_03_item_hurt_gain_shield.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_genAngry",
+    "category": "items",
+    "name": "猩红沙漏",
+    "englishName": "Scarlet Hourglass",
+    "description": "濒死战斗时生成愤怒精灵。我生气了！",
+    "image": "/images/neon-abyss/5_03_item_hurt_genAngry.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_genGuard",
+    "category": "items",
+    "name": "湛蓝沙漏",
+    "englishName": "Azure Hourglass",
+    "description": "濒死战斗时生成守护精灵。保护我！",
+    "image": "/images/neon-abyss/5_03_item_hurt_genGuard.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_get_item",
+    "category": "items",
+    "name": "嗝儿",
+    "englishName": "Hiccups",
+    "description": "在一个房间内受到6次伤害就会得到一个随机道具。",
+    "image": "/images/neon-abyss/5_03_item_hurt_get_item.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_gs",
+    "category": "items",
+    "name": "孔明灯",
+    "englishName": "Kongming Lantern",
+    "description": "受伤会得到一个守护精灵。",
+    "image": "/images/neon-abyss/5_03_item_hurt_gs.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_last_attack",
+    "category": "items",
+    "name": "黑暗面",
+    "englishName": "Dark Side",
+    "description": "受伤后如果只剩下半颗红心，则对所有敌人造成伤害。",
+    "image": "/images/neon-abyss/5_03_item_hurt_last_attack.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_last_fly",
+    "category": "items",
+    "name": "竹蜻蜓",
+    "englishName": "Bamboo Dragonfly",
+    "description": "受伤后如果只剩下半颗红心，则可以飞行。",
+    "image": "/images/neon-abyss/5_03_item_hurt_last_fly.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_last_stand",
+    "category": "items",
+    "name": "绝对领域",
+    "englishName": "V.O. Field",
+    "description": "准备迎战！受伤后如果只剩下半颗红心，则掉落护盾。",
+    "image": "/images/neon-abyss/5_03_item_hurt_last_stand.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_only_half",
+    "category": "items",
+    "name": "毛巾",
+    "englishName": "The Towel",
+    "description": "不要恐慌！你受伤后最多只会掉半个护盾！",
+    "image": "/images/neon-abyss/5_03_item_hurt_only_half.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_only_half_1",
+    "category": "items",
+    "name": "球衣",
+    "englishName": "Basketball Jersey",
+    "description": "曼巴精神永不灭！你受伤后最多只会掉半颗红心！",
+    "image": "/images/neon-abyss/5_03_item_hurt_only_half_1.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_thunder",
+    "category": "items",
+    "name": "生锈的天线",
+    "englishName": "Rusty Antenna",
+    "description": "残血时进入战斗后在身边生成雷电。",
+    "image": "/images/neon-abyss/5_03_item_hurt_thunder.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_hurt_zero_or_double",
+    "category": "items",
+    "name": "魔鬼交易",
+    "englishName": "Devil'S Trade",
+    "description": "受伤时可能受到双倍伤害，可能无伤。",
+    "image": "/images/neon-abyss/5_03_item_hurt_zero_or_double.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_immu_explo_0",
+    "category": "items",
+    "name": "老大哥",
+    "englishName": "Big Daddy",
+    "description": "听一首深海之中的歌谣？免疫自身产生的爆炸伤害。",
+    "image": "/images/neon-abyss/5_03_item_immu_explo_0.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_immu_explo_get_heart",
+    "category": "items",
+    "name": "狂热面具",
+    "englishName": "Fanatic Mask",
+    "description": "受到爆炸伤害的时候有概率免疫伤害并回复红心。",
+    "image": "/images/neon-abyss/5_03_item_immu_explo_get_heart.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_touch_melee",
+    "category": "items",
+    "name": "荆棘头冠",
+    "englishName": "Crown Of Thorns",
+    "description": "对触碰到的敌人造成近战伤害。",
+    "image": "/images/neon-abyss/5_03_item_touch_melee.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_03_item_worker",
+    "category": "items",
+    "name": "痛苦面具",
+    "englishName": "Mask Of Torment",
+    "description": "打工人 打工魂 打工都是人上人",
+    "image": "/images/neon-abyss/5_03_item_worker.png",
+    "tags": [
+      "受伤触发"
+    ]
+  },
+  {
+    "id": "5_04_item_attack_back_damageUP",
+    "category": "items",
+    "name": "影子袖剑",
+    "englishName": "Shadow Blade",
+    "description": "万事皆虚，万物皆允。对敌人后背造成的武器伤害提高。",
+    "image": "/images/neon-abyss/5_04_item_attack_back_damageUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_attack_continue_damageUP",
+    "category": "items",
+    "name": "零号玩家",
+    "englishName": "Player Zero Ready",
+    "description": "连续射中敌人武器伤害会增加。",
+    "image": "/images/neon-abyss/5_04_item_attack_continue_damageUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_bomb_bee",
+    "category": "items",
+    "name": "荒诞之书",
+    "englishName": "Demon Book",
+    "description": "使用爆炸消灭敌人时，会生成一个愤怒精灵。",
+    "image": "/images/neon-abyss/5_04_item_kill_bomb_bee.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_bomb_heart",
+    "category": "items",
+    "name": "远古面具",
+    "englishName": "Ancient Mask",
+    "description": "我不做人了！使用炸弹消灭敌人时，你有一定概率恢复红心。",
+    "image": "/images/neon-abyss/5_04_item_kill_bomb_heart.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_bomb_shield",
+    "category": "items",
+    "name": "军团模组",
+    "englishName": "Inorganic Mod",
+    "description": "使用炸弹消灭敌人时，有一定概率掉落护盾。",
+    "image": "/images/neon-abyss/5_04_item_kill_bomb_shield.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_damgeUP",
+    "category": "items",
+    "name": "末日兜帽",
+    "englishName": "Grim Hood",
+    "description": "每消灭一个敌人，你在房间内武器伤害就会增加。",
+    "image": "/images/neon-abyss/5_04_item_kill_damgeUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_double_coin",
+    "category": "items",
+    "name": "赏金令",
+    "englishName": "Most Wanted List",
+    "description": "消灭敌人获得双倍金币。",
+    "image": "/images/neon-abyss/5_04_item_kill_double_coin.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_get_bomb_count",
+    "category": "items",
+    "name": "砰砰手套",
+    "englishName": "Boom Gloves",
+    "description": "消灭一定数量的敌人将会掉落炸弹。",
+    "image": "/images/neon-abyss/5_04_item_kill_get_bomb_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_get_eggs_count",
+    "category": "items",
+    "name": "雨林纪念品",
+    "englishName": "Rainforest Souvenir",
+    "description": "消灭一定数量的敌人将会掉落蛋。",
+    "image": "/images/neon-abyss/5_04_item_kill_get_eggs_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_get_key_count",
+    "category": "items",
+    "name": "螺丝刀",
+    "englishName": "Screwdriver",
+    "description": "消灭一定数量的敌人将会掉落钥匙。",
+    "image": "/images/neon-abyss/5_04_item_kill_get_key_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_get_shield_count",
+    "category": "items",
+    "name": "先知芯片",
+    "englishName": "Prophet Chip",
+    "description": "消灭一定数量的敌人将会掉落护盾。",
+    "image": "/images/neon-abyss/5_04_item_kill_get_shield_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_player_explo",
+    "category": "items",
+    "name": "黏土玩偶",
+    "englishName": "Clay Doll",
+    "description": "艺术就是爆炸！消灭敌人后，你有一定概率会释放爆炸。",
+    "image": "/images/neon-abyss/5_04_item_kill_player_explo.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_player_shell",
+    "category": "items",
+    "name": "神圣眼泪",
+    "englishName": "Sacred Tears",
+    "description": "消灭敌人后，你有概率获得一个短时间内抵挡伤害的保护罩。",
+    "image": "/images/neon-abyss/5_04_item_kill_player_shell.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_recover_heart_chance",
+    "category": "items",
+    "name": "瘟疫面具",
+    "englishName": "Plague Mask",
+    "description": "消灭敌人有概率恢复红心。",
+    "image": "/images/neon-abyss/5_04_item_kill_recover_heart_chance.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_recover_heart_count",
+    "category": "items",
+    "name": "死亡信徒",
+    "englishName": "Death Believer",
+    "description": "消灭一定数量怪物会掉落红心。",
+    "image": "/images/neon-abyss/5_04_item_kill_recover_heart_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_recover_mana_count",
+    "category": "items",
+    "name": "恶魔猎手",
+    "englishName": "Slayer Of Demons",
+    "description": "消灭一定数量怪物会获得水晶。",
+    "image": "/images/neon-abyss/5_04_item_kill_recover_mana_count.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_rpmUP",
+    "category": "items",
+    "name": "精准义眼",
+    "englishName": "Ready Aim Eye",
+    "description": "每消灭一个敌人，你在房间内武器攻击速度就会增加。",
+    "image": "/images/neon-abyss/5_04_item_kill_rpmUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_to_explo",
+    "category": "items",
+    "name": "黑色病毒",
+    "englishName": "B-Virus",
+    "description": "敌人被消灭后有一定的概率会爆炸。",
+    "image": "/images/neon-abyss/5_04_item_kill_to_explo.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_kill_weaponUP",
+    "category": "items",
+    "name": "子弹王冠",
+    "englishName": "Bullet Crown",
+    "description": "每消灭一个敌人，你在房间内每次发射的子弹数量就会增加。",
+    "image": "/images/neon-abyss/5_04_item_kill_weaponUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_04_item_weapon_air_damUP",
+    "category": "items",
+    "name": "皇家空军勋章",
+    "englishName": "Air Force Medal",
+    "description": "当你在空中时，武器伤害增加。",
+    "image": "/images/neon-abyss/5_04_item_weapon_air_damUP.png",
+    "tags": [
+      "战斗"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_bighit_1of10",
+    "category": "items",
+    "name": "夜视仪",
+    "englishName": "Night Vision",
+    "description": "每十发子弹产生一次特殊的穿透弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_bighit_1of10.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_bighit_chance",
+    "category": "items",
+    "name": "武士之魂",
+    "englishName": "Samurai'S Soul",
+    "description": "你似乎学会了如何掌握自己的力量。你的射击有几率发射一个威力巨大的子弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_bighit_chance.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_chase",
+    "category": "items",
+    "name": "士兵面具",
+    "englishName": "Soldier Mask",
+    "description": "看到你了！你的子弹有概率自动跟踪敌人。",
+    "image": "/images/neon-abyss/5_05_item_bullet_chase.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_dis_explo",
+    "category": "items",
+    "name": "爆米花",
+    "englishName": "Popcorn",
+    "description": "啪啪啪！所有的子弹会产生爆炸效果。请开始你的表演！",
+    "image": "/images/neon-abyss/5_05_item_bullet_dis_explo.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_dis_fireworks",
+    "category": "items",
+    "name": "五彩羽冠",
+    "englishName": "Colorful Crown",
+    "description": "子弹消失时有概率放烟花。人类从未从历史中汲取到任何经验和教训。",
+    "image": "/images/neon-abyss/5_05_item_bullet_dis_fireworks.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_dis_platform",
+    "category": "items",
+    "name": "石头种子",
+    "englishName": "Seed Of Stone",
+    "description": "子弹会在墙上生成一个可以站立的平台。",
+    "image": "/images/neon-abyss/5_05_item_bullet_dis_platform.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_dis_spread_1",
+    "category": "items",
+    "name": "盆栽植物",
+    "englishName": "Flowerpot",
+    "description": "你从一个盆栽中悟到了抗争的意义。子弹有概率分裂出额外子弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_dis_spread_1.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_dis_spread_2",
+    "category": "items",
+    "name": "裂变装置",
+    "englishName": "Fission Device",
+    "description": "请离开危险区域。子弹有概率分裂出额外子弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_dis_spread_2.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_reflect",
+    "category": "items",
+    "name": "排斥凝胶",
+    "englishName": "Elastic Gel",
+    "description": "科学的胜利！你的子弹碰到墙壁会随机反弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_reflect.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_shield",
+    "category": "items",
+    "name": "深海泡泡",
+    "englishName": "Atlantis Bubble",
+    "description": "你的子弹多了一层护盾，有概率抵消敌人的子弹。",
+    "image": "/images/neon-abyss/5_05_item_bullet_shield.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_tag_electric",
+    "category": "items",
+    "name": "危险标志",
+    "englishName": "Danger Sign",
+    "description": "你的武器充满了电流！你的所有子弹都带有电属性。",
+    "image": "/images/neon-abyss/5_05_item_bullet_tag_electric.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_tag_fire",
+    "category": "items",
+    "name": "红辣椒",
+    "englishName": "Hot Chili",
+    "description": "让你的武器燃烧起来吧！你的所有子弹都带有火属性。",
+    "image": "/images/neon-abyss/5_05_item_bullet_tag_fire.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_tag_ice",
+    "category": "items",
+    "name": "水冷系统",
+    "englishName": "Cooling System",
+    "description": "太热了？给你的武器降降温吧！你的所有子弹都带有冰属性。",
+    "image": "/images/neon-abyss/5_05_item_bullet_tag_ice.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_tag_poison",
+    "category": "items",
+    "name": "坏苹果",
+    "englishName": "Bad Apple",
+    "description": "你就像毒药一样可怕！你的所有子弹都带有毒属性。",
+    "image": "/images/neon-abyss/5_05_item_bullet_tag_poison.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_through_monster",
+    "category": "items",
+    "name": "X光片",
+    "englishName": "X-Ray",
+    "description": "子弹可以穿透敌人。让他们见识下你的厉害！",
+    "image": "/images/neon-abyss/5_05_item_bullet_through_monster.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_bullet_through_wall",
+    "category": "items",
+    "name": "伽玛射线",
+    "englishName": "Gamma Ray",
+    "description": "没有什么可以阻挡你了！！子弹可以穿透墙壁。",
+    "image": "/images/neon-abyss/5_05_item_bullet_through_wall.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_bouncy",
+    "category": "items",
+    "name": "红双喜",
+    "englishName": "Ping Pong",
+    "description": "你的武器有时候会发射一个弹跳子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_bouncy.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_chase",
+    "category": "items",
+    "name": "外星科技",
+    "englishName": "Alien Tech",
+    "description": "有概率额外发射跟踪子弹。这不是作弊吗？",
+    "image": "/images/neon-abyss/5_05_item_sub_chase.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_laser_fast",
+    "category": "items",
+    "name": "帝国力量",
+    "englishName": "Imperial Force",
+    "description": "有概率额外发射一束激光。但是能不能打到人就是另一个问题了...",
+    "image": "/images/neon-abyss/5_05_item_sub_laser_fast.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_mouse",
+    "category": "items",
+    "name": "小丑头冠",
+    "englishName": "Clown Hat",
+    "description": "有概率会扔出咬人的小老鼠。害不害怕？",
+    "image": "/images/neon-abyss/5_05_item_sub_mouse.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_reflect",
+    "category": "items",
+    "name": "小镜子",
+    "englishName": "Hand Mirror",
+    "description": "有概率额外发射反射子弹。你经常问它一些愚蠢的问题。",
+    "image": "/images/neon-abyss/5_05_item_sub_reflect.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_rocket",
+    "category": "items",
+    "name": "火箭模块",
+    "englishName": "Rocket Mod",
+    "description": "有概率性额外发射追踪火箭。似乎…有点…不太稳定。",
+    "image": "/images/neon-abyss/5_05_item_sub_rocket.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_shotgun",
+    "category": "items",
+    "name": "蜂巢",
+    "englishName": "Beehive",
+    "description": "你从蜂蜜中尝到了愤怒的味道。有概率额外发射多发子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_shotgun.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_tag_electric",
+    "category": "items",
+    "name": "锂电池",
+    "englishName": "Lithium Battery",
+    "description": "有概率额外发射电属性子弹。品质保证，经久耐用。",
+    "image": "/images/neon-abyss/5_05_item_sub_tag_electric.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_tag_fire",
+    "category": "items",
+    "name": "四川辣酱",
+    "englishName": "Szechuan Sauce",
+    "description": "你的眼中闪烁着泪花。有概率额外发射火属性子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_tag_fire.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_tag_ice",
+    "category": "items",
+    "name": "雪晶球",
+    "englishName": "Snow Globe",
+    "description": "这是你最喜欢的圣诞节礼物。有概率额外发射冰属性子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_tag_ice.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_tag_poison",
+    "category": "items",
+    "name": "防毒面具",
+    "englishName": "Gas Mask",
+    "description": "这下你可以大口呼吸了。有概率额外发射毒属性子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_tag_poison.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_tag_random",
+    "category": "items",
+    "name": "多彩糖豆",
+    "englishName": "Jelly Beans",
+    "description": "众多口味任你选择。有概率额外发射随机元素子弹。",
+    "image": "/images/neon-abyss/5_05_item_sub_tag_random.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_05_item_sub_through",
+    "category": "items",
+    "name": "透明钉子",
+    "englishName": "Ghost Nail",
+    "description": "有概率额外发射穿透子弹。有些故事还是不听为好。",
+    "image": "/images/neon-abyss/5_05_item_sub_through.png",
+    "tags": [
+      "子弹"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_air_dmgUP",
+    "category": "items",
+    "name": "恶魔热线",
+    "englishName": "Devil Hotline",
+    "description": "在空中的近战攻击伤害翻倍。谁能帮忙把电费给交了？",
+    "image": "/images/neon-abyss/5_06_item_melee_air_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_box_coin",
+    "category": "items",
+    "name": "金拳头",
+    "englishName": "Golden Fist",
+    "description": "使用近战攻击破坏箱子，可以获得1金币。",
+    "image": "/images/neon-abyss/5_06_item_melee_box_coin.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_coin_dmgUP",
+    "category": "items",
+    "name": "黄金团",
+    "englishName": "Golden Skulls",
+    "description": "“黄金在上，寒铁在下。”金币越多，近战伤害越高。",
+    "image": "/images/neon-abyss/5_06_item_melee_coin_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_count_dmgUP",
+    "category": "items",
+    "name": "磨刀石",
+    "englishName": "Whetstone",
+    "description": "在当前房间内，近战武器使用的次数越多，你的近战伤害就越高。",
+    "image": "/images/neon-abyss/5_06_item_melee_count_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_death_explo",
+    "category": "items",
+    "name": "猎手皇后",
+    "englishName": "Hunter Queen",
+    "description": "如果用近战攻击到敌人，那么敌人死后会爆炸。我要过平静安逸的生活……",
+    "image": "/images/neon-abyss/5_06_item_melee_death_explo.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_drop_instantbomb",
+    "category": "items",
+    "name": "矮人战锤",
+    "englishName": "War Hammer",
+    "description": "近战消灭敌人，有一定概率掉落地雷 。",
+    "image": "/images/neon-abyss/5_06_item_melee_drop_instantbomb.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_egg_dmgUP",
+    "category": "items",
+    "name": "愤怒鸡头",
+    "englishName": "Furious Chicken",
+    "description": "你拥有的蛋越多，近战伤害越高。",
+    "image": "/images/neon-abyss/5_06_item_melee_egg_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_egg_rangeUP",
+    "category": "items",
+    "name": "玩具棒球棍",
+    "englishName": "Toy Home Run Bat",
+    "description": "蛋越多，近战武器发出的剑气距离越远。",
+    "image": "/images/neon-abyss/5_06_item_melee_egg_rangeUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_elec",
+    "category": "items",
+    "name": "雷神之锤",
+    "englishName": "Mjolnir",
+    "description": "你的近战攻击附带电属性。蕴含着雷电与风暴的力量。",
+    "image": "/images/neon-abyss/5_06_item_melee_elec.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_fire",
+    "category": "items",
+    "name": "贝里的蜡烛",
+    "englishName": "Eric'S Candle",
+    "description": "你的近战攻击附带火属性。你在火焰中看到了……",
+    "image": "/images/neon-abyss/5_06_item_melee_fire.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_gain_heart",
+    "category": "items",
+    "name": "饥饿护符",
+    "englishName": "Hungry Amulet",
+    "description": "近战消灭一定数量敌人，回复半个红心。",
+    "image": "/images/neon-abyss/5_06_item_melee_gain_heart.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_bomb",
+    "category": "items",
+    "name": "巨型电钻",
+    "englishName": "Electric Drill",
+    "description": "近战消灭敌人后，一定概率掉落炸弹。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_bomb.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_egg",
+    "category": "items",
+    "name": "闪亮刀叉",
+    "englishName": "Knife And Fork",
+    "description": "近战消灭敌人后，敌人有概率掉落蛋。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_egg.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_key",
+    "category": "items",
+    "name": "星际扳手",
+    "englishName": "Space Spanner",
+    "description": "近战消灭敌人后，一定概率掉落钥匙。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_key.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_mana",
+    "category": "items",
+    "name": "白袍之剑",
+    "englishName": "Wizard Sword",
+    "description": "近战消灭敌人后，一定概率掉落水晶。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_mana.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_moreCoin",
+    "category": "items",
+    "name": "黄金铃铛",
+    "englishName": "Golden Bell",
+    "description": "近战消灭敌人后，有一定概率掉落额外金币。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_moreCoin.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_get_shield",
+    "category": "items",
+    "name": "能量剑",
+    "englishName": "Kinetic Blade",
+    "description": "近战消灭敌人后，有一定概率掉落护盾。",
+    "image": "/images/neon-abyss/5_06_item_melee_get_shield.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_hurt_dmgUP",
+    "category": "items",
+    "name": "角斗士头盔",
+    "englishName": "Gladiator Helmet",
+    "description": "在当前房间内，每次受伤后近战伤害增加。",
+    "image": "/images/neon-abyss/5_06_item_melee_hurt_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_jump_dmgUP",
+    "category": "items",
+    "name": "忍者护额",
+    "englishName": "Headband",
+    "description": "跳跃次数越多，近战伤害越高。",
+    "image": "/images/neon-abyss/5_06_item_melee_jump_dmgUP.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_meleeRadius",
+    "category": "items",
+    "name": "命运之枪",
+    "englishName": "Spear Of Destiny",
+    "description": "这世上有很多你无法阻止之事。近战攻击距离增加。",
+    "image": "/images/neon-abyss/5_06_item_melee_meleeRadius.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_onepunch",
+    "category": "items",
+    "name": "普通拳套",
+    "englishName": "Ordinary Gloves",
+    "description": "每天100个俯卧撑，100个仰卧起坐，10公里长跑！近战攻击伤害逆天！",
+    "image": "/images/neon-abyss/5_06_item_melee_onepunch.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_06_item_melee_triger",
+    "category": "items",
+    "name": "电锯刺刀",
+    "englishName": "Chainsaw Bayonet",
+    "description": "每次开始射击都会自动触发一次近战。",
+    "image": "/images/neon-abyss/5_06_item_melee_triger.png",
+    "tags": [
+      "近战"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_bullet_bouncy",
+    "category": "items",
+    "name": "铁皮青蛙",
+    "englishName": "Iron Frog",
+    "description": "你的炸弹爆炸后，向外发射弹跳子弹。",
+    "image": "/images/neon-abyss/5_07_item_bomb_bullet_bouncy.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_bullet_chase",
+    "category": "items",
+    "name": "外星玩具",
+    "englishName": "Alien Toy",
+    "description": "哔哔哔哔哔。你的炸弹爆炸后，向外发射追踪子弹。",
+    "image": "/images/neon-abyss/5_07_item_bomb_bullet_chase.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_bullet_through",
+    "category": "items",
+    "name": "幽白瓶子",
+    "englishName": "Ghost Bottle",
+    "description": "你的炸弹爆炸后，向外发射穿透子弹。",
+    "image": "/images/neon-abyss/5_07_item_bomb_bullet_through.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_clear",
+    "category": "items",
+    "name": "微笑弹",
+    "englishName": "Smiley Bomb",
+    "description": "你的炸弹可以消除一定范围内的子弹。",
+    "image": "/images/neon-abyss/5_07_item_bomb_clear.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_drop",
+    "category": "items",
+    "name": "鞭炮",
+    "englishName": "Firecrackers",
+    "description": "过年啦！！你的炸弹爆炸后概率掉落掉落物。（只在战斗中有效）",
+    "image": "/images/neon-abyss/5_07_item_bomb_drop.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_expand_cross",
+    "category": "items",
+    "name": "爆破装置5000",
+    "englishName": "Blasting Cap 5000",
+    "description": "爆炸效果变为X型爆炸。",
+    "image": "/images/neon-abyss/5_07_item_bomb_expand_cross.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_expand_plus",
+    "category": "items",
+    "name": "十字爆破装置",
+    "englishName": "Blasting Cap 101",
+    "description": "爆炸效果变为十字型爆炸。",
+    "image": "/images/neon-abyss/5_07_item_bomb_expand_plus.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_flame",
+    "category": "items",
+    "name": "化学燃料",
+    "englishName": "Chemical Burn",
+    "description": "你的眼中透露着疯狂。由你产生的爆炸会留下一团火焰。",
+    "image": "/images/neon-abyss/5_07_item_bomb_flame.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_mine",
+    "category": "items",
+    "name": "小红旗",
+    "englishName": "Red Flag",
+    "description": "你使用炸弹的方式变为在地面放置一枚延时地雷。",
+    "image": "/images/neon-abyss/5_07_item_bomb_mine.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_rangeUP",
+    "category": "items",
+    "name": "工程兵背包",
+    "englishName": "Sapper Backpack",
+    "description": "搞个大新闻？爆炸范围变大，爆炸伤害上升。",
+    "image": "/images/neon-abyss/5_07_item_bomb_rangeUP.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_spwan",
+    "category": "items",
+    "name": "纳米炸弹",
+    "englishName": "Nanotechnology",
+    "description": "炸弹爆炸后会分裂出更多小炸弹。",
+    "image": "/images/neon-abyss/5_07_item_bomb_spwan.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_07_item_bomb_unlock",
+    "category": "items",
+    "name": "备用方案",
+    "englishName": "Plan B",
+    "description": "钥匙并不是唯一的选择！使用爆炸性道具有概率会打开需要钥匙的锁。",
+    "image": "/images/neon-abyss/5_07_item_bomb_unlock.png",
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_RPMUP",
+    "category": "items",
+    "name": "土星棒棒糖",
+    "englishName": "Saturn Lollipop",
+    "description": "拥有的蛋越多，武器射击速度越快。这个糖似乎在自己旋转。",
+    "image": "/images/neon-abyss/5_08_item_egg_RPMUP.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_allstone",
+    "category": "items",
+    "name": "萨满头饰",
+    "englishName": "Shaman Mask",
+    "description": "激活所有的传送石后，可以获得一些蛋。",
+    "image": "/images/neon-abyss/5_08_item_egg_allstone.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_break",
+    "category": "items",
+    "name": "火柴盒",
+    "englishName": "Matchbox",
+    "description": "蛋如果碰到石头、石头门、石头箱子就会爆炸，蛋也会消失。",
+    "image": "/images/neon-abyss/5_08_item_egg_break.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_cancel",
+    "category": "items",
+    "name": "永恒之石",
+    "englishName": "Eternal Stone",
+    "description": "蛋在孵化的时候，你可以手动使用【取消键】来取消孵化进程。",
+    "image": "/images/neon-abyss/5_08_item_egg_cancel.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_damageUP",
+    "category": "items",
+    "name": "香草冰淇淋",
+    "englishName": "Vanilla Ice Cream",
+    "description": "拥有的蛋越多，子弹的伤害越高。",
+    "image": "/images/neon-abyss/5_08_item_egg_damageUP.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_defend",
+    "category": "items",
+    "name": "橡树果",
+    "englishName": "Acorn",
+    "description": "所有的蛋都可以阻挡敌人的子弹。",
+    "image": "/images/neon-abyss/5_08_item_egg_defend.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_double",
+    "category": "items",
+    "name": "双黄蛋",
+    "englishName": "Double Yolks",
+    "description": "你当前蛋的数量增加一倍。",
+    "image": "/images/neon-abyss/5_08_item_egg_double.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_bomb",
+    "category": "items",
+    "name": "不倒翁",
+    "englishName": "Roly-Poly Toy",
+    "description": "如果孵化出空蛋，则掉落一个炸弹。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_bomb.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_explo",
+    "category": "items",
+    "name": "黑色朗姆酒",
+    "englishName": "Black Rum",
+    "description": "当使用炸弹时，你的蛋会产生一次爆炸。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_explo.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_heart",
+    "category": "items",
+    "name": "鸡肉汉堡",
+    "englishName": "Chicken Burger",
+    "description": "如果孵化出空蛋，则掉落半个红心。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_heart.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_key",
+    "category": "items",
+    "name": "单片眼镜",
+    "englishName": "Monocle",
+    "description": "如果孵化出空蛋，则掉落一个钥匙。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_key.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_mana",
+    "category": "items",
+    "name": "葡萄软糖",
+    "englishName": "Grape Candy",
+    "description": "如果孵化出空蛋，则掉落一个水晶。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_mana.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_empty_shield",
+    "category": "items",
+    "name": "蓝莓蛋糕",
+    "englishName": "Blueberry Cake",
+    "description": "如果孵化出空蛋，则有概率掉落半个护盾。",
+    "image": "/images/neon-abyss/5_08_item_egg_empty_shield.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_gunUP",
+    "category": "items",
+    "name": "甜甜圈",
+    "englishName": "Doughnut",
+    "description": "拥有的蛋越多，你能发射的子弹越多。",
+    "image": "/images/neon-abyss/5_08_item_egg_gunUP.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_jumpMore",
+    "category": "items",
+    "name": "柠檬果冻",
+    "englishName": "Lemon Jelly",
+    "description": "每拥有一个蛋，增加一次额外的跳跃机会。",
+    "image": "/images/neon-abyss/5_08_item_egg_jumpMore.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_nodeath",
+    "category": "items",
+    "name": "姜饼人",
+    "englishName": "Gingerbread Man",
+    "description": "如果受到致命攻击，那么将牺牲一个蛋。你忠贞的好伙伴。",
+    "image": "/images/neon-abyss/5_08_item_egg_nodeath.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_rangeUP",
+    "category": "items",
+    "name": "蛋白粉",
+    "englishName": "Protein Powder",
+    "description": "拥有的蛋越多，子弹射程越远。自律给你力量！",
+    "image": "/images/neon-abyss/5_08_item_egg_rangeUP.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_sp_random",
+    "category": "items",
+    "name": "零食盒",
+    "englishName": "Snack Box",
+    "description": "蛋不再孵化出宠物，而会孵化出随机掉落物。",
+    "image": "/images/neon-abyss/5_08_item_egg_sp_random.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_08_item_egg_spike",
+    "category": "items",
+    "name": "芥末大便",
+    "englishName": "Mustard Poop",
+    "description": "蛋会对怪物造成触碰伤害。看起来有点…恶心。",
+    "image": "/images/neon-abyss/5_08_item_egg_spike.png",
+    "tags": [
+      "蛋"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_RPMUP",
+    "category": "items",
+    "name": "拐杖糖",
+    "englishName": "Candy Cane",
+    "description": "拥有的宠物越多，武器的射击速度越快。",
+    "image": "/images/neon-abyss/5_09_item_pet_RPMUP.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_allUP",
+    "category": "items",
+    "name": "小熊软糖",
+    "englishName": "Gum Bear",
+    "description": "开心坏了！所有宠物的攻击伤害提升。",
+    "image": "/images/neon-abyss/5_09_item_pet_allUP.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_damageUP",
+    "category": "items",
+    "name": "狮子头套",
+    "englishName": "Lion Headgear",
+    "description": "拥有的宠物越多，子弹的伤害越高。",
+    "image": "/images/neon-abyss/5_09_item_pet_damageUP.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_fullegg",
+    "category": "items",
+    "name": "棉花糖",
+    "englishName": "Marshmallow",
+    "description": "当你满红心状态时，不会孵出空蛋。",
+    "image": "/images/neon-abyss/5_09_item_pet_fullegg.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_gunUP",
+    "category": "items",
+    "name": "草莓糖",
+    "englishName": "Strawberry Candy",
+    "description": "拥有的宠物越多，武器发射的子弹越多。",
+    "image": "/images/neon-abyss/5_09_item_pet_gunUP.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_jumpMore",
+    "category": "items",
+    "name": "超级泡泡糖",
+    "englishName": "Worst Blowing Gum",
+    "description": "每增加一个宠物，增加一次跳跃次数。",
+    "image": "/images/neon-abyss/5_09_item_pet_jumpMore.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_rangeUP",
+    "category": "items",
+    "name": "玉米糖",
+    "englishName": "Candy Corn",
+    "description": "拥有的宠物越多，武器的射程越远。",
+    "image": "/images/neon-abyss/5_09_item_pet_rangeUP.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_bomb",
+    "category": "items",
+    "name": "巧克力饼干",
+    "englishName": "Chocolate Cookies",
+    "description": "每次宠物升级，都将掉落一个炸弹。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_bomb.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_coin",
+    "category": "items",
+    "name": "金币巧克力",
+    "englishName": "Chocolate Coin",
+    "description": "每次宠物升级，都将掉落金币。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_coin.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_gazinMana",
+    "category": "items",
+    "name": "水晶糖",
+    "englishName": "Crystal Hard Candy",
+    "description": "每次宠物升级，你都将获得两个水晶。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_gazinMana.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_gift",
+    "category": "items",
+    "name": "彩虹糖",
+    "englishName": "Rainbow Candy",
+    "description": "每次宠物升级，都将获得一份小礼物。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_gift.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_heart",
+    "category": "items",
+    "name": "苹果糖",
+    "englishName": "Toffee Apple",
+    "description": "每次宠物升级，都将掉落半个红心。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_heart.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_key",
+    "category": "items",
+    "name": "牛轧糖",
+    "englishName": "Nougat",
+    "description": "每次宠物升级，都会掉落一个钥匙。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_key.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_09_item_pet_upgrade_shield",
+    "category": "items",
+    "name": "薄荷糖",
+    "englishName": "Hard Mints",
+    "description": "每次宠物升级，你都将有概率掉落半个护盾。",
+    "image": "/images/neon-abyss/5_09_item_pet_upgrade_shield.png",
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_defend",
+    "category": "items",
+    "name": "月亮头",
+    "englishName": "Moonhead",
+    "description": "在空中时不会受到敌人的碰撞和接触伤害。",
+    "image": "/images/neon-abyss/5_10_item_jump_defend.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_dmgUP",
+    "category": "items",
+    "name": "游戏卡带",
+    "englishName": "Game Card",
+    "description": "同时存在的跳跃印记越多，枪械伤害就越高。",
+    "image": "/images/neon-abyss/5_10_item_jump_dmgUP.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_dropbomb",
+    "category": "items",
+    "name": "科学奖项",
+    "englishName": "Science Awards",
+    "description": "敌人触碰到跳跃印记会产生爆炸。",
+    "image": "/images/neon-abyss/5_10_item_jump_dropbomb.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_fireball",
+    "category": "items",
+    "name": "火烈鸟羽毛",
+    "englishName": "Flamingo Feathers",
+    "description": "宠物蛋会触碰到跳跃印记发射追踪火球。",
+    "image": "/images/neon-abyss/5_10_item_jump_fireball.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_music",
+    "category": "items",
+    "name": "舞池灯",
+    "englishName": "Disco Light",
+    "description": "落地时，所有跳跃印记会发射一枚音符追踪子弹。",
+    "image": "/images/neon-abyss/5_10_item_jump_music.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_pet_defend",
+    "category": "items",
+    "name": "猫头鹰头饰",
+    "englishName": "Owl Headdress",
+    "description": "每个跳跃印记会增加一个宠物蛋，落地时蛋也会消失。",
+    "image": "/images/neon-abyss/5_10_item_jump_pet_defend.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jump_wave_reflec",
+    "category": "items",
+    "name": "麦克风",
+    "englishName": "Microphone",
+    "description": "跳跃印记会发出可以反弹敌人子弹的音波。",
+    "image": "/images/neon-abyss/5_10_item_jump_wave_reflec.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumphigh_01",
+    "category": "items",
+    "name": "英雄面具",
+    "englishName": "Hero Mask",
+    "description": "你的好邻居就是我！提高你的跳跃高度和移动速度。",
+    "image": "/images/neon-abyss/5_10_item_jumphigh_01.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumphigh_02",
+    "category": "items",
+    "name": "太空头盔",
+    "englishName": "Space Helmet",
+    "description": "人类的一小步...提高你的跳跃高度。",
+    "image": "/images/neon-abyss/5_10_item_jumphigh_02.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumptwice_01",
+    "category": "items",
+    "name": "笨青蛙",
+    "englishName": "Silly Frog",
+    "description": "要不是这么可爱，你才不戴呢。增加一次额外的跳跃次数。",
+    "image": "/images/neon-abyss/5_10_item_jumptwice_01.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumptwice_02",
+    "category": "items",
+    "name": "忍者服饰",
+    "englishName": "Ninja Costume",
+    "description": "夜幕中的刺客！增加一次额外的跳跃次数，并增加你的近战伤害。",
+    "image": "/images/neon-abyss/5_10_item_jumptwice_02.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumptwice_03",
+    "category": "items",
+    "name": "鲤鱼旗",
+    "englishName": "Carp Streamer",
+    "description": "增加一次额外的跳跃次数。在风中摇曳...",
+    "image": "/images/neon-abyss/5_10_item_jumptwice_03.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumptwice_04",
+    "category": "items",
+    "name": "旅人兜帽",
+    "englishName": "Traveler Hood",
+    "description": "你似乎到过无人之地。增加一次额外的跳跃次数。",
+    "image": "/images/neon-abyss/5_10_item_jumptwice_04.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_10_item_jumptwice_05",
+    "category": "items",
+    "name": "小飞帽",
+    "englishName": "Winged Hat",
+    "description": "这是谁的帽子？增加一次额外的跳跃次数。",
+    "image": "/images/neon-abyss/5_10_item_jumptwice_05.png",
+    "tags": [
+      "跳跃"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_amountDOWN_sizeUP",
+    "category": "items",
+    "name": "二鹿奶粉",
+    "englishName": "Inferior Milk Powder",
+    "description": "血量越低,愤怒精灵越大。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_amountDOWN_sizeUP.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_attact_sametime",
+    "category": "items",
+    "name": "红色控制器",
+    "englishName": "Red Controller",
+    "description": "在进入战斗后会变成不灭的金色精灵，战斗结束后消失。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_attact_sametime.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_bomb_fire",
+    "category": "items",
+    "name": "烧烤架",
+    "englishName": "Barbecue Grill",
+    "description": "本局所有的手雷都变成火手雷。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_bomb_fire.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_clay_pot_red",
+    "category": "items",
+    "name": "红色油漆罐",
+    "englishName": "Can Of Red Paint",
+    "description": "所有罐子都变成红色罐子。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_clay_pot_red.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_defend_bullet",
+    "category": "items",
+    "name": "蛮荒豆",
+    "englishName": "Savage Bean",
+    "description": "愤怒精灵变大，速度变慢，获得抵挡子弹的效果。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_defend_bullet.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_die_coin",
+    "category": "items",
+    "name": "低价保险",
+    "englishName": "Bargain Insurance",
+    "description": "愤怒精灵死亡时获得1金币。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_die_coin.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_die_explode",
+    "category": "items",
+    "name": "咆哮遗嘱",
+    "englishName": "Rattling Will",
+    "description": "愤怒精灵死亡时产生爆炸。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_die_explode.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_die_flyheart",
+    "category": "items",
+    "name": "蜘蛛纸盒",
+    "englishName": "Spider Carton",
+    "description": "愤怒精灵死亡时，有概率掉落飞心或者飞盾。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_die_flyheart.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_drop",
+    "category": "items",
+    "name": "寿盒",
+    "englishName": "Cremation Box",
+    "description": "愤怒精灵死亡时概率掉落小礼物。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_drop.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_egg_empty",
+    "category": "items",
+    "name": "川味猫粮",
+    "englishName": "Szechuan Cat Food",
+    "description": "蛋孵化失败时，获得一个愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_egg_empty.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_empty_heart",
+    "category": "items",
+    "name": "熊骨面具",
+    "englishName": "Bear Bone Mask",
+    "description": "空的红心容器越多，愤怒精灵的数量上限越多。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_empty_heart.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_explode_get",
+    "category": "items",
+    "name": "尖叫汽水",
+    "englishName": "Screaming Soda",
+    "description": "产生爆炸时，有概率产生愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_explode_get.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_fire",
+    "category": "items",
+    "name": "燃烧符咒",
+    "englishName": "Burning Talisman",
+    "description": "愤怒精灵死亡后留下一团火焰。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_fire.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_fly",
+    "category": "items",
+    "name": "破损的风筝",
+    "englishName": "Broken Kite",
+    "description": "愤怒精灵达到上限时获得飞行能力。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_fly.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_full_jump",
+    "category": "items",
+    "name": "跳跳糖",
+    "englishName": "Popping Candy",
+    "description": "愤怒精灵满额时，获得一次额外跳跃次数。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_full_jump.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_golden",
+    "category": "items",
+    "name": "不朽尖牙",
+    "englishName": "Immortal Fangs",
+    "description": "获得3只金色愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_golden.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_hurt_get",
+    "category": "items",
+    "name": "旧创可贴",
+    "englishName": "Used Band-Aids",
+    "description": "受伤后，获得若干只愤怒精灵(取决于失去红心的数量)",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_hurt_get.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_hurt_sizeUP",
+    "category": "items",
+    "name": "咒术血压计",
+    "englishName": "Sphygmomanometer",
+    "description": "没有红心时,愤怒精灵变大。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_hurt_sizeUP.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_jump_get",
+    "category": "items",
+    "name": "愤怒杏鲍菇",
+    "englishName": "Angry Mushroom",
+    "description": "每跳一次，获得一个愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_jump_get.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_machine_failed",
+    "category": "items",
+    "name": "邪能零件",
+    "englishName": "Evil Spare Parts",
+    "description": "需要消耗金币的机器失败时，获得一个愤怒精灵",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_machine_failed.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_mana_use",
+    "category": "items",
+    "name": "蛇头法杖",
+    "englishName": "Serpent Staff",
+    "description": "使用水晶时，获得等量愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_mana_use.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_melee_kill",
+    "category": "items",
+    "name": "诡异斧头",
+    "englishName": "Eerie Axe",
+    "description": "近战消灭敌人时获得一个愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_melee_kill.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_pet_number",
+    "category": "items",
+    "name": "狠心糖",
+    "englishName": "Cruel Sugar",
+    "description": "每增加一个宠物，获得一个额外愤怒精灵上限。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_pet_number.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_pet_upgrade",
+    "category": "items",
+    "name": "辣味糖果",
+    "englishName": "Spicy Candy",
+    "description": "宠物升级时，获得一圈愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_pet_upgrade.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_pickup",
+    "category": "items",
+    "name": "通通乐",
+    "englishName": "Toilet-Plunger",
+    "description": "捡起掉落物时，有概率获得愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_pickup.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "5_11_item_sprite_angry_usekey",
+    "category": "items",
+    "name": "开瓶器",
+    "englishName": "Bottle Opener",
+    "description": "使用钥匙时获得一圈愤怒精灵。",
+    "image": "/images/neon-abyss/5_11_item_sprite_angry_usekey.png",
+    "tags": [
+      "愤怒精灵"
+    ]
+  },
+  {
+    "id": "7_item_badge_firerate",
+    "category": "items",
+    "name": "火力徽章",
+    "englishName": "Firepower Badge",
+    "description": "提升枪械射速。疯狂射击！",
+    "image": "/images/neon-abyss/7_item_badge_firerate.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "7_item_badge_heart",
+    "category": "items",
+    "name": "生命徽章",
+    "englishName": "Life Badge",
+    "description": "增加红心容器。我很健康！",
+    "image": "/images/neon-abyss/7_item_badge_heart.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "7_item_badge_power",
+    "category": "items",
+    "name": "力量徽章",
+    "englishName": "Strength Badge",
+    "description": "增加枪械伤害。跟我冲锋！",
+    "image": "/images/neon-abyss/7_item_badge_power.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "7_item_badge_split",
+    "category": "items",
+    "name": "裂变徽章",
+    "englishName": "Fission Badge",
+    "description": "增加子弹数量。越多越好！",
+    "image": "/images/neon-abyss/7_item_badge_split.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "7_item_badge_weapon",
+    "category": "items",
+    "name": "武器徽章",
+    "englishName": "Weapon Badge",
+    "description": "提升枪械等级。我要变强！",
+    "image": "/images/neon-abyss/7_item_badge_weapon.png",
+    "tags": [
+      "属性强化"
+    ]
+  },
+  {
+    "id": "6_guard_billiards_1",
+    "category": "pets",
+    "name": "8号球",
+    "englishName": "Eight-Ball",
+    "description": "环绕守卫，阻挡敌人子弹。",
+    "image": "/images/neon-abyss/6_guard_billiards_1.png",
+    "tags": [
+      "环绕物"
+    ]
+  },
+  {
+    "id": "6_guard_dart_1",
+    "category": "pets",
+    "name": "铁风车",
+    "englishName": "Iron Windmill",
+    "description": "环绕守卫，对敌人造成触碰伤害。死亡效果：产生3个愤怒精灵。",
+    "image": "/images/neon-abyss/6_guard_dart_1.png",
+    "tags": [
+      "环绕物"
+    ]
+  },
+  {
+    "id": "6_guard_steelball_1",
+    "category": "pets",
+    "name": "震金球",
+    "englishName": "Vibrant Ball",
+    "description": "环绕守卫，阻挡所有子弹，被击中会产生范围伤害。死亡效果：产生一次范围伤害。",
+    "image": "/images/neon-abyss/6_guard_steelball_1.png",
+    "tags": [
+      "环绕物"
+    ]
+  },
+  {
+    "id": "6_pet_adam_1",
+    "category": "pets",
+    "name": "亚当一代",
+    "englishName": "Adam",
+    "description": "自动发射普通子弹攻击敌人",
+    "image": "/images/neon-abyss/6_pet_adam_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_adam_2",
+    "category": "pets",
+    "name": "亚当二代",
+    "englishName": "Adam Ii",
+    "description": "自动发射2个普通子弹攻击敌人",
+    "image": "/images/neon-abyss/6_pet_adam_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：亚当一代。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_adam_3",
+    "category": "pets",
+    "name": "亚当三代",
+    "englishName": "Adam Iii",
+    "description": "自动发射3个普通子弹攻击敌人。死亡效果：发射3发大子弹。",
+    "image": "/images/neon-abyss/6_pet_adam_3.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：亚当一代。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_aline_1",
+    "category": "pets",
+    "name": "外星小宝",
+    "englishName": "Alien Baby",
+    "description": "发射追踪子弹攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_aline_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_aline_2",
+    "category": "pets",
+    "name": "外星大宝",
+    "englishName": "Alien Baby X",
+    "description": "发射2个子追踪弹攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_aline_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：外星小宝。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_boxing_1",
+    "category": "pets",
+    "name": "巴图",
+    "englishName": "Batu",
+    "description": "自信满满！他会主动攻击靠近你的敌人。",
+    "image": "/images/neon-abyss/6_pet_boxing_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_cactus_1",
+    "category": "pets",
+    "name": "仙人掌",
+    "englishName": "Cactus Baby",
+    "description": "随机移动造成触碰伤害。",
+    "image": "/images/neon-abyss/6_pet_cactus_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_cactus_2",
+    "category": "pets",
+    "name": "仙人掌二代",
+    "englishName": "Cactus Baby Ii",
+    "description": "随机移动造成触碰伤害，偶尔会发射穿透子弹",
+    "image": "/images/neon-abyss/6_pet_cactus_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：仙人掌。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_damage_1",
+    "category": "pets",
+    "name": "致命的香水",
+    "englishName": "Lethal Perfume",
+    "description": "有她在就会增加你的武器伤害。死亡效果：暂时大幅度提升攻击力。",
+    "image": "/images/neon-abyss/6_pet_damage_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_firedevil_1",
+    "category": "pets",
+    "name": "火焰精灵",
+    "englishName": "Fire Devil",
+    "description": "发射火球攻击敌人",
+    "image": "/images/neon-abyss/6_pet_firedevil_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_firedevil_2",
+    "category": "pets",
+    "name": "烈焰精灵",
+    "englishName": "Flame Devil",
+    "description": "发射2个火球攻击敌人。死亡效果：发射一圈火焰子弹。",
+    "image": "/images/neon-abyss/6_pet_firedevil_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：火焰精灵。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_flower_1",
+    "category": "pets",
+    "name": "小花",
+    "englishName": "Flower",
+    "description": "自动发射分裂子弹。死亡效果：造成一次全屏伤害。",
+    "image": "/images/neon-abyss/6_pet_flower_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_ghost_1",
+    "category": "pets",
+    "name": "小幽灵",
+    "englishName": "Ghost Baby",
+    "description": "自动发射穿透子弹攻击敌人。死亡效果：给你提供短暂的无敌。",
+    "image": "/images/neon-abyss/6_pet_ghost_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_001",
+    "category": "pets",
+    "name": "红宝",
+    "englishName": "Baby Red",
+    "description": "受伤后会变大!力大无穷!",
+    "image": "/images/neon-abyss/6_pet_hulu_001.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_002",
+    "category": "pets",
+    "name": "橙宝",
+    "englishName": "Baby Orange",
+    "description": "千里眼！地牢不再有黑暗!",
+    "image": "/images/neon-abyss/6_pet_hulu_002.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_003",
+    "category": "pets",
+    "name": "黄宝",
+    "englishName": "Baby Yellow",
+    "description": "金刚之驱，免疫敌人普通子弹",
+    "image": "/images/neon-abyss/6_pet_hulu_003.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_004",
+    "category": "pets",
+    "name": "绿宝",
+    "englishName": "Baby Green",
+    "description": "火焰喷射！没有烧不掉的东西！",
+    "image": "/images/neon-abyss/6_pet_hulu_004.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_005",
+    "category": "pets",
+    "name": "青宝",
+    "englishName": "Baby Cyan",
+    "description": "喷射水雾 这也能算攻击吗？",
+    "image": "/images/neon-abyss/6_pet_hulu_005.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_006",
+    "category": "pets",
+    "name": "蓝宝",
+    "englishName": "Baby Blue",
+    "description": "让花生宝宝们若隐若现，我有一个大胆的想法",
+    "image": "/images/neon-abyss/6_pet_hulu_006.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_007",
+    "category": "pets",
+    "name": "紫宝",
+    "englishName": "Baby Purple",
+    "description": "复活其他花生宝宝",
+    "image": "/images/neon-abyss/6_pet_hulu_007.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_hulu_008",
+    "category": "pets",
+    "name": "金刚宝",
+    "englishName": "Baby Invictus",
+    "description": "兄弟连心，其利断金！",
+    "image": "/images/neon-abyss/6_pet_hulu_008.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：神秘的蛋。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_idol_1",
+    "category": "pets",
+    "name": "艾伦",
+    "englishName": "Aaron",
+    "description": "发射音波子弹攻击敌人。死亡效果：发射5道音波子弹。",
+    "image": "/images/neon-abyss/6_pet_idol_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_joker_1",
+    "category": "pets",
+    "name": "小丑",
+    "englishName": "Jack",
+    "description": "自动往随机方向发射一个子弹",
+    "image": "/images/neon-abyss/6_pet_joker_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_joker_2",
+    "category": "pets",
+    "name": "小丑二世",
+    "englishName": "Jack Ii",
+    "description": "有概率往随机方向扔出一个炸弹。",
+    "image": "/images/neon-abyss/6_pet_joker_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：小丑。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_joker_3",
+    "category": "pets",
+    "name": "小丑三世",
+    "englishName": "Jack Iii",
+    "description": "有概率往随机方向扔出一个随机元素炸弹。死亡效果：扔出5个炸弹。",
+    "image": "/images/neon-abyss/6_pet_joker_3.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：小丑。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_jumphigh_1",
+    "category": "pets",
+    "name": "害羞的蘑菇",
+    "englishName": "Shy Mushroom",
+    "description": "有她在就会增加你的跳跃高度。死亡效果：暂时大幅度提升跳跃高度。",
+    "image": "/images/neon-abyss/6_pet_jumphigh_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_lance_1",
+    "category": "pets",
+    "name": "雅诺",
+    "englishName": "Yano",
+    "description": "啊呀呀！她会投掷长矛攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_lance_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_laser_1",
+    "category": "pets",
+    "name": "格斯",
+    "englishName": "Ges",
+    "description": "他会发射激光攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_laser_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_lpp",
+    "category": "pets",
+    "name": "小皮皮",
+    "englishName": "Peter",
+    "description": "一只喜欢恶作剧的喵。拾取红心变为霉心。死亡效果：掉落随机数量霉心。",
+    "image": "/images/neon-abyss/6_pet_lpp.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：小小皮。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_lpp_baby",
+    "category": "pets",
+    "name": "小小皮",
+    "englishName": "Baby Peter",
+    "description": "死亡时会掉落霉心。",
+    "image": "/images/neon-abyss/6_pet_lpp_baby.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_manc",
+    "category": "pets",
+    "name": "芒C宝宝",
+    "englishName": "Mango Baby",
+    "description": "努力修炼剑术的宝宝。",
+    "image": "/images/neon-abyss/6_pet_manc.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_mixthreebaby",
+    "category": "pets",
+    "name": "光子",
+    "englishName": "Photon",
+    "description": "如果他不被敌人击中，就会保持开心状态，每次战斗结束后有一定概率掉落小礼物。",
+    "image": "/images/neon-abyss/6_pet_mixthreebaby.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_mummy_1",
+    "category": "pets",
+    "name": "木乃伊",
+    "englishName": "Tiny Mummy",
+    "description": "阻敌人子弹，受到攻击时有概率发射两个子弹。",
+    "image": "/images/neon-abyss/6_pet_mummy_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_mummy_2",
+    "category": "pets",
+    "name": "木乃伊二世",
+    "englishName": "Tiny Mummy Ii",
+    "description": "阻敌人子弹，受到攻击时有概率发射四个子弹。死亡效果：掉落半个红心。",
+    "image": "/images/neon-abyss/6_pet_mummy_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：木乃伊。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_mummy_3",
+    "category": "pets",
+    "name": "木乃伊三世",
+    "englishName": "Tiny Mummy Iii",
+    "description": "阻敌人子弹，受到攻击时有概率发射八个子弹。死亡效果：掉落1个红心。",
+    "image": "/images/neon-abyss/6_pet_mummy_3.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：木乃伊。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_pick_coin_random_1",
+    "category": "pets",
+    "name": "桔宝",
+    "englishName": "Grabber",
+    "description": "没人比他更懂财富！会主动抢夺金币，有概率产生随机掉落物。死亡效果：掉落大量金币。",
+    "image": "/images/neon-abyss/6_pet_pick_coin_random_1.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：宝宝桔。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_pick_coin_random_baby",
+    "category": "pets",
+    "name": "宝宝桔",
+    "englishName": "Baby Grabber",
+    "description": "死亡时会掉落金币。",
+    "image": "/images/neon-abyss/6_pet_pick_coin_random_baby.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_pick_heart_1",
+    "category": "pets",
+    "name": "曼哈顿",
+    "englishName": "Blue Doctor",
+    "description": "他会收集红心，有概率掉落护盾。死亡效果：掉落随机护盾。",
+    "image": "/images/neon-abyss/6_pet_pick_heart_1.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：曼小顿。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_pick_heart_baby",
+    "category": "pets",
+    "name": "曼小顿",
+    "englishName": "Baby Blue Doctor",
+    "description": "死亡时会掉落护盾。",
+    "image": "/images/neon-abyss/6_pet_pick_heart_baby.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_range_1",
+    "category": "pets",
+    "name": "欢快的剑玉",
+    "englishName": "Happy Kendama",
+    "description": "有他在就会增加你的武器射程。死亡效果：暂时大幅度提升攻击距离。",
+    "image": "/images/neon-abyss/6_pet_range_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_rate_1",
+    "category": "pets",
+    "name": "愤怒的茶壶",
+    "englishName": "Angry Teapot",
+    "description": "有他在就会增加你的武器攻速。死亡效果：暂时大幅度提升攻速。",
+    "image": "/images/neon-abyss/6_pet_rate_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_snowboy_1",
+    "category": "pets",
+    "name": "雪娃",
+    "englishName": "Snow Boy",
+    "description": "发射冰球攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_snowboy_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_snowboy_2",
+    "category": "pets",
+    "name": "雪哥",
+    "englishName": "Snow Brother",
+    "description": "发射2个冰球攻击敌人。死亡效果：发射一圈冰球。",
+    "image": "/images/neon-abyss/6_pet_snowboy_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：雪娃。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_upgrade_1",
+    "category": "pets",
+    "name": "7号子弹",
+    "englishName": "Bullet No.7",
+    "description": "有他在就会增加你的武器等级。死亡效果：暂时大幅度提升武器等级。",
+    "image": "/images/neon-abyss/6_pet_upgrade_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_wukong_1",
+    "category": "pets",
+    "name": "石头",
+    "englishName": "Rock",
+    "description": "一块奇怪的石头，可以阻挡敌人子弹。",
+    "image": "/images/neon-abyss/6_pet_wukong_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "6_pet_wukong_2",
+    "category": "pets",
+    "name": "野猴子",
+    "englishName": "Wild Monkey",
+    "description": "一只普通的猴子，可以发射子弹。",
+    "image": "/images/neon-abyss/6_pet_wukong_2.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：石头。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_wukong_3",
+    "category": "pets",
+    "name": "孙悟空",
+    "englishName": "Wukong",
+    "description": "齐天大圣归来！他会使用金箍棒攻击敌人。",
+    "image": "/images/neon-abyss/6_pet_wukong_3.png",
+    "tags": [
+      "随行宠物",
+      "进化形态"
+    ],
+    "notes": [
+      "所属进化系列：石头。各形态具体获取见补充说明。"
+    ]
+  },
+  {
+    "id": "6_pet_zombie_1",
+    "category": "pets",
+    "name": "僵尸妹妹",
+    "englishName": "Zombie Sister",
+    "description": "发射毒液球攻击敌人。受伤会分裂为两个僵尸妹妹。",
+    "image": "/images/neon-abyss/6_pet_zombie_1.png",
+    "tags": [
+      "随行宠物"
+    ]
+  },
+  {
+    "id": "1_weapon_0_anna",
+    "category": "weapons",
+    "name": "海鸥",
+    "englishName": "Seagull",
+    "description": "等待着冲出云霄的时刻。",
+    "image": "/images/neon-abyss/1_weapon_0_anna.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_buro",
+    "category": "weapons",
+    "name": "彩色皮球",
+    "englishName": "Colourful Ball",
+    "description": "最佳搭档？",
+    "image": "/images/neon-abyss/1_weapon_0_buro.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_david",
+    "category": "weapons",
+    "name": "钢管",
+    "englishName": "Steel Pipe",
+    "description": "一根再普通不过的钢管。",
+    "image": "/images/neon-abyss/1_weapon_0_david.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_james1",
+    "category": "weapons",
+    "name": "红蝎",
+    "englishName": "Red Scorpion",
+    "description": "给予近距离的致命一击。",
+    "image": "/images/neon-abyss/1_weapon_0_james1.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_james2",
+    "category": "weapons",
+    "name": "黑鹰",
+    "englishName": "Black Eagle",
+    "description": "精准的远距离打击。",
+    "image": "/images/neon-abyss/1_weapon_0_james2.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_james3",
+    "category": "weapons",
+    "name": "铁狮",
+    "englishName": "Steel Lion",
+    "description": "来自钢铁丛林深处的怒吼！",
+    "image": "/images/neon-abyss/1_weapon_0_james3.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_kanon",
+    "category": "weapons",
+    "name": "粉焰",
+    "englishName": "Pink Flame",
+    "description": "在躁动中燃烧的灵魂。",
+    "image": "/images/neon-abyss/1_weapon_0_kanon.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_lucas",
+    "category": "weapons",
+    "name": "灰熊",
+    "englishName": "Grizzly",
+    "description": "你最朴实真挚的伙伴。",
+    "image": "/images/neon-abyss/1_weapon_0_lucas.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_matt",
+    "category": "weapons",
+    "name": "雨中曲",
+    "englishName": "Melody",
+    "description": "外观普通，却暗藏玄机。",
+    "image": "/images/neon-abyss/1_weapon_0_matt.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_ming",
+    "category": "weapons",
+    "name": "犀牛",
+    "englishName": "Rhino",
+    "description": "来自莎莉娜的礼物。",
+    "image": "/images/neon-abyss/1_weapon_0_ming.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_ray",
+    "category": "weapons",
+    "name": "猎户座",
+    "englishName": "Orion",
+    "description": "过去种种终将遗失在时光里，就像滴落在雨中的泪水。",
+    "image": "/images/neon-abyss/1_weapon_0_ray.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_wade",
+    "category": "weapons",
+    "name": "影子",
+    "englishName": "Shadow",
+    "description": "上边刻着一行小字：星期三。",
+    "image": "/images/neon-abyss/1_weapon_0_wade.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_0_zack",
+    "category": "weapons",
+    "name": "金丝雀",
+    "englishName": "Canary",
+    "description": "有着精美花纹的古董。",
+    "image": "/images/neon-abyss/1_weapon_0_zack.png",
+    "tags": [
+      "初始武器"
+    ]
+  },
+  {
+    "id": "1_weapon_bomb_1",
+    "category": "weapons",
+    "name": "审判",
+    "englishName": "Judgment",
+    "description": "准备迎接正义的制裁吧！",
+    "image": "/images/neon-abyss/1_weapon_bomb_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【后援补给】：【主动技能】获得一个随机炸弹。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_coin_1",
+    "category": "weapons",
+    "name": "金色波纹",
+    "englishName": "Golden Ripple",
+    "description": "善意的谎言。【被动】当你的子弹击中金币时，它可能会双倍，或消失。【主动技能】掉落随机金币。",
+    "image": "/images/neon-abyss/1_weapon_coin_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【炼金卷轴】：【主动技能】掉落随机金币。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_coin_1_1",
+    "category": "weapons",
+    "name": "懒洋洋",
+    "englishName": "Jimmy",
+    "description": "到处都是鱼骨头！【被动】当你的子弹击中金币时，它可能会双倍，或消失。【主动】掉落随机金币。",
+    "image": "/images/neon-abyss/1_weapon_coin_1_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【炼金卷轴】：【主动技能】掉落随机金币。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_coin_2",
+    "category": "weapons",
+    "name": "星云",
+    "englishName": "Nebula",
+    "description": "有概率发射激光。【主动】消耗金币，获得随机掉落物。",
+    "image": "/images/neon-abyss/1_weapon_coin_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【刮刮乐】：【主动技能】掉落随机掉落物。消耗1水晶和20金币。"
+    ]
+  },
+  {
+    "id": "1_weapon_coin_2_1",
+    "category": "weapons",
+    "name": "彩虹",
+    "englishName": "Rainbow",
+    "description": "让世界充满色彩！【主动】消耗金币，获得随机掉落物。",
+    "image": "/images/neon-abyss/1_weapon_coin_2_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【刮刮乐】：【主动技能】掉落随机掉落物。消耗1水晶和20金币。"
+    ]
+  },
+  {
+    "id": "1_weapon_coin_3",
+    "category": "weapons",
+    "name": "命运",
+    "englishName": "Destiny",
+    "description": "一切都取决于你，或者是运气。【主动】随机改变武器属性",
+    "image": "/images/neon-abyss/1_weapon_coin_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【金色筹码】：【主动技能】试试手气？随机改变获得此武器的属性。消耗1水晶10金币。"
+    ]
+  },
+  {
+    "id": "1_weapon_defense_1",
+    "category": "weapons",
+    "name": "光之舞",
+    "englishName": "Light Dancer",
+    "description": "战场中的狂舞者。【被动】这个武器造成近战伤害。【主动】获得短暂的无敌。",
+    "image": "/images/neon-abyss/1_weapon_defense_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【光之宝钻】：【主动技能】纯净之光！使用后暂时性的免疫伤害。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_defense_2",
+    "category": "weapons",
+    "name": "灵魂使者",
+    "englishName": "Soul Bringer",
+    "description": "释放你的潜能！【被动】这个武器造成近战伤害。【主动】获得短暂的无敌。",
+    "image": "/images/neon-abyss/1_weapon_defense_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【光之宝钻】：【主动技能】纯净之光！使用后暂时性的免疫伤害。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_defense_4",
+    "category": "weapons",
+    "name": "雷电",
+    "englishName": "Thunder",
+    "description": "燥起来吧！【被动】武器子弹对敌人造成近战伤害。",
+    "image": "/images/neon-abyss/1_weapon_defense_4.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_defense_5",
+    "category": "weapons",
+    "name": "黑暗射线",
+    "englishName": "Death Ray",
+    "description": "来自深渊的凝视。【主动】消耗炸弹，清除敌人子弹。",
+    "image": "/images/neon-abyss/1_weapon_defense_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【法槌】：【主动技能】肃静！清除范围内子弹，并造成伤害。消耗1炸弹和1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_dmg_1_1",
+    "category": "weapons",
+    "name": "旅客",
+    "englishName": "Passenger",
+    "description": "无忧无虑的时光。【主动】对所有敌人造成一次伤害。",
+    "image": "/images/neon-abyss/1_weapon_dmg_1_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【糟糕的诗集】：【主动技能】对房间内所有敌人造成一次伤害。消耗2水晶。（武器等级越高伤害越高）。"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_1",
+    "category": "weapons",
+    "name": "摇篮曲",
+    "englishName": "Lullaby",
+    "description": "祝你好梦。【被动】你的子弹可以拾取掉落物（除了武器）。",
+    "image": "/images/neon-abyss/1_weapon_drop_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_2",
+    "category": "weapons",
+    "name": "第八色",
+    "englishName": "The 8Th Color",
+    "description": "巫师的秘密武器。【主动】获得随机掉落物。",
+    "image": "/images/neon-abyss/1_weapon_drop_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【巧克力盒子】：【主动技能】人生就像巧克力。使用后获得随机掉落物。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_3",
+    "category": "weapons",
+    "name": "咸鱼",
+    "englishName": "Triggerfish",
+    "description": "梦想还是要有的。【主动】从水中钓出好东西。",
+    "image": "/images/neon-abyss/1_weapon_drop_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【鱼竿】：【主动技能】找一个小池塘，享受钓鱼的乐趣。提示：必须要有水面。"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_re_1",
+    "category": "weapons",
+    "name": "玩具枪",
+    "englishName": "Plastic Gun",
+    "description": "祝你玩的开心！【主动】刷新所有未打开的宝箱。",
+    "image": "/images/neon-abyss/1_weapon_drop_re_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【木头骰子】：【主动技能】刷新当前房间内所有未开启的宝箱。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_re_2",
+    "category": "weapons",
+    "name": "玩具枪",
+    "englishName": "Plastic Gun",
+    "description": "祝你玩的开心！！【主动】刷新当前房间内的所有道具和掉落物。",
+    "image": "/images/neon-abyss/1_weapon_drop_re_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【金色骰子】：【主动技能】刷新当前房间内的所有道具和掉落物。消耗5水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_drop_re_3",
+    "category": "weapons",
+    "name": "玩具枪",
+    "englishName": "Plastic Gun",
+    "description": "祝你玩的开心！【主动】把道具置换为掉落物。",
+    "image": "/images/neon-abyss/1_weapon_drop_re_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【麻将】：【主动技能】把当前房间内的所有道具置换成数个掉落物。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_egg_1",
+    "category": "weapons",
+    "name": "摇篮曲",
+    "englishName": "Lullaby",
+    "description": "祝你好梦。【主动】获得一个不会孵化的银蛋。（上限为武器等级）",
+    "image": "/images/neon-abyss/1_weapon_egg_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【电子宠物】：【主动技能】获得不会孵化的银蛋（上限为武器等级）。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_egg_1_1",
+    "category": "weapons",
+    "name": "饥荒",
+    "englishName": "Famine",
+    "description": "直面你的恐惧！【主动】获得一个不会孵化的银蛋。",
+    "image": "/images/neon-abyss/1_weapon_egg_1_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【电子宠物】：【主动技能】获得不会孵化的银蛋（上限为武器等级）。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_egg_2",
+    "category": "weapons",
+    "name": "咸鱼",
+    "englishName": "Triggerfish",
+    "description": "梦想还是要有的。【主动】获得一个蛋，消耗金币和水晶。",
+    "image": "/images/neon-abyss/1_weapon_egg_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【茶叶蛋】：【主动技能】不是所有人都能买的起！花费25金币和一个水晶获得一个蛋。"
+    ]
+  },
+  {
+    "id": "1_weapon_egg_2_1",
+    "category": "weapons",
+    "name": "噪波",
+    "englishName": "Noise",
+    "description": "往日的理想。【主动】获得一个蛋，消耗金币和水晶。",
+    "image": "/images/neon-abyss/1_weapon_egg_2_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【茶叶蛋】：【主动技能】不是所有人都能买的起！花费25金币和一个水晶获得一个蛋。"
+    ]
+  },
+  {
+    "id": "1_weapon_egg_3",
+    "category": "weapons",
+    "name": "彩虹",
+    "englishName": "Rainbow",
+    "description": "把色彩涂满世界！【被动】你的蛋永远不会孵化。",
+    "image": "/images/neon-abyss/1_weapon_egg_3.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_explo_1",
+    "category": "weapons",
+    "name": "巨兽",
+    "englishName": "Giant Beast",
+    "description": "如果你无法驾驭这种力量，就会被它吞噬！",
+    "image": "/images/neon-abyss/1_weapon_explo_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_explo_2",
+    "category": "weapons",
+    "name": "霜火",
+    "englishName": "Frostfire",
+    "description": "颤抖吧！蓄力投掷出冰炸弹。",
+    "image": "/images/neon-abyss/1_weapon_explo_2.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_explo_3",
+    "category": "weapons",
+    "name": "鹰眼",
+    "englishName": "Hawkeye",
+    "description": "我在注视着你！【被动】被击中的敌人会被标记。【主动】可以引爆他们。",
+    "image": "/images/neon-abyss/1_weapon_explo_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【巫毒娃娃】：【主动技能】引爆所有被标记的敌人。消耗1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_explo_4",
+    "category": "weapons",
+    "name": "渡鸦",
+    "englishName": "Black Raven",
+    "description": "黑暗中的低语…【主动】引爆自己。",
+    "image": "/images/neon-abyss/1_weapon_explo_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【错误配方】：【主动技能】产生一次自爆。消耗半个红心和1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_explo_5",
+    "category": "weapons",
+    "name": "红龙",
+    "englishName": "Red Dragon",
+    "description": "威力巨大的终极兵器！毁灭一切吧！",
+    "image": "/images/neon-abyss/1_weapon_explo_5.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_heart_1",
+    "category": "weapons",
+    "name": "哨兵",
+    "englishName": "Sentinel",
+    "description": "牺牲了一些性能，增加了追踪模块。【主动+被动】可以储存红心并扔出。",
+    "image": "/images/neon-abyss/1_weapon_heart_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【爱心饭盒】：【主动技能】可以把红心存起来！使用后把盒子中的红心扔出来。消耗1水晶。（武器等级越高容量越大）"
+    ]
+  },
+  {
+    "id": "1_weapon_heart_2",
+    "category": "weapons",
+    "name": "雨燕",
+    "englishName": "Swallow",
+    "description": "随缘箭法。【主动】消耗红心掉落金币",
+    "image": "/images/neon-abyss/1_weapon_heart_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【黑心账本】：【主动技能】掉落随机金币。消耗2水晶和半个红心。"
+    ]
+  },
+  {
+    "id": "1_weapon_heart_2_1",
+    "category": "weapons",
+    "name": "漩涡",
+    "englishName": "Vortex",
+    "description": "为了荣耀！为了亚特兰帝斯！【主动】消耗红心掉落金币",
+    "image": "/images/neon-abyss/1_weapon_heart_2_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【黑心账本】：【主动技能】掉落随机金币。消耗2水晶和半个红心。"
+    ]
+  },
+  {
+    "id": "1_weapon_heart_3",
+    "category": "weapons",
+    "name": "火吻",
+    "englishName": "Firekiss",
+    "description": "你什么都不懂。【被动】红心越多，你发射的子弹数量越多",
+    "image": "/images/neon-abyss/1_weapon_heart_3.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_key_1",
+    "category": "weapons",
+    "name": "钥匙枪",
+    "englishName": "Keygun",
+    "description": "蓄力发射一枚金钥匙！可以打开所有的锁！",
+    "image": "/images/neon-abyss/1_weapon_key_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_key_2",
+    "category": "weapons",
+    "name": "审判",
+    "englishName": "Judgment",
+    "description": "准备迎接正义的制裁吧！【主动】消耗水晶获得钥匙。",
+    "image": "/images/neon-abyss/1_weapon_key_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【病毒程序】：【主动技能】获得1个钥匙。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_key_3",
+    "category": "weapons",
+    "name": "银月",
+    "englishName": "Silver Moon",
+    "description": "无法描述的神秘武器。【主动】消耗水晶打开所有宝箱和门。",
+    "image": "/images/neon-abyss/1_weapon_key_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【神灯】：【主动技能】打开房间内所有上锁的宝箱和门，消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_key_3_1",
+    "category": "weapons",
+    "name": "光之舞",
+    "englishName": "Light Dancer",
+    "description": "战场中的狂舞者。【被动】这个武器造成近战伤害。【主动】消耗水晶打开所有宝箱和门。",
+    "image": "/images/neon-abyss/1_weapon_key_3_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【神灯】：【主动技能】打开房间内所有上锁的宝箱和门，消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_key_4",
+    "category": "weapons",
+    "name": "流星",
+    "englishName": "Meteor",
+    "description": "天堂中的眼泪。【主动】打开锁，但是会产生爆炸。",
+    "image": "/images/neon-abyss/1_weapon_key_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【地精开锁器】：【主动技能】可以使用此技能开锁，但是会爆炸伤害自己。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_kill_1",
+    "category": "weapons",
+    "name": "饿狼",
+    "englishName": "Wild Wolf",
+    "description": "血债血偿！【被动】消灭敌人获得伤害提升，受伤后重置。",
+    "image": "/images/neon-abyss/1_weapon_kill_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_kill_2",
+    "category": "weapons",
+    "name": "黄金萨姆",
+    "englishName": "Golden Sam",
+    "description": "火力比准头重要！【主动】消耗水晶获得金币。",
+    "image": "/images/neon-abyss/1_weapon_kill_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【红包】：【主动技能】怪物死亡后获得红包，使用后根据红包数量获得金币奖励。（武器等级越高，能获得的信封越多）。消耗1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_kill_4",
+    "category": "weapons",
+    "name": "守护者",
+    "englishName": "Guardian",
+    "description": "祝你好梦！【被动】消灭敌人有概率获得守护精灵",
+    "image": "/images/neon-abyss/1_weapon_kill_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【苍白魔瓶】：【主动技能】储存防护精灵，使用后释放精灵。消耗1水晶。（武器等级越高容量越大）。"
+    ]
+  },
+  {
+    "id": "1_weapon_kill_5",
+    "category": "weapons",
+    "name": "毁灭者",
+    "englishName": "Destroyer",
+    "description": "来自地狱的尖叫。【被动】消灭敌人有概率获得愤怒精灵。",
+    "image": "/images/neon-abyss/1_weapon_kill_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【猩红魔瓶】：【主动技能】储存愤怒精灵，使用后释放它们。消耗1水晶。（武器等级越高容量越大）。"
+    ]
+  },
+  {
+    "id": "1_weapon_mana_1",
+    "category": "weapons",
+    "name": "妖狐",
+    "englishName": "White Fox",
+    "description": "妩媚又致命。【主动】发射一个能量球。",
+    "image": "/images/neon-abyss/1_weapon_mana_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【奥术书】：发射一个强大的能量球。敌人如果被能量球消灭会掉落水晶。消耗1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_mana_2",
+    "category": "weapons",
+    "name": "第八色",
+    "englishName": "The 8Th Color",
+    "description": "巫师的秘密武器！【被动】每次武器等级提升，增加一个额外水晶容器并回满水晶。",
+    "image": "/images/neon-abyss/1_weapon_mana_2.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_mana_3",
+    "category": "weapons",
+    "name": "星辰",
+    "englishName": "Stardust",
+    "description": "微微闪烁着温暖的光芒。【主动】：奥术书",
+    "image": "/images/neon-abyss/1_weapon_mana_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【奥术书】：发射一个强大的能量球。敌人如果被能量球消灭会掉落水晶。消耗1水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_mana_4",
+    "category": "weapons",
+    "name": "信使",
+    "englishName": "Messenger",
+    "description": "传递永恒的浪漫。【被动】子弹击中水晶会产生爆炸【主动】掉落一个水晶。",
+    "image": "/images/neon-abyss/1_weapon_mana_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【女巫耳环】：【主动技能】放置一个水晶。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_mana_5",
+    "category": "weapons",
+    "name": "雷电",
+    "englishName": "Thunder",
+    "description": "燥起来吧！【被动】武器造成近战伤害！【主动】永久提升武器等级。",
+    "image": "/images/neon-abyss/1_weapon_mana_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【军用工具箱】：【主动技能】使用后永久提升你的武器等级。消耗5水晶和50金币。"
+    ]
+  },
+  {
+    "id": "1_weapon_melee_butterfly",
+    "category": "weapons",
+    "name": "蝴蝶刃",
+    "englishName": "Butterfly Blade",
+    "description": "迎接华丽的凋零！【被动】武器造成近战伤害！【主动】获得一个持续数秒的一次性护盾",
+    "image": "/images/neon-abyss/1_weapon_melee_butterfly.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【守护之光】：【主动技能】受伤或消灭怪物积攒能量，消耗能量获得一个防护罩。"
+    ]
+  },
+  {
+    "id": "1_weapon_melee_circular",
+    "category": "weapons",
+    "name": "老猎人",
+    "englishName": "Old Hunter",
+    "description": "粉碎一切！【被动】武器造成近战伤害！【主动】留下一片旋转电锯。消耗3水晶。",
+    "image": "/images/neon-abyss/1_weapon_melee_circular.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【电锯】：【主动技能】留下一片旋转电锯。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_melee_punch",
+    "category": "weapons",
+    "name": "黄金精神",
+    "englishName": "Golden Spirit",
+    "description": "人类的赞歌是勇气的赞歌！【被动】武器造成近战伤害！【主动】 欧拉欧拉欧拉",
+    "image": "/images/neon-abyss/1_weapon_melee_punch.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【欧拉欧拉】：【主动技能】静止不动并爆发强大力量！"
+    ]
+  },
+  {
+    "id": "1_weapon_num_1",
+    "category": "weapons",
+    "name": "流星",
+    "englishName": "Meteor",
+    "description": "来自天堂的泪水。",
+    "image": "/images/neon-abyss/1_weapon_num_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_num_2",
+    "category": "weapons",
+    "name": "星辰",
+    "englishName": "Stardust",
+    "description": "微微闪烁着温暖的光芒。【主动】：糟糕的诗集",
+    "image": "/images/neon-abyss/1_weapon_num_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【糟糕的诗集】：【主动技能】对房间内所有敌人造成一次伤害。消耗2水晶。（武器等级越高伤害越高）。"
+    ]
+  },
+  {
+    "id": "1_weapon_num_5",
+    "category": "weapons",
+    "name": "空气枪",
+    "englishName": "Airgun",
+    "description": "如此的轻盈，仿佛并不存在。【主动】减慢下落速度。",
+    "image": "/images/neon-abyss/1_weapon_num_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【羽毛书签】：【主动技能】在空中使用可以减慢下落速度。无消耗 。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_1",
+    "category": "weapons",
+    "name": "黑暗射线",
+    "englishName": "Death Ray",
+    "description": "来自深渊的凝视。【主动】瞬移一小段距离。",
+    "image": "/images/neon-abyss/1_weapon_op_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【波粒二象性】：【主动技能】向前瞬移一小段距离。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_2",
+    "category": "weapons",
+    "name": "光之舞",
+    "englishName": "Light Dancer",
+    "description": "释放你的潜能。【被动】这个武器造成近战伤害。【主动】自由飞行。",
+    "image": "/images/neon-abyss/1_weapon_op_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【灭火器】：【主动技能】在天空中追寻浪漫。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_3",
+    "category": "weapons",
+    "name": "幻痛",
+    "englishName": "Phantom",
+    "description": "一切都慢下来了。【主动】时间减慢。",
+    "image": "/images/neon-abyss/1_weapon_op_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【秒表】：【主动技能】让时间减缓。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_4",
+    "category": "weapons",
+    "name": "矩阵",
+    "englishName": "Matrix",
+    "description": "什么是现实？【主动+被动】蓄力发射一个信号弹，并使用技能传送到它的位置。",
+    "image": "/images/neon-abyss/1_weapon_op_4.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_op_5",
+    "category": "weapons",
+    "name": "熔炉",
+    "englishName": "Forge",
+    "description": "耐心也是一种武器。【主动】可以举起木桶或木箱。",
+    "image": "/images/neon-abyss/1_weapon_op_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【菠菜罐头】：【主动技能】你感觉充满了力量！可以把箱子和木桶举起来了！无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_6",
+    "category": "weapons",
+    "name": "银月",
+    "englishName": "Silver Moon",
+    "description": "异空间的神秘武器。【主动】立刻下坠，砸碎石头。",
+    "image": "/images/neon-abyss/1_weapon_op_6.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【能量饮料】：【技能】立刻下坠，造成冲击伤害。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_7",
+    "category": "weapons",
+    "name": "欢乐颂",
+    "englishName": "Song Of Joy",
+    "description": "最重要的是开心。【主动】自由飞行。",
+    "image": "/images/neon-abyss/1_weapon_op_7.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【灭火器】：【主动技能】在天空中追寻浪漫。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_8",
+    "category": "weapons",
+    "name": "白日梦",
+    "englishName": "Daydream",
+    "description": "呼呼呼呼呼。【主动】秒表",
+    "image": "/images/neon-abyss/1_weapon_op_8.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【秒表】：【主动技能】让时间减缓。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_9",
+    "category": "weapons",
+    "name": "白日梦",
+    "englishName": "Daydream",
+    "description": "呼呼呼呼呼。【主动】能量饮料",
+    "image": "/images/neon-abyss/1_weapon_op_9.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【能量饮料】：【技能】立刻下坠，造成冲击伤害。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_op_newType",
+    "category": "weapons",
+    "name": "新人类",
+    "englishName": "New Type",
+    "description": "左边的弹幕太薄了！你在干嘛！",
+    "image": "/images/neon-abyss/1_weapon_op_newType.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【浮游炮】：【主动技能】放出一组浮游炮"
+    ]
+  },
+  {
+    "id": "1_weapon_pet_4",
+    "category": "weapons",
+    "name": "欢乐颂",
+    "englishName": "Song Of Joy",
+    "description": "最重要的是开心！【主动】立刻孵化一个蛋。",
+    "image": "/images/neon-abyss/1_weapon_pet_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【灯泡】：【主动技能】立刻孵化一个蛋。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_1",
+    "category": "weapons",
+    "name": "双子",
+    "englishName": "Twins",
+    "description": "据说使用了量子纠缠技术。【主动】在当前房间内提高武器伤害。",
+    "image": "/images/neon-abyss/1_weapon_room_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【怒吼战旗】：【主动技能】提高武器伤害（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_1_1",
+    "category": "weapons",
+    "name": "雨燕",
+    "englishName": "Swallow",
+    "description": "随缘箭法。【主动】在当前房间提高武器伤害。",
+    "image": "/images/neon-abyss/1_weapon_room_1_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【怒吼战旗】：【主动技能】提高武器伤害（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_2",
+    "category": "weapons",
+    "name": "哨兵",
+    "englishName": "Sentinel",
+    "description": "增加了追踪模块，但是牺牲了一些性能。【主动】在当前房间内提升武器射速。",
+    "image": "/images/neon-abyss/1_weapon_room_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【肾上腺激素】：【主动技能】提高射击速度（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_2_1",
+    "category": "weapons",
+    "name": "饥荒",
+    "englishName": "Famine",
+    "description": "直面你的恐惧。【主动】在当前房间内提升武器射速。",
+    "image": "/images/neon-abyss/1_weapon_room_2_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【肾上腺激素】：【主动技能】提高射击速度（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_3",
+    "category": "weapons",
+    "name": "反叛者",
+    "englishName": "Rebel",
+    "description": "听从内心的呼唤。【主动】在当前房间内提升武器等级。",
+    "image": "/images/neon-abyss/1_weapon_room_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【金曲合集】：【主动技能】提高你的武器等级（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_room_3_1",
+    "category": "weapons",
+    "name": "信使",
+    "englishName": "Messenger",
+    "description": "传递不灭的热情。【主动】在当前房间内提升武器等级。",
+    "image": "/images/neon-abyss/1_weapon_room_3_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【金曲合集】：【主动技能】提高你的武器等级（只在当前房间内有效）。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_rpm_1",
+    "category": "weapons",
+    "name": "星爆",
+    "englishName": "Star Burst",
+    "description": "来自先遣队科技的结晶。",
+    "image": "/images/neon-abyss/1_weapon_rpm_1.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_rpm_2",
+    "category": "weapons",
+    "name": "黑寡妇",
+    "englishName": "Black Widow",
+    "description": "屏住呼吸。【主动】向前翻滚一小段距离。",
+    "image": "/images/neon-abyss/1_weapon_rpm_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【毛线球】：【主动技能】向前翻滚一小段距离。无消耗。"
+    ]
+  },
+  {
+    "id": "1_weapon_rpm_3",
+    "category": "weapons",
+    "name": "超级炮",
+    "englishName": "The Blaster",
+    "description": "耐心一点，年轻人......你还无法完全掌握它的力量。",
+    "image": "/images/neon-abyss/1_weapon_rpm_3.png",
+    "tags": [
+      "深渊武器"
+    ]
+  },
+  {
+    "id": "1_weapon_sprite_1",
+    "category": "weapons",
+    "name": "憎恶",
+    "englishName": "Animosity",
+    "description": "蓄力发射愤怒精灵。【主动】获得短暂的无敌。",
+    "image": "/images/neon-abyss/1_weapon_sprite_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【光之宝钻】：【主动技能】纯净之光！使用后暂时性的免疫伤害。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_sprite_2",
+    "category": "weapons",
+    "name": "憎恶",
+    "englishName": "Animosity",
+    "description": "蓄力发射愤怒精灵。【主动】提升武器等级。",
+    "image": "/images/neon-abyss/1_weapon_sprite_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【军用工具箱】：【主动技能】使用后永久提升你的武器等级。消耗5水晶和50金币。"
+    ]
+  },
+  {
+    "id": "1_weapon_terr_2",
+    "category": "weapons",
+    "name": "饥荒",
+    "englishName": "Famine",
+    "description": "直面你的恐惧。【主动】召唤一个木桶。",
+    "image": "/images/neon-abyss/1_weapon_terr_2.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【小木马】：【主动技能】召唤一个木桶。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_terr_3",
+    "category": "weapons",
+    "name": "夏天",
+    "englishName": "Summer",
+    "description": "来一曲美妙的民谣吧。【主动】召唤一个木箱。",
+    "image": "/images/neon-abyss/1_weapon_terr_3.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【小木马】：【主动技能】召唤一个木桶。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_terr_4",
+    "category": "weapons",
+    "name": "噪波",
+    "englishName": "Noise",
+    "description": "往日的理想。【主动】召唤一个梯子。",
+    "image": "/images/neon-abyss/1_weapon_terr_4.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【小木牛】：【主动技能】召唤一个梯子。消耗2水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_terr_5",
+    "category": "weapons",
+    "name": "欢乐颂",
+    "englishName": "Song Of Joy",
+    "description": "最重要的是开心。【主动】在当前房间内飞行。",
+    "image": "/images/neon-abyss/1_weapon_terr_5.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【生日气球】：【主动技能】获得一个气球，让你飞起来！（只在当前房间内有效）。消耗3水晶。"
+    ]
+  },
+  {
+    "id": "1_weapon_terr_5_1",
+    "category": "weapons",
+    "name": "凶巴巴",
+    "englishName": "Terry",
+    "description": "到处都是鱼骨头。【主动】在当前房间内飞行。",
+    "image": "/images/neon-abyss/1_weapon_terr_5_1.png",
+    "tags": [
+      "深渊武器",
+      "附带能力"
+    ],
+    "notes": [
+      "附带能力【生日气球】：【主动技能】获得一个气球，让你飞起来！（只在当前房间内有效）。消耗3水晶。"
+    ]
+  }
+]

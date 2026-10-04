@@ -1,0 +1,721 @@
+[
+  {
+    "name": "阿瑞斯币",
+    "englishName": "Ares Token",
+    "specialAcquisition": "PC Wiki 记录：在同一局中第三次进入暴力神殿并献祭红心容器，领取奖励后出现。",
+    "notes": [
+      "持有它完成第七层后，可以进入暴力主题的第八层。",
+      "获取次数依据页面未标版本的 Wiki；官方旧版 FAQ 记载随机出现及最多四次的不同规则，当前版本未实机核验。"
+    ],
+    "tags": [
+      "神殿",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Token（页面未标版本）",
+        "url": "https://neonabyss.fandom.com/wiki/Token"
+      },
+      {
+        "label": "Veewo · 旧版常见问题与更新记录",
+        "url": "https://www.veewo.com/na-log?lang=zh"
+      }
+    ]
+  },
+  {
+    "name": "雅典娜币",
+    "englishName": "Athena Token",
+    "specialAcquisition": "PC Wiki 记录：进入智慧神殿后，拾取出现的雅典娜币。",
+    "notes": [
+      "持有它完成第七层后，可以进入智慧主题的第八层。",
+      "同一局同时持有两种神币时，最后获得的神币决定第八层的主题。",
+      "获取条件依据页面未标版本的 Wiki，当前版本未实机核验。"
+    ],
+    "tags": [
+      "神殿",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Token（页面未标版本）",
+        "url": "https://neonabyss.fandom.com/wiki/Token"
+      }
+    ]
+  },
+  {
+    "name": "1号门票",
+    "englishName": "Ticket-1",
+    "acquisition": "可从怪物、宝箱、微笑商人或房间奖励等随机渠道取得。",
+    "notes": [
+      "清完当前层后进入金宝箱主题的问号层；该层出口通往比特币之神。"
+    ],
+    "tags": [
+      "门票",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "2号门票",
+    "englishName": "Ticket-2",
+    "specialAcquisition": "小游戏的街机机器损坏时，有小概率掉落。（PC Wiki v1.4.6 记录）",
+    "notes": [
+      "清完当前层后进入由小游戏房间组成的问号层。"
+    ],
+    "tags": [
+      "门票",
+      "街机掉落",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      },
+      {
+        "label": "Neon Abyss Wiki · Objects（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Objects"
+      }
+    ]
+  },
+  {
+    "name": "3号门票",
+    "englishName": "Ticket-3",
+    "specialAcquisition": "与微笑商人（Smirk Co.）交易时，有机会获得。（PC Wiki v1.4.6 记录）",
+    "notes": [
+      "对应问号层使用彩虹钥匙与特殊图形进行探索和兑换奖励。"
+    ],
+    "tags": [
+      "门票",
+      "商人交易",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "4号门票",
+    "englishName": "Ticket-4",
+    "specialAcquisition": "宠物蛋孵化失败时，有机会掉落。（PC Wiki v1.4.6 记录）",
+    "notes": [
+      "对应问号层需要运送零件给金属龙；运输途中应避开移动的尖刺球。"
+    ],
+    "tags": [
+      "门票",
+      "孵化失败",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "5号门票",
+    "englishName": "Ticket-5",
+    "notes": [
+      "清完当前层后进入连续分岔的问号层，每次选择路线会改变能到达的战斗房间与奖励。"
+    ],
+    "tags": [
+      "门票",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "6号门票",
+    "englishName": "Ticket-6",
+    "notes": [
+      "对应问号层中可将武器装入可搬运的头部装置，并把多个装置堆叠起来；它们会随玩家射击。"
+    ],
+    "tags": [
+      "门票",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "混沌门票",
+    "englishName": "Chaos Ticket",
+    "notes": [
+      "进入对应问号层时会失去当前道具，通过连续战斗和 Boss 战重新获得道具。适合愿意重新构建当前组合的局面。"
+    ],
+    "tags": [
+      "门票",
+      "特殊楼层"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Level-?（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Level-%3F"
+      }
+    ]
+  },
+  {
+    "name": "光子",
+    "englishName": "Photon",
+    "specialAcquisition": "同时拥有成熟形态的曼哈顿、小皮皮和桔宝后，三者会合体为光子。",
+    "tags": [
+      "宠物合体",
+      "战后掉落"
+    ],
+    "sources": [
+      {
+        "label": "Steam · Call of Hades 更新",
+        "url": "https://steamcommunity.com/games/788100/announcements/detail/3096765393287424721"
+      },
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "亚当二代",
+    "englishName": "Adam II",
+    "specialAcquisition": "由亚当一代进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "亚当三代",
+    "englishName": "Adam III",
+    "specialAcquisition": "由亚当二代进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "外星大宝",
+    "englishName": "Alien Baby X",
+    "specialAcquisition": "由外星小宝进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "仙人掌二代",
+    "englishName": "Cactus Baby II",
+    "specialAcquisition": "由仙人掌进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "烈焰精灵",
+    "englishName": "Flame Devil",
+    "specialAcquisition": "由火焰精灵进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "小丑二世",
+    "englishName": "Jack II",
+    "specialAcquisition": "由小丑进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "小丑三世",
+    "englishName": "Jack III",
+    "specialAcquisition": "由小丑二世进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "雪哥",
+    "englishName": "Snow Brother",
+    "specialAcquisition": "由雪娃进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "木乃伊二世",
+    "englishName": "Tiny Mummy II",
+    "specialAcquisition": "由木乃伊进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ],
+    "notes": [
+      "旧版资料中的“绷带娃二世”对应当前版本的“木乃伊二世”。"
+    ]
+  },
+  {
+    "name": "木乃伊三世",
+    "englishName": "Tiny Mummy III",
+    "specialAcquisition": "由木乃伊二世进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ],
+    "notes": [
+      "旧版资料中的“绷带娃三世”对应当前版本的“木乃伊三世”。"
+    ]
+  },
+  {
+    "name": "孙悟空",
+    "englishName": "Wukong",
+    "specialAcquisition": "由野猴子进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "曼哈顿",
+    "englishName": "Blue Doctor",
+    "specialAcquisition": "由曼小顿进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化",
+      "光子合体材料"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "小皮皮",
+    "englishName": "Peter",
+    "specialAcquisition": "由小小皮进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化",
+      "光子合体材料"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "桔宝",
+    "englishName": "Grabber",
+    "specialAcquisition": "由宝宝桔进化获得。（PC Wiki v1.4.6 记录）",
+    "tags": [
+      "宠物进化",
+      "光子合体材料"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Pets（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Pets"
+      }
+    ]
+  },
+  {
+    "name": "黑鹰",
+    "englishName": "Black Eagle",
+    "specialAcquisition": "詹姆斯的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "红蝎",
+    "englishName": "Red Scorpion",
+    "specialAcquisition": "詹姆斯的另一把初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "金丝雀",
+    "englishName": "Canary",
+    "specialAcquisition": "扎克的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "灰熊",
+    "englishName": "Grizzly",
+    "specialAcquisition": "卢卡斯的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "雨中曲",
+    "englishName": "Melody",
+    "specialAcquisition": "马特的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "猎户座",
+    "englishName": "Orion",
+    "specialAcquisition": "R-6 的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · R-6（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/R-6"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "粉焰",
+    "englishName": "Pink Flame",
+    "specialAcquisition": "纱夜的初始武器；使用纱夜需要 Lovable Rogues Pack DLC。",
+    "tags": [
+      "角色初始武器",
+      "Lovable Rogues DLC"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      },
+      {
+        "label": "Steam · Lovable Rogues Pack",
+        "url": "https://store.steampowered.com/app/1262000/Neon_Abyss__Lovable_Rogues_Pack/"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "犀牛",
+    "englishName": "Rhino",
+    "specialAcquisition": "小明的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "海鸥",
+    "englishName": "Seagull",
+    "specialAcquisition": "安娜的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "影子",
+    "englishName": "Shadow",
+    "specialAcquisition": "韦德的初始武器。",
+    "tags": [
+      "角色初始武器"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Weapons（旧版资料）",
+        "url": "https://neonabyss.fandom.com/wiki/Weapons"
+      }
+    ],
+    "notes": [
+      "初始装备关系依据旧版 PC Wiki；当前安装包保留同名武器，尚未进行实机开局验证。"
+    ]
+  },
+  {
+    "name": "钥匙枪",
+    "englishName": "Keygun",
+    "notes": [
+      "蓄满后射出的金钥匙能够打开带锁的门和金宝箱；石宝箱与水晶宝箱不适用。",
+      "金钥匙可穿过地形，适合在换枪前先处理当前层需要钥匙的目标。"
+    ],
+    "tags": [
+      "蓄力",
+      "资源管理"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Keygun",
+        "url": "https://neonabyss.fandom.com/wiki/Keygun"
+      }
+    ]
+  },
+  {
+    "name": "老大哥",
+    "englishName": "Big Daddy",
+    "notes": [
+      "当前效果免疫自身产生的爆炸伤害；钢铁意志套装的免疫范围才包括全部爆炸。"
+    ],
+    "tags": [
+      "自身爆炸免疫"
+    ],
+    "sources": [
+      {
+        "label": "Veewo · 爆炸免疫调整记录",
+        "url": "https://www.veewo.com/na-log?lang=zh"
+      }
+    ]
+  },
+  {
+    "name": "水冷系统",
+    "englishName": "Cooling System",
+    "notes": [
+      "冰属性转换也作用于激光束武器，效果范围不只普通子弹。"
+    ],
+    "tags": [
+      "冰属性"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Cooling System（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Cooling_System"
+      }
+    ]
+  },
+  {
+    "name": "危险标志",
+    "englishName": "Danger Sign",
+    "notes": [
+      "电属性转换也作用于激光束武器。"
+    ],
+    "tags": [
+      "电属性"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Danger Sign（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Danger_Sign"
+      }
+    ]
+  },
+  {
+    "name": "特工手表",
+    "englishName": "Agent Watch",
+    "notes": [
+      "加成按当前持有钥匙数计算，拾取之前已经拥有的钥匙也能提供加成。"
+    ],
+    "tags": [
+      "钥匙联动"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Agent Watch（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Agent_Watch"
+      }
+    ]
+  },
+  {
+    "name": "金色火炬",
+    "englishName": "Golden Torch",
+    "notes": [
+      "从拾取后的下一层开始增加道具房，不会给已经生成的当前层补房间。"
+    ],
+    "tags": [
+      "地图收益"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Golden Torch（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Golden_Torch"
+      }
+    ]
+  },
+  {
+    "name": "魔君之眼",
+    "englishName": "Lidless Eye",
+    "notes": [
+      "揭示每层普通地图，但不会揭示隐藏房间。"
+    ],
+    "tags": [
+      "地图"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Lidless Eye（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Lidless_Eye"
+      }
+    ]
+  },
+  {
+    "name": "无用之物",
+    "englishName": "Useless Item",
+    "notes": [
+      "可以在同一房间内用刷新方块将它改成其他道具或拾取物。"
+    ],
+    "tags": [
+      "刷新联动"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Useless Item",
+        "url": "https://neonabyss.fandom.com/wiki/Useless_Item"
+      }
+    ]
+  },
+  {
+    "name": "沙漠药剂",
+    "englishName": "Desert Elixir",
+    "notes": [
+      "缩小体型与受击判定，提高移动速度；获得护盾的同时减少一个红心容器。"
+    ],
+    "tags": [
+      "体型",
+      "移动"
+    ],
+    "sources": [
+      {
+        "label": "Neon Abyss Wiki · Desert Elixir（Steam v1.4.6）",
+        "url": "https://neonabyss.fandom.com/wiki/Desert_Elixir"
+      }
+    ]
+  }
+]

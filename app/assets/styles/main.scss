@@ -1,0 +1,247 @@
+/**
+ * @author Brave
+ * @date 2026-10-04T17:43:08+08:00
+ * @description 定义百科站点的深浅主题、基础排版与公共交互样式。
+ */
+:root {
+  color-scheme: dark;
+  --page-bg: #111217;
+  --sidebar-bg: #14151b;
+  --panel: #1a1b23;
+  --panel-raised: #20212a;
+  --hover: #24252f;
+  --text: #f0f0f5;
+  --secondary-text: #b6b7c5;
+  --muted: #888a9c;
+  --dimmed: #707285;
+  --line: #282933;
+  --line-strong: #393b49;
+  --accent: #77dfc2;
+  --accent-soft: #77dfc210;
+  --accent-border: #77dfc236;
+  --special: #c1a2f1;
+  --special-soft: #b388ee14;
+  --icon-bg: #24222e;
+  --hero-line: #343246;
+  --shadow: 0 18px 60px #00000045;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --page-bg: #f7f8fb;
+  --sidebar-bg: #ffffff;
+  --panel: #ffffff;
+  --panel-raised: #ffffff;
+  --hover: #f0f1f6;
+  --text: #242533;
+  --secondary-text: #5e6075;
+  --muted: #74778b;
+  --dimmed: #818498;
+  --line: #e5e6ee;
+  --line-strong: #c9cbd9;
+  --accent: #167c63;
+  --accent-soft: #167c630c;
+  --accent-border: #167c6330;
+  --special: #7850aa;
+  --special-soft: #8f6cc510;
+  --icon-bg: #f0eef7;
+  --hero-line: #37324e;
+  --shadow: 0 18px 60px #24253318;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  background: var(--page-bg);
+}
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+a {
+  color: inherit;
+}
+button,
+input,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+input:focus-visible,
+select:focus-visible {
+  outline-offset: 1px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+svg {
+  flex-shrink: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+::selection {
+  background: var(--accent-border);
+  color: var(--text);
+}
+dialog {
+  margin: auto;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.eyebrow {
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: 1.8px;
+}
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 6px;
+  color: var(--muted);
+  &:hover {
+    background: var(--hover);
+    color: var(--text);
+  }
+}
+.text-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--accent);
+}
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--page-bg);
+  font-size: 12px;
+  font-weight: 600;
+}
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 7px;
+  background: var(--panel);
+  color: var(--secondary-text);
+  font-size: 12px;
+  &:hover {
+    border-color: var(--accent-border);
+    color: var(--accent);
+  }
+}
+.pixel-image {
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+.initial-loading {
+  display: grid;
+  place-items: center;
+  min-height: 240px;
+  color: var(--muted);
+}
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 38px 24px;
+  text-align: center;
+  > svg {
+    color: var(--dimmed);
+    margin-bottom: 18px;
+  }
+  h3 {
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  p {
+    max-width: 420px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.9;
+  }
+}
+.module-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 29px 0 23px;
+  h2 {
+    font-size: 20px;
+    margin-bottom: 7px;
+    letter-spacing: 0.4px;
+  }
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--muted);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

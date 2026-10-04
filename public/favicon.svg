@@ -1,0 +1,6 @@
+<!--
+@author Brave
+@date 2026-10-04T17:47:59+08:00
+@description 游戏图鉴站点图标，使用叠层图鉴的几何标记。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#151b23"/><path d="m24 10 14 8-14 8-14-8 14-8Zm-14 15 14 8 14-8M10 32l14 8 14-8" fill="none" stroke="#77dfc2" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg>
