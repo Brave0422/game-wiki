@@ -12,6 +12,8 @@ import {
   Map,
   Puzzle,
   Trophy,
+  Sparkles,
+  Swords,
 } from "@lucide/vue";
 import { NuxtLink } from "#components";
 import { getGameEntryPath } from "~/constants/games";
@@ -26,6 +28,8 @@ const sectionIcons = {
   puzzle: Puzzle,
   layers: Layers3,
   trophy: Trophy,
+  sparkles: Sparkles,
+  swords: Swords,
 };
 </script>
 

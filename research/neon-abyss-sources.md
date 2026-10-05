@@ -5,6 +5,7 @@
 ## 数据来源分工
 
 - 游戏内中文名称、英文名称、基础效果和图标：用户提供的本地游戏安装资源，只读提取。文件中的名称已用于覆盖资料的精确对齐。
+- 角色：从 `CharacterList` 和 `CharacterSkinList` 的实际引用提取 11 个基础角色与 10 个异装，保存初始资源、初始武器、技能文本和头像。布若为 PC 版联动角色；不混用手游角色资料。详情及完整配置见 `neon-abyss.characters.source.json`。
 - 获取条件、进化关系、效果补充：外部资料逐条核验后写入 `app/data/neon-abyss.supplements.json`。
 - 攻略：自主概括的三篇组合/操作思路，保留对应来源，见 `app/data/neon-abyss.guides.json`。
 - 商店视觉：从官方 Steam 商店实际图片链接下载的 header，保存为 `public/images/neon-abyss/steam-header.jpg`。

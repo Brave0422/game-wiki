@@ -1,0 +1,3840 @@
+{
+  "createdAt": "2026-10-04T22:15:30+08:00",
+  "source": "用户提供的 Hades PC 安装目录，只读提取 TraitData、LootData、WeaponUpgradeData、HelpText 与 GUI 图集",
+  "counts": {
+    "boons": 172,
+    "weapons": 6
+  },
+  "aspects": [
+    {
+      "id": "SwordBaseUpgradeTrait",
+      "weapon": "SwordWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Sword",
+        "UpgradeUnequippedId": "SwordWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "SwordBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipSpeed"
+    },
+    {
+      "id": "SwordCriticalParryTrait",
+      "weapon": "SwordWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "SwordCriticalParryTrait",
+        "Image": "Codex_Portrait_SwordAlt01",
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponSwordAlt01FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponSwordAlt01FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponSwordAlt01FloatingIdle",
+        "EquippedKitAnimation": "WeaponSwordAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipPercentChance"
+    },
+    {
+      "id": "DislodgeAmmoTrait",
+      "weapon": "SwordWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "DislodgeAmmoTrait",
+        "Image": "Codex_Portrait_SwordAlt02",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponSwordAlt02FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponSwordAlt02FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponSwordAlt02FloatingIdle",
+        "EquippedKitAnimation": "WeaponSwordAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "SwordConsecrationTrait",
+      "weapon": "SwordWeapon",
+      "configuration": {
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponSwordAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "NyxRevealsArthurAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "SwordConsecrationTrait",
+        "BonusUnequippedKitAnimation": "WeaponSwordAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_SwordAlt03",
+        "BonusEquippedKitAnimation": "WeaponSwordAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponSwordAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamageReduction"
+    },
+    {
+      "id": "SpearBaseUpgradeTrait",
+      "weapon": "SpearWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "UnequipFunctionName": "RemoveSpearBase",
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Spear",
+        "UpgradeUnequippedId": "SpearWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "SpearBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "SpearTeleportTrait",
+      "weapon": "SpearWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveSpearTeleport",
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponSpearAlt01FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "SpearTeleportTrait",
+        "BonusUnequippedKitAnimation": "WeaponSpearAlt01FloatingIdleBonus",
+        "Image": "Codex_Portrait_SpearAlt01",
+        "BonusEquippedKitAnimation": "WeaponSpearAlt01FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponSpearAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "SpearWeaveTrait",
+      "weapon": "SpearWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveSpearWeave",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponSpearAlt02FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "SpearWeaveTrait",
+        "BonusUnequippedKitAnimation": "WeaponSpearAlt02FloatingIdleBonus",
+        "Image": "Codex_Portrait_SpearAlt02",
+        "BonusEquippedKitAnimation": "WeaponSpearAlt02FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponSpearAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "SpearSpinTravel",
+      "weapon": "SpearWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveSpearGuanYu",
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponSpearAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "AchillesRevealsGuanYuAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "SpearSpinTravel",
+        "BonusUnequippedKitAnimation": "WeaponSpearAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_SpearAlt03",
+        "BonusEquippedKitAnimation": "WeaponSpearAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponSpearAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipHealthCurse"
+    },
+    {
+      "id": "ShieldBaseUpgradeTrait",
+      "weapon": "ShieldWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Shield",
+        "UpgradeUnequippedId": "ShieldWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "ShieldBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "ShieldRushBonusProjectileTrait",
+      "weapon": "ShieldWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "ShieldRushBonusProjectileTrait",
+        "Image": "Codex_Portrait_ShieldAlt01",
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponShieldAlt01FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponShieldAlt01FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponShieldAlt01FloatingIdle",
+        "EquippedKitAnimation": "WeaponShieldAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipProjectiles"
+    },
+    {
+      "id": "ShieldTwoShieldTrait",
+      "weapon": "ShieldWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "ShieldTwoShieldTrait",
+        "Image": "Codex_Portrait_ShieldAlt02",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponShieldAlt02FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponShieldAlt02FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponShieldAlt02FloatingIdle",
+        "EquippedKitAnimation": "WeaponShieldAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "ShieldLoadAmmoTrait",
+      "weapon": "ShieldWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveSelfAmmoLoad",
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponShieldAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "ChaosRevealsBeowulfAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "ShieldLoadAmmoTrait",
+        "BonusUnequippedKitAnimation": "WeaponShieldAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_ShieldAlt03",
+        "BonusEquippedKitAnimation": "WeaponShieldAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponShieldAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamageIncrease"
+    },
+    {
+      "id": "BowBaseUpgradeTrait",
+      "weapon": "BowWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Bow",
+        "UpgradeUnequippedId": "BowWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "BowBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipCritChance"
+    },
+    {
+      "id": "BowMarkHomingTrait",
+      "weapon": "BowWeapon",
+      "configuration": {
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponBowAlt01FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "BowMarkHomingTrait",
+        "MaxedTraitDescription": "BowMarkHomingTrait_Max",
+        "BonusUnequippedKitAnimation": "WeaponBowAlt01FloatingIdleBonus",
+        "Image": "Codex_Portrait_BowAlt01",
+        "BonusEquippedKitAnimation": "WeaponBowAlt01FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponBowAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipProjectiles"
+    },
+    {
+      "id": "BowLoadAmmoTrait",
+      "weapon": "BowWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveAmmoLoad",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponBowAlt02FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "BowLoadAmmoTrait",
+        "BonusUnequippedKitAnimation": "WeaponBowAlt02FloatingIdleBonus",
+        "Image": "Codex_Portrait_BowAlt02",
+        "BonusEquippedKitAnimation": "WeaponBowAlt02FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponBowAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipAmmo"
+    },
+    {
+      "id": "BowBondTrait",
+      "weapon": "BowWeapon",
+      "configuration": {
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponBowAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "ArtemisRevealsRamaAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "BowBondTrait",
+        "BonusUnequippedKitAnimation": "WeaponBowAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_BowAlt03",
+        "BonusEquippedKitAnimation": "WeaponBowAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponBowAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamageTransfer"
+    },
+    {
+      "id": "FistBaseUpgradeTrait",
+      "weapon": "FistWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Fist",
+        "UpgradeUnequippedId": "FistWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "FistBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipChance"
+    },
+    {
+      "id": "FistVacuumTrait",
+      "weapon": "FistWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "FistVacuumTrait",
+        "Image": "Codex_Portrait_FistAlt01",
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponFistsAlt02FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponFistsAlt02FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponFistsAlt02FloatingIdle",
+        "EquippedKitAnimation": "WeaponFistsAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "FistWeaveTrait",
+      "weapon": "FistWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveFistWeaveBuff",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponFistsAlt01FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "FistWeaveTrait",
+        "BonusUnequippedKitAnimation": "WeaponFistsAlt01FloatingIdleBonus",
+        "Image": "Codex_Portrait_FistAlt02",
+        "BonusEquippedKitAnimation": "WeaponFistsAlt01FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponFistsAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipHits"
+    },
+    {
+      "id": "FistDetonateTrait",
+      "weapon": "FistWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveFistDetonateDash",
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponFistsAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "MinotaurRevealsGilgameshAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "FistDetonateTrait",
+        "BonusUnequippedKitAnimation": "WeaponFistsAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_FistAlt03",
+        "BonusEquippedKitAnimation": "WeaponFistsAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponFistsAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "GunBaseUpgradeTrait",
+      "weapon": "GunWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "StartsUnlocked": true,
+        "Costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Image": "Codex_Portrait_Gun",
+        "UpgradeUnequippedId": "GunWeapon_Unequipped",
+        "RequiredInvestmentTraitName": "GunBaseUpgradeTrait"
+      },
+      "tooltipKey": "TooltipAmmo"
+    },
+    {
+      "id": "GunGrenadeSelfEmpowerTrait",
+      "weapon": "GunWeapon",
+      "configuration": {
+        "MaxUpgradeLevel": 5,
+        "TraitName": "GunGrenadeSelfEmpowerTrait",
+        "Image": "Codex_Portrait_GunAlt02",
+        "Costs": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "BonusUnequippedKitAnimation": "WeaponGunAlt02FloatingIdleBonus",
+        "BonusEquippedKitAnimation": "WeaponGunAlt02FloatingIdleOffBonus",
+        "UnequippedKitAnimation": "WeaponGunAlt02FloatingIdle",
+        "EquippedKitAnimation": "WeaponGunAlt02FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "GunManualReloadTrait",
+      "weapon": "GunWeapon",
+      "configuration": {
+        "UnequipFunctionName": "RemoveManualReloadBonus",
+        "Costs": [
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "UnequippedKitAnimation": "WeaponGunAlt01FloatingIdle",
+        "MaxUpgradeLevel": 5,
+        "TraitName": "GunManualReloadTrait",
+        "BonusUnequippedKitAnimation": "WeaponGunAlt01FloatingIdleBonus",
+        "Image": "Codex_Portrait_GunAlt01",
+        "BonusEquippedKitAnimation": "WeaponGunAlt01FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponGunAlt01FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    },
+    {
+      "id": "GunLoadedGrenadeTrait",
+      "weapon": "GunWeapon",
+      "configuration": {
+        "Costs": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "UnequippedKitAnimation": "WeaponGunAlt03FloatingIdle",
+        "GameStateRequirements": {
+          "RequiredTextLines": [
+            "ZeusRevealsLuciferAspect01"
+          ]
+        },
+        "MaxUpgradeLevel": 5,
+        "TraitName": "GunLoadedGrenadeTrait",
+        "BonusUnequippedKitAnimation": "WeaponGunAlt03FloatingIdleBonus",
+        "Image": "Codex_Portrait_GunAlt03",
+        "BonusEquippedKitAnimation": "WeaponGunAlt03FloatingIdleOffBonus",
+        "EquippedKitAnimation": "WeaponGunAlt03FloatingIdleOff"
+      },
+      "tooltipKey": "TooltipDamage"
+    }
+  ],
+  "files": {
+    "TraitData": "ddb690ad6274550bf5103d8875b5ca9063b5bb9fe8a6c08d3e011f7746338d18",
+    "LootData": "20081ab6f36c04e1ed0091fe67336d3662b35168179a77d309573e2af5ff7595",
+    "WeaponUpgradeData": "f58d2d6153c5b4b242105b47b3f57e7201fe11526dbce7aaa574437e94a673d7",
+    "WeaponData": "c419bc2f609a8a7beb6248a175c60ee9f0839a2ce41e4ffc09282e186f4dae25"
+  },
+  "images": [
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI37",
+      "rect": {
+        "x": 1902,
+        "y": 1,
+        "width": 145,
+        "height": 145
+      },
+      "outputs": [
+        "AphroditeDurationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI49",
+      "rect": {
+        "x": 1898,
+        "y": 1349,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AphroditeRangedBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI52",
+      "rect": {
+        "x": 1899,
+        "y": 1621,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "AphroditeRetaliateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI52",
+      "rect": {
+        "x": 1899,
+        "y": 1772,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "HealthRewardBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI56",
+      "rect": {
+        "x": 1899,
+        "y": 1621,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "AphroditeSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_Demeter_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI64",
+      "rect": {
+        "x": 1899,
+        "y": 1341,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "StationaryRiftTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI69",
+      "rect": {
+        "x": 1881,
+        "y": 1137,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ProximityArmorTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI69",
+      "rect": {
+        "x": 1881,
+        "y": 1817,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "AphroditePotencyTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_Athena_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI70",
+      "rect": {
+        "x": 1881,
+        "y": 367,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "CastBackstabTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI70",
+      "rect": {
+        "x": 1881,
+        "y": 1028,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "AresWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI71",
+      "rect": {
+        "x": 1899,
+        "y": 152,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "DemeterRangedTrait",
+        "ShieldLoadAmmo_DemeterRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI71",
+      "rect": {
+        "x": 1881,
+        "y": 367,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AresRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI77",
+      "rect": {
+        "x": 1868,
+        "y": 361,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "AphroditeWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI77",
+      "rect": {
+        "x": 1867,
+        "y": 1269,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "DemeterRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI77",
+      "rect": {
+        "x": 1867,
+        "y": 1420,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "CritBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI80",
+      "rect": {
+        "x": 932,
+        "y": 1043,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "AresShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_06_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI80",
+      "rect": {
+        "x": 932,
+        "y": 1195,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "IncreasedDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI83",
+      "rect": {
+        "x": 1866,
+        "y": 1312,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AresRetaliateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_Zeus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI84",
+      "rect": {
+        "x": 1871,
+        "y": 1616,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "JoltDurationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_07",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 613,
+        "y": 1311,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "RushRallyTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 613,
+        "y": 1462,
+        "width": 148,
+        "height": 149
+      },
+      "outputs": [
+        "PoseidonWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 1879,
+        "y": 1169,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "AresDragTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 1879,
+        "y": 1321,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ArtemisWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 611,
+        "y": 1613,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ArtemisRangedTrait",
+        "ShieldLoadAmmo_ArtemisRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI85",
+      "rect": {
+        "x": 611,
+        "y": 1765,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "AthenaRetaliateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI86",
+      "rect": {
+        "x": 1338,
+        "y": 907,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "PreloadSuperGenerationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI86",
+      "rect": {
+        "x": 1338,
+        "y": 1059,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "DemeterShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI86",
+      "rect": {
+        "x": 1338,
+        "y": 1211,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "DemeterRetaliateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI87",
+      "rect": {
+        "x": 921,
+        "y": 1286,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 434,
+        "y": 906,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AresAoETrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_Athena_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1599,
+        "y": 625,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "NoLastStandRegenerationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1354,
+        "y": 776,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "ArtemisSupportingFireTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 431,
+        "y": 1210,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AresLoadCurseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 863,
+        "y": 1087,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "OnEnemyDeathDamageInstanceBuffTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 671,
+        "y": 1198,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AthenaWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_Dionysus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1014,
+        "y": 1097,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "IceStrikeArrayTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 668,
+        "y": 1350,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "MaximumChillBlast"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 429,
+        "y": 1362,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "DemeterSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_04",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1,
+        "y": 1585,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "DodgeChanceTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1331,
+        "y": 1070,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "FountainDamageBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_Ares_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1166,
+        "y": 1132,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "PoisonTickRateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_15_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 819,
+        "y": 1362,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "PoseidonShoutDurationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_12",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 668,
+        "y": 1502,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "HermesShoutDodge"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_Athena_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 970,
+        "y": 1656,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "StatusImmunityTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_Athena_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1716,
+        "y": 1890,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "SlowProjectileTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_Zeus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI88",
+      "rect": {
+        "x": 1868,
+        "y": 1848,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "ReboundingAthenaCastTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 1,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "DionysusSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionyuss_Artemis_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 251,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "PoisonCritVulnerabilityTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 1,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "RetaliateWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hades_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 737,
+        "y": 120,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "HadesShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 243,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "SuperGenerationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 153,
+        "y": 390,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "BonusDashTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_08",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 403,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "RushSpeedBoostTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_14",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 305,
+        "y": 390,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ChamberGoldTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_15",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1281,
+        "y": 1,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "SpeedDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_Aphrodite_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 395,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "CurseSickTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 545,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "OnWrathDamageBuffTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 707,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "BossDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_Aphrodite_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1274,
+        "y": 305,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "RegeneratingCappedSuperTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_Ares_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1017,
+        "y": 411,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "AutoRetaliateTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_Dionysus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1274,
+        "y": 457,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "LightningCloudTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\alpha_strike_14",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 737,
+        "y": 667,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingAlphaStrikeTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_attack_damage_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 697,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingMeleeTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 859,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "FishingTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_Ares_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1008,
+        "y": 686,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "PoseidonAresProjectileTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_Demeter_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 737,
+        "y": 819,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "BlizzardOrbTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_dash_attack_damage_13",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 586,
+        "y": 849,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingDashAttackTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_06_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 153,
+        "y": 892,
+        "width": 149,
+        "height": 147
+      },
+      "outputs": [
+        "DionysusSlowTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_Zeus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 1011,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ImpactBoltTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 304,
+        "y": 892,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "ZeusShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_gold_drop_bonus_05",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 153,
+        "y": 1041,
+        "width": 149,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingMoneyTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_15_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 1163,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "PerfectDashBoltTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_ammo_capacity_03",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1721,
+        "y": 682,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingAmmoTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_boon_rarity_increased_10",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1006,
+        "y": 838,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingBoonRarityTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_darkness_drop_bonus_06",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 737,
+        "y": 971,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingMetapointTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_maximum_health_04",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 1,
+        "y": 1315,
+        "width": 150,
+        "height": 150
+      },
+      "outputs": [
+        "ChaosBlessingMaxHealthTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 456,
+        "y": 1404,
+        "width": 147,
+        "height": 147
+      },
+      "outputs": [
+        "ArtemisShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 456,
+        "y": 1553,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusComboVulnerability"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_death_defiance_08",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI89",
+      "rect": {
+        "x": 994,
+        "y": 1617,
+        "width": 150,
+        "height": 149
+      },
+      "outputs": [
+        "ChaosBlessingExtraChanceTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_05",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 473,
+        "y": 16,
+        "width": 147,
+        "height": 147
+      },
+      "outputs": [
+        "MoveSpeedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1694,
+        "y": 16,
+        "width": 146,
+        "height": 147
+      },
+      "outputs": [
+        "AphroditeRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1334,
+        "y": 213,
+        "width": 146,
+        "height": 146
+      },
+      "outputs": [
+        "AphroditeShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_Aphrodite_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 718,
+        "y": 347,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "HeartsickCritDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_06_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 153,
+        "y": 392,
+        "width": 146,
+        "height": 146
+      },
+      "outputs": [
+        "AphroditeWeakenTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 153,
+        "y": 540,
+        "width": 146,
+        "height": 146
+      },
+      "outputs": [
+        "MoreAmmoTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 153,
+        "y": 688,
+        "width": 146,
+        "height": 146
+      },
+      "outputs": [
+        "DionysusRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1628,
+        "y": 569,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "CharmTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_Poseidon_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1095,
+        "y": 767,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "RaritySuperBoost"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_02",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 942,
+        "y": 785,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "RapidCastTrait",
+        "UnstoredAmmoDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_Demeter_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 712,
+        "y": 951,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "SelfLaserTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_Poseidon_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1123,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ImprovedPomTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1274,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "AresCursedRiftTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1624,
+        "y": 720,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "AresLongCurseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_03",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1467,
+        "y": 773,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "AmmoReloadTrait",
+        "AmmoReclaimTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_09",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1311,
+        "y": 815,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "HermesSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 940,
+        "y": 935,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ArtemisRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 712,
+        "y": 1102,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ArtemisCriticalTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 561,
+        "y": 1136,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "CriticalBufferMultiplierTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1775,
+        "y": 728,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ArtemisAmmoExitTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_11",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1618,
+        "y": 871,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "MagnetismTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_13_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1462,
+        "y": 923,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "CriticalSuperGenerationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_14_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1310,
+        "y": 965,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "CritVulnerabilityTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_Athena_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 940,
+        "y": 1086,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ArtemisReflectBuffTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_Zeus_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 712,
+        "y": 1253,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "AmmoBoltTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 561,
+        "y": 1287,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "AthenaRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_06_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 300,
+        "y": 1340,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "EnemyDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1425,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "TrapDamageTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1613,
+        "y": 1021,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ShieldHitTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_Ares_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1091,
+        "y": 1217,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "TriggerCurseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 940,
+        "y": 1237,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "AthenaSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 712,
+        "y": 1404,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "CastNovaTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 559,
+        "y": 1438,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "ZeusBoltAoETrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1576,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ZeroAmmoBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 299,
+        "y": 1642,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "MaximumChillBonusSlow"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_14_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1727,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "DemeterRangedBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1764,
+        "y": 1090,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "DionysusRangedTrait",
+        "ShieldLoadAmmo_DionysusRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_Aphrodite_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1457,
+        "y": 1225,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "DionysusAphroditeStackIncreaseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1762,
+        "y": 1241,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "DoubleCollisionTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_06",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1608,
+        "y": 1323,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "HermesWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Hermes_13",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1091,
+        "y": 1368,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "RegeneratingSuperTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 708,
+        "y": 1555,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "PoseidonRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 559,
+        "y": 1588,
+        "width": 147,
+        "height": 148
+      },
+      "outputs": [
+        "ZeusBonusBoltTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1091,
+        "y": 1519,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "BonusCollisionTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1455,
+        "y": 1376,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "SlamExplosionTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1606,
+        "y": 1474,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "RoomRewardBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 708,
+        "y": 1706,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "SlipperyTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_Artemis_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 557,
+        "y": 1738,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ArtemisBonusProjectileTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 299,
+        "y": 1793,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ZeusChargedBoltTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_03_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1,
+        "y": 1878,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ZeusBonusBounceTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1091,
+        "y": 1670,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ZeusRangedTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_06_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1455,
+        "y": 1527,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ZeusRushTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\backstab_15",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 708,
+        "y": 1857,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ChaosBlessingBackstabTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_cast_damage_02",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 557,
+        "y": 1889,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ChaosBlessingRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\Chaos\\blessing_secondary_damage_12",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI90",
+      "rect": {
+        "x": 1893,
+        "y": 1893,
+        "width": 149,
+        "height": 149
+      },
+      "outputs": [
+        "ChaosBlessingSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1,
+        "y": 254,
+        "width": 149,
+        "height": 148
+      },
+      "outputs": [
+        "ZeusWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 303,
+        "y": 1,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AphroditeRangedTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Aphrodite_08_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 152,
+        "y": 244,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AphroditeDeathTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 152,
+        "y": 394,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AresRangedTrait",
+        "ShieldLoadAmmo_AresRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_14_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 152,
+        "y": 544,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "LastStandDamageBonusTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Ares_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 302,
+        "y": 680,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AresSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_Ares_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 152,
+        "y": 694,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AresHomingTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Artemis_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1678,
+        "y": 151,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "ArtemisSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_02_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1828,
+        "y": 151,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AthenaRangedTrait",
+        "ShieldLoadAmmo_AthenaRangedTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1495,
+        "y": 303,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AthenaShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_05_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1795,
+        "y": 301,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AthenaShieldTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Athena_14_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1645,
+        "y": 415,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "AthenaBackstabDebuffTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1495,
+        "y": 453,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DemeterWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 976,
+        "y": 576,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "InstantChillKill"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Demeter_Artemis_01",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 813,
+        "y": 605,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "HomingLaserTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_01_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 519,
+        "y": 756,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusWeaponTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 302,
+        "y": 830,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_07_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1,
+        "y": 857,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusSpreadTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_09_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1645,
+        "y": 565,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusPoisonPowerTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1795,
+        "y": 679,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DoorHealTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_11_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1356,
+        "y": 603,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DionysusDefenseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Dionysus_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1203,
+        "y": 604,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "LowHealthDefenseTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_04_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 963,
+        "y": 726,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "PoseidonShoutTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_10_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 813,
+        "y": 755,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "DefensiveSuperGenerationTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_14_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1506,
+        "y": 715,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "EncounterStartOffenseBuffTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Poseidon_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1353,
+        "y": 753,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "PoseidonSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_12_Large",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 1113,
+        "y": 754,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "ZeusLightningDebuff"
+      ]
+    },
+    {
+      "sprite": "GUI\\Screens\\BoonIcons\\Zeus_secondary_attack",
+      "atlas": "bin\\Win\\Atlases\\GUI_GUI91",
+      "rect": {
+        "x": 963,
+        "y": 876,
+        "width": 148,
+        "height": 148
+      },
+      "outputs": [
+        "ZeusSecondaryTrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_BowAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures101",
+      "rect": {
+        "x": 155,
+        "y": 1352,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "BowMarkHomingTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_BowAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures101",
+      "rect": {
+        "x": 309,
+        "y": 1352,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "BowLoadAmmoTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_BowAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures101",
+      "rect": {
+        "x": 463,
+        "y": 1352,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "BowBondTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Bow",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures101",
+      "rect": {
+        "x": 617,
+        "y": 1352,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "BowBaseUpgradeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_FistAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures109",
+      "rect": {
+        "x": 1772,
+        "y": 1536,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "FistVacuumTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_FistAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures110",
+      "rect": {
+        "x": 1885,
+        "y": 1,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "FistWeaveTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_FistAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures110",
+      "rect": {
+        "x": 1885,
+        "y": 495,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "FistDetonateTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Fist",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures110",
+      "rect": {
+        "x": 1885,
+        "y": 989,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "FistBaseUpgradeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_GunAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures110",
+      "rect": {
+        "x": 1806,
+        "y": 1483,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "GunManualReloadTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_GunAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures111",
+      "rect": {
+        "x": 1,
+        "y": 1292,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "GunGrenadeSelfEmpowerTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_GunAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures111",
+      "rect": {
+        "x": 155,
+        "y": 1292,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "GunLoadedGrenadeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Gun",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures111",
+      "rect": {
+        "x": 309,
+        "y": 1292,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "GunBaseUpgradeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_ShieldAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 1,
+        "y": 1509,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "ShieldRushBonusProjectileTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_ShieldAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 155,
+        "y": 1509,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "ShieldTwoShieldTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_ShieldAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 309,
+        "y": 1509,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "ShieldLoadAmmoTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Shield",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 617,
+        "y": 1509,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "ShieldBaseUpgradeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SpearAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 1387,
+        "y": 1090,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SpearTeleportTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SpearAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 1541,
+        "y": 1090,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SpearWeaveTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SpearAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 1695,
+        "y": 1090,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SpearSpinTravel-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Spear",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures113",
+      "rect": {
+        "x": 1849,
+        "y": 1090,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SpearBaseUpgradeTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SwordAlt01",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures114",
+      "rect": {
+        "x": 771,
+        "y": 1,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SwordCriticalParryTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SwordAlt02",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures114",
+      "rect": {
+        "x": 1011,
+        "y": 1166,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "DislodgeAmmoTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_SwordAlt03",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures114",
+      "rect": {
+        "x": 1165,
+        "y": 1166,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SwordConsecrationTrait-portrait"
+      ]
+    },
+    {
+      "sprite": "Portraits\\Codex\\CodexPortrait_Sword",
+      "atlas": "bin\\Win\\Atlases\\GUI_Textures114",
+      "rect": {
+        "x": 1319,
+        "y": 1166,
+        "width": 152,
+        "height": 492
+      },
+      "outputs": [
+        "SwordBaseUpgradeTrait-portrait"
+      ]
+    }
+  ],
+  "linkedRequirements": {
+    "AmmoBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "ZeusBoltAoETrait": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ]
+    },
+    "ZeusBonusBoltTrait": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ]
+    },
+    "ZeusChargedBoltTrait": {
+      "OneOf": [
+        "ZeusBonusBounceTrait",
+        "ZeusBoltAoETrait",
+        "ZeusBonusBoltTrait"
+      ]
+    },
+    "RegeneratingCappedSuperTrait": {
+      "OneFromEachSet": [
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeRangedTrait",
+          "AphroditeRushTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "ZeusLightningDebuff": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "RetaliateWeaponTrait",
+        "ZeusWeaponTrait",
+        "ZeusRangedTrait",
+        "PerfectDashBoltTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "ReboundingAthenaCastTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "AthenaRangedTrait"
+        ]
+      ]
+    },
+    "AutoRetaliateTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait"
+        ],
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRangedTrait",
+          "AresRushTrait",
+          "AresShoutTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "AresRetaliateTrait",
+          "RetaliateWeaponTrait",
+          "AthenaRetaliateTrait",
+          "AphroditeRetaliateTrait",
+          "DemeterRetaliateTrait"
+        ]
+      ]
+    },
+    "ZeusBonusBounceTrait": {
+      "OneOf": [
+        "ZeusWeaponTrait",
+        "ZeusRangedTrait"
+      ]
+    },
+    "LightningCloudTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait"
+        ]
+      ]
+    },
+    "ImpactBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "JoltDurationTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "ZeusLightningDebuff"
+        ]
+      ]
+    },
+    "BlizzardOrbTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "FishingTrait": {
+      "OneFromEachSet": [
+        [
+          "RoomRewardBonusTrait",
+          "PoseidonPickedUpMinorLootTrait"
+        ],
+        [
+          "PoseidonPickedUpMinorLootTrait",
+          "ForcePoseidonBoonTrait"
+        ],
+        [
+          "RoomRewardBonusTrait",
+          "ForcePoseidonBoonTrait"
+        ]
+      ]
+    },
+    "PoseidonShoutDurationTrait": {
+      "OneOf": [
+        "PoseidonShoutTrait"
+      ]
+    },
+    "BossDamageTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "StatusImmunityTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "SlamExplosionTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "PoseidonAresProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRushTrait",
+          "AresShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "ImprovedPomTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "RaritySuperBoost": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "DoubleCollisionTrait": {
+      "OneFromEachSet": [
+        [
+          "BonusCollisionTrait",
+          "SlamExplosionTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonRushTrait",
+          "PoseidonRangedTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "ArtemisBonusProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "BonusCollisionTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "SlipperyTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "AthenaBackstabDebuffTrait": {
+      "OneOf": [
+        "AthenaWeaponTrait",
+        "AthenaRangedTrait",
+        "ShieldLoadAmmo_AthenaRangedTrait",
+        "AthenaRushTrait",
+        "AthenaSecondaryTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "CastBackstabTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaRangedTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    },
+    "ShieldHitTrait": {
+      "OneOf": [
+        "AthenaShieldTrait"
+      ]
+    },
+    "TriggerCurseTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    },
+    "SlowProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "AthenaShieldTrait": {
+      "OneOf": [
+        "AthenaWeaponTrait",
+        "AthenaRushTrait",
+        "AthenaRetaliateTrait",
+        "AthenaSecondaryTrait"
+      ]
+    },
+    "NoLastStandRegenerationTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRangedTrait",
+          "ShieldLoadAmmo_DemeterRangedTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    },
+    "ArtemisReflectBuffTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    },
+    "HeartsickCritDamageTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "CharmTrait": {
+      "OneFromEachSet": [
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        [
+          "AphroditeDurationTrait",
+          "AphroditeWeakenTrait",
+          "AphroditePotencyTrait"
+        ]
+      ]
+    },
+    "AphroditeDurationTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "AphroditeRangedBonusTrait": {
+      "OneOf": [
+        "AphroditeRangedTrait"
+      ]
+    },
+    "SelfLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterRangedTrait"
+        ],
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeRushTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    },
+    "AphroditeWeakenTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "DionysusAphroditeStackIncreaseTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "CurseSickTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "AphroditePotencyTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "PoisonCritVulnerabilityTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    },
+    "ArtemisCriticalTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ]
+    },
+    "MoreAmmoTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisAmmoExitTrait",
+          "CritBonusTrait"
+        ],
+        [
+          "ArtemisSupportingFireTrait",
+          "ArtemisAmmoExitTrait"
+        ],
+        [
+          "ArtemisSupportingFireTrait",
+          "CritBonusTrait"
+        ]
+      ]
+    },
+    "CriticalSuperGenerationTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait"
+      ]
+    },
+    "CritVulnerabilityTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "ArtemisAmmoExitTrait": {
+      "OneOf": [
+        "ArtemisRangedTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "ZeusRangedTrait",
+        "AphroditeRangedTrait",
+        "AthenaRangedTrait"
+      ]
+    },
+    "AresHomingTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    },
+    "CriticalBufferMultiplierTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ]
+    },
+    "HomingLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "DemeterRangedTrait"
+        ]
+      ]
+    },
+    "ArtemisSupportingFireTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRushTrait",
+        "ArtemisRangedTrait",
+        "ShieldLoadAmmo_ArtemisRangedTrait",
+        "ArtemisShoutTrait",
+        "CritBonusTrait"
+      ]
+    },
+    "AresLongCurseTrait": {
+      "OneOf": [
+        "AresWeaponTrait",
+        "AresSecondaryTrait",
+        "AresRetaliateTrait"
+      ]
+    },
+    "AresLoadCurseTrait": {
+      "OneOf": [
+        "AresWeaponTrait",
+        "AresSecondaryTrait"
+      ]
+    },
+    "StationaryRiftTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    },
+    "PoisonTickRateTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRetaliateTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "AresCursedRiftTrait": {
+      "OneOf": [
+        "AresAoETrait",
+        "AresDragTrait"
+      ]
+    },
+    "AresDragTrait": {
+      "OneOf": [
+        "AresRangedTrait",
+        "AresRushTrait",
+        "AresShoutTrait",
+        "ShieldLoadAmmo_AresRangedTrait"
+      ]
+    },
+    "AresAoETrait": {
+      "OneOf": [
+        "AresRangedTrait",
+        "AresRushTrait",
+        "AresShoutTrait",
+        "ShieldLoadAmmo_AresRangedTrait"
+      ]
+    },
+    "DionysusSlowTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait",
+        "DionysusShoutTrait"
+      ]
+    },
+    "DionysusSpreadTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait"
+      ]
+    },
+    "IceStrikeArrayTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait"
+        ]
+      ]
+    },
+    "DionysusComboVulnerability": {
+      "OneFromEachSet": [
+        [
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait",
+          "DionysusRushTrait"
+        ]
+      ]
+    },
+    "DionysusPoisonPowerTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait",
+        "DionysusShoutTrait"
+      ]
+    },
+    "DionysusDefenseTrait": {
+      "OneOf": [
+        "DionysusRangedTrait",
+        "ShieldLoadAmmo_DionysusRangedTrait"
+      ]
+    },
+    "MaximumChillBonusSlow": {
+      "OneOf": [
+        "DemeterWeaponTrait",
+        "DemeterSecondaryTrait",
+        "DemeterRushTrait",
+        "DemeterShoutTrait",
+        "ShieldLoadAmmo_DemeterRangedTrait",
+        "CastNovaTrait"
+      ]
+    },
+    "InstantChillKill": {
+      "OneFromEachSet": [
+        [
+          "MaximumChillBlast",
+          "ZeroAmmoBonusTrait"
+        ],
+        [
+          "MaximumChillBonusSlow",
+          "MaximumChillBlast"
+        ],
+        [
+          "ZeroAmmoBonusTrait",
+          "MaximumChillBonusSlow"
+        ]
+      ]
+    },
+    "DemeterRangedBonusTrait": {
+      "OneOf": [
+        "DemeterRangedTrait"
+      ]
+    },
+    "MaximumChillBlast": {
+      "OneOf": [
+        "DemeterWeaponTrait",
+        "DemeterSecondaryTrait",
+        "DemeterRushTrait",
+        "DemeterShoutTrait",
+        "ShieldLoadAmmo_DemeterRangedTrait",
+        "CastNovaTrait"
+      ]
+    },
+    "MagnetismTrait": {
+      "OneOf": [
+        "RapidCastTrait",
+        "AmmoReclaimTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    },
+    "SpeedDamageTrait": {
+      "OneOf": [
+        "MoveSpeedTrait",
+        "RushSpeedBoostTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    },
+    "UnstoredAmmoDamageTrait": {
+      "OneOf": [
+        "AmmoReloadTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    }
+  },
+  "unresolvedTokens": []
+}

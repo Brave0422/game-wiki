@@ -1,0 +1,2118 @@
+{
+  "source": "本地 CharacterList / CharacterSkinList 实际配置与头像引用；不使用手游资料",
+  "entries": [
+    {
+      "id": "character-buro",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 10,
+      "nameKey": "Character/player_buro",
+      "config": {
+        "Id": 10,
+        "Skin": 12,
+        "Name": {
+          "mTerm": "Character/player_buro",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_buroD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 1055
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Buro/V_Actor_Buro.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19496
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20017
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 6248
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 5812
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 2456
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 10454
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 3515
+        },
+        "state": 0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20017",
+          "nameKey": "PuName/7_00_buro",
+          "descriptionKey": "PuName/7_00_buroD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19496",
+          "nameKey": "PuName/1_weapon_0_buro",
+          "descriptionKey": "PuName/1_weapon_0_buroD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "1055"
+    },
+    {
+      "id": "character-kanon",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 9,
+      "nameKey": "Character/player_kanon",
+      "config": {
+        "Id": 9,
+        "Skin": 10,
+        "Name": {
+          "mTerm": "Character/player_kanon",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_kanonD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 1,
+        "heart_count": 4,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 3958
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_kanon/V_Actor_kanon.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19500
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20203
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20023
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20020
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 13041
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 10258
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 11720
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 6359
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 12106
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20020",
+          "nameKey": "PuName/7_skill_kanon",
+          "descriptionKey": "PuName/7_skill_kanonD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19500",
+          "nameKey": "PuName/1_weapon_0_kanon",
+          "descriptionKey": "PuName/1_weapon_0_kanonD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "3958"
+    },
+    {
+      "id": "character-david",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 6,
+      "nameKey": "Character/player_david",
+      "config": {
+        "Id": 6,
+        "Skin": 5,
+        "Name": {
+          "mTerm": "Character/player_david",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_davidD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 1,
+        "heart_count": 5,
+        "key_count": 0,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 1037
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_David/V_Actor_David.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 8508
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19497
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20009
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20199
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19710
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20012
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 7642
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 10539
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 11245
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 9323
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 6660
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20012",
+          "nameKey": "PuName/7_skill_david",
+          "descriptionKey": "PuName/7_skill_davidD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19497",
+          "nameKey": "PuName/1_weapon_0_david",
+          "descriptionKey": "PuName/1_weapon_0_davidD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20009",
+          "nameKey": "PuName/7_skill_david",
+          "descriptionKey": "PuName/7_skill_davidD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19710",
+          "nameKey": "PuName/5_01_item_wiki",
+          "descriptionKey": "PuName/5_01_item_wikiD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "1037"
+    },
+    {
+      "id": "character-wade",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 0,
+      "nameKey": "Character/player_wade",
+      "config": {
+        "Id": 0,
+        "Skin": 1,
+        "Name": {
+          "mTerm": "Character/player_wade",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_wadeD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 1,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 9688
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Wade/V_Actor_Kevin.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 5512
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19505
+          }
+        ],
+        "needShowPowerUps": [],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 12038
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 9522
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 9249
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 7787
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 10215
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19505",
+          "nameKey": "PuName/1_weapon_0_wade",
+          "descriptionKey": "PuName/1_weapon_0_wadeD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "9688"
+    },
+    {
+      "id": "character-anna",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 8,
+      "nameKey": "Character/player_anna",
+      "config": {
+        "Id": 8,
+        "Skin": 8,
+        "Name": {
+          "mTerm": "Character/player_anna",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_annaD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 4,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 6167
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Anna/V_Actor_Anna.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 12595
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19495
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20197
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20015
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 8937
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 2421
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 9661
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 8855
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 5738
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20015",
+          "nameKey": "PuName/7_skill_anna",
+          "descriptionKey": "PuName/7_skill_annaD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19495",
+          "nameKey": "PuName/1_weapon_0_anna",
+          "descriptionKey": "PuName/1_weapon_0_annaD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "6167"
+    },
+    {
+      "id": "character-matt",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 5,
+      "nameKey": "Character/player_matt",
+      "config": {
+        "Id": 5,
+        "Skin": 7,
+        "Name": {
+          "mTerm": "Character/player_matt",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_mattD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 14527
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Matt/V_Actor_Carter.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 8294
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19502
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20206
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20027
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 1490
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 5799
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 13902
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 5946
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 6801
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20027",
+          "nameKey": "PuName/7_skill_matt",
+          "descriptionKey": "PuName/7_skill_mattD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19502",
+          "nameKey": "PuName/1_weapon_0_matt",
+          "descriptionKey": "PuName/1_weapon_0_mattD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "14527"
+    },
+    {
+      "id": "character-lucas",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 3,
+      "nameKey": "Character/player_lucas",
+      "config": {
+        "Id": 3,
+        "Skin": 4,
+        "Name": {
+          "mTerm": "Character/player_lucas",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_lucasD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 7562
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Lucas/V_Actor_Lucas.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 12669
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19501
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20205
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20024
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 10000
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 8496
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 2971
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 12153
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 7628
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20024",
+          "nameKey": "PuName/7_skill_lucas",
+          "descriptionKey": "PuName/7_skill_lucasD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19501",
+          "nameKey": "PuName/1_weapon_0_lucas",
+          "descriptionKey": "PuName/1_weapon_0_lucasD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "7562"
+    },
+    {
+      "id": "character-ray",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 7,
+      "nameKey": "Character/player_ray",
+      "config": {
+        "Id": 7,
+        "Skin": 9,
+        "Name": {
+          "mTerm": "Character/player_ray",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_rayD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 0,
+        "key_count": 1,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 4,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 10689
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Ray/V_Actor_Ray.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 11644
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19504
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20011
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20209
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19710
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20031
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 3222
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 8545
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 13816
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 6762
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 9677
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20031",
+          "nameKey": "PuName/7_skill_ray",
+          "descriptionKey": "PuName/7_skill_rayD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19504",
+          "nameKey": "PuName/1_weapon_0_ray",
+          "descriptionKey": "PuName/1_weapon_0_rayD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20011",
+          "nameKey": "PuName/7_skill_ray",
+          "descriptionKey": "PuName/7_skill_rayD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19710",
+          "nameKey": "PuName/5_01_item_wiki",
+          "descriptionKey": "PuName/5_01_item_wikiD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "10689"
+    },
+    {
+      "id": "character-james",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 1,
+      "nameKey": "Character/player_james",
+      "config": {
+        "Id": 1,
+        "Skin": 3,
+        "Name": {
+          "mTerm": "Character/player_james",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_jamesD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 2,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 2860
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_James/V_Actor_James.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 13880
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19498
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19499
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20201
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20018
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 12323
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 11369
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 1569
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 4850
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 12269
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20018",
+          "nameKey": "PuName/7_skill_james",
+          "descriptionKey": "PuName/7_skill_jamesD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19498",
+          "nameKey": "PuName/1_weapon_0_james1",
+          "descriptionKey": "PuName/1_weapon_0_james1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19499",
+          "nameKey": "PuName/1_weapon_0_james2",
+          "descriptionKey": "PuName/1_weapon_0_james2D"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "2860"
+    },
+    {
+      "id": "character-ming",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 4,
+      "nameKey": "Character/player_ming",
+      "config": {
+        "Id": 4,
+        "Skin": 6,
+        "Name": {
+          "mTerm": "Character/player_ming",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_mingD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 8047
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Soul_999/V_Actor_Soul_999.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 5624
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19464
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19464
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20010
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19503
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20208
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20029
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 8618
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 2625
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 13513
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 11374
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 13763
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20029",
+          "nameKey": "PuName/7_skill_ming",
+          "descriptionKey": "PuName/7_skill_mingD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19464",
+          "nameKey": "PuName/0_pickup_egg",
+          "descriptionKey": "PuName/0_pickup_eggD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19464",
+          "nameKey": "PuName/0_pickup_egg",
+          "descriptionKey": "PuName/0_pickup_eggD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20010",
+          "nameKey": "PuName/7_skill_ming",
+          "descriptionKey": "PuName/7_skill_mingD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19503",
+          "nameKey": "PuName/1_weapon_0_ming",
+          "descriptionKey": "PuName/1_weapon_0_mingD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "8047"
+    },
+    {
+      "id": "character-zack",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterList",
+      "listPathId": "19351",
+      "characterId": 2,
+      "nameKey": "Character/player_zack",
+      "config": {
+        "Id": 2,
+        "Skin": 2,
+        "Name": {
+          "mTerm": "Character/player_zack",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_zackD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 2,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 13189
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Zack/V_Actor_Dante.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 11495
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19506
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20212
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20034
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 10027
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 2354
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 11326
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 7640
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 6385
+        },
+        "state": 1
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20034",
+          "nameKey": "PuName/7_skill_zack",
+          "descriptionKey": "PuName/7_skill_zackD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19506",
+          "nameKey": "PuName/1_weapon_0_zack",
+          "descriptionKey": "PuName/1_weapon_0_zackD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "13189"
+    },
+    {
+      "id": "character-kanon-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 9,
+      "nameKey": "Character/player_kanon",
+      "config": {
+        "Id": 9,
+        "Skin": 10,
+        "Name": {
+          "mTerm": "Character/player_kanon",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_kanonD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 1,
+        "heart_count": 3,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 3933
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_kanon_1/V_Actor_kanon_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19500
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20202
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20022
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20021
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 6199
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 2800
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 1454
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 13344
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 1652
+        },
+        "state": 0,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20021",
+          "nameKey": "PuName/7_skill_kanon_1",
+          "descriptionKey": "PuName/7_skill_kanon_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19500",
+          "nameKey": "PuName/1_weapon_0_kanon",
+          "descriptionKey": "PuName/1_weapon_0_kanonD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "3933"
+    },
+    {
+      "id": "character-david-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 6,
+      "nameKey": "Character/player_david",
+      "config": {
+        "Id": 6,
+        "Skin": 5,
+        "Name": {
+          "mTerm": "Character/player_david",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_davidD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 1,
+        "heart_count": 5,
+        "key_count": 0,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 2962
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_David_1/V_Actor_David_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 8508
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19497
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20199
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19710
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20007
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20013
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 6566
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 7652
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 2783
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 2783
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 8199
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20013",
+          "nameKey": "PuName/7_skill_david_1",
+          "descriptionKey": "PuName/7_skill_david_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19497",
+          "nameKey": "PuName/1_weapon_0_david",
+          "descriptionKey": "PuName/1_weapon_0_davidD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19710",
+          "nameKey": "PuName/5_01_item_wiki",
+          "descriptionKey": "PuName/5_01_item_wikiD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20007",
+          "nameKey": "PuName/7_skill_david_1",
+          "descriptionKey": "PuName/7_skill_david_1D"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "2962"
+    },
+    {
+      "id": "character-wade-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 0,
+      "nameKey": "Character/player_wade",
+      "config": {
+        "Id": 0,
+        "Skin": 1,
+        "Name": {
+          "mTerm": "Character/player_wade",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_wadeD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 1,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 9280
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Wade_1/V_Actor_Kevin_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 5512
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19505
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20033
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 7236
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 5599
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 2250
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 2369
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 13616
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20033",
+          "nameKey": "PuName/7_skill_wade_1",
+          "descriptionKey": "PuName/7_skill_wade_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19505",
+          "nameKey": "PuName/1_weapon_0_wade",
+          "descriptionKey": "PuName/1_weapon_0_wadeD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "9280"
+    },
+    {
+      "id": "character-anna-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 8,
+      "nameKey": "Character/player_anna",
+      "config": {
+        "Id": 8,
+        "Skin": 8,
+        "Name": {
+          "mTerm": "Character/player_anna",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_annaD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 2,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 3454
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Anna_1/V_Actor_Anna_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 12595
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19495
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20198
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20008
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20016
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 13190
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 10708
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 4369
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 10202
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 3255
+        },
+        "state": 0,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20016",
+          "nameKey": "PuName/7_skill_anna_1",
+          "descriptionKey": "PuName/7_skill_anna_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19495",
+          "nameKey": "PuName/1_weapon_0_anna",
+          "descriptionKey": "PuName/1_weapon_0_annaD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20008",
+          "nameKey": "PuName/7_skill_anna_1",
+          "descriptionKey": "PuName/7_skill_anna_1D"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "3454"
+    },
+    {
+      "id": "character-matt-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 5,
+      "nameKey": "Character/player_matt",
+      "config": {
+        "Id": 5,
+        "Skin": 7,
+        "Name": {
+          "mTerm": "Character/player_matt",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_mattD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 1,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 8152
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Matt_1/V_Actor_Carter_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 8294
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19502
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20207
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20028
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 14836
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 2322
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 9990
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 6116
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 11989
+        },
+        "state": 0,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20028",
+          "nameKey": "PuName/7_skill_matt_1",
+          "descriptionKey": "PuName/7_skill_matt_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19502",
+          "nameKey": "PuName/1_weapon_0_matt",
+          "descriptionKey": "PuName/1_weapon_0_mattD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "8152"
+    },
+    {
+      "id": "character-lucas-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 3,
+      "nameKey": "Character/player_lucas",
+      "config": {
+        "Id": 3,
+        "Skin": 4,
+        "Name": {
+          "mTerm": "Character/player_lucas",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_lucasD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 0,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 2006
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Lucas_1/V_Actor_Lucas_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 12669
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19501
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20204
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20026
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20025
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 12866
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 8611
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 7534
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 6283
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 2532
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20025",
+          "nameKey": "PuName/7_skill_lucas_1",
+          "descriptionKey": "PuName/7_skill_lucas_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19501",
+          "nameKey": "PuName/1_weapon_0_lucas",
+          "descriptionKey": "PuName/1_weapon_0_lucasD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "2006"
+    },
+    {
+      "id": "character-ray-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 7,
+      "nameKey": "Character/player_ray",
+      "config": {
+        "Id": 7,
+        "Skin": 9,
+        "Name": {
+          "mTerm": "Character/player_ray",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_rayD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 0,
+        "key_count": 1,
+        "bomb_count": 1,
+        "coin_count": 0,
+        "shield_count": 3,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 3872
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Ray_1/V_Actor_Ray_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 11644
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19504
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20011
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20210
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20032
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 5279
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 14474
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 11934
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 5227
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 1382
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20032",
+          "nameKey": "PuName/7_skill_ray_1",
+          "descriptionKey": "PuName/7_skill_ray_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19504",
+          "nameKey": "PuName/1_weapon_0_ray",
+          "descriptionKey": "PuName/1_weapon_0_rayD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20011",
+          "nameKey": "PuName/7_skill_ray",
+          "descriptionKey": "PuName/7_skill_rayD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "3872"
+    },
+    {
+      "id": "character-james-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 1,
+      "nameKey": "Character/player_james",
+      "config": {
+        "Id": 1,
+        "Skin": 3,
+        "Name": {
+          "mTerm": "Character/player_james",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_jamesD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 15005
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_James_1/V_Actor_James_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 13880
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19494
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20200
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20019
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 6260
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 4935
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 1416
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 11342
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 14953
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20019",
+          "nameKey": "PuName/7_skill_james_1",
+          "descriptionKey": "PuName/7_skill_james_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19494",
+          "nameKey": "PuName/1_weapon_0_james3",
+          "descriptionKey": "PuName/1_weapon_0_james3D"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "15005"
+    },
+    {
+      "id": "character-ming-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 4,
+      "nameKey": "Character/player_ming",
+      "config": {
+        "Id": 4,
+        "Skin": 6,
+        "Name": {
+          "mTerm": "Character/player_ming",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_mingD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 3,
+        "key_count": 1,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 13646
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Soul_999_1/V_Actor_Soul_999_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 5624
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19464
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19464
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 19503
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20208
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20030
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 6860
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 13088
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 3816
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 10287
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 6011
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20030",
+          "nameKey": "PuName/7_skill_ming_1",
+          "descriptionKey": "PuName/7_skill_ming_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19464",
+          "nameKey": "PuName/0_pickup_egg",
+          "descriptionKey": "PuName/0_pickup_eggD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19464",
+          "nameKey": "PuName/0_pickup_egg",
+          "descriptionKey": "PuName/0_pickup_eggD"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19503",
+          "nameKey": "PuName/1_weapon_0_ming",
+          "descriptionKey": "PuName/1_weapon_0_mingD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "13646"
+    },
+    {
+      "id": "character-zack-alter",
+      "listAsset": "sharedassets1.assets",
+      "listName": "CharacterSkinList",
+      "listPathId": "19352",
+      "characterId": 2,
+      "nameKey": "Character/player_zack",
+      "config": {
+        "Id": 2,
+        "Skin": 2,
+        "Name": {
+          "mTerm": "Character/player_zack",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "Desc": {
+          "mTerm": "Character/player_zackD",
+          "mRTL_IgnoreArabicFix": 0,
+          "mRTL_MaxLineLength": 0,
+          "mRTL_ConvertNumbers": 0,
+          "m_DontLocalizeParameters": 0
+        },
+        "DLC_Character": 0,
+        "heart_count": 2,
+        "key_count": 0,
+        "bomb_count": 0,
+        "coin_count": 0,
+        "shield_count": 0,
+        "Head": {
+          "m_FileID": 0,
+          "m_PathID": 10053
+        },
+        "actorPrefab": "Assets/ActorPrefab/Actor_Zack_1/V_Actor_Dante_1.prefab",
+        "Image": {
+          "m_FileID": 0,
+          "m_PathID": 11495
+        },
+        "PowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 19506
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 20211
+          }
+        ],
+        "needShowPowerUps": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 20035
+          }
+        ],
+        "Unlocked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 9302
+        },
+        "Unlocked_UnSelected": {
+          "m_FileID": 0,
+          "m_PathID": 12373
+        },
+        "Locked_Selected": {
+          "m_FileID": 0,
+          "m_PathID": 2503
+        },
+        "Locked_Unselected": {
+          "m_FileID": 0,
+          "m_PathID": 10746
+        },
+        "outline": {
+          "m_FileID": 0,
+          "m_PathID": 5560
+        },
+        "state": 1,
+        "experienceToUnlock": 0.0
+      },
+      "skills": [
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "20035",
+          "nameKey": "PuName/7_skill_zack_1",
+          "descriptionKey": "PuName/7_skill_zack_1D"
+        },
+        {
+          "asset": "sharedassets1.assets",
+          "pathId": "19506",
+          "nameKey": "PuName/1_weapon_0_zack",
+          "descriptionKey": "PuName/1_weapon_0_zackD"
+        }
+      ],
+      "imageAsset": "sharedassets1.assets",
+      "imagePathId": "10053"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
 
 /** 栏目图标仅约束视觉选择，栏目 ID 可按游戏内容自由扩展。 */
 export type GameSectionIcon =
-  "book-open" | "map" | "puzzle" | "layers" | "trophy";
+  "book-open" | "map" | "puzzle" | "layers" | "trophy" | "sparkles" | "swords";
 
 export interface GameSectionDefinition {
   id: string;

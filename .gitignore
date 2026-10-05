@@ -7,6 +7,8 @@ node_modules/
 .data/
 .cache/
 .tools/
+__pycache__/
+*.pyc
 .playwright-cli/
 output/playwright/
 dist/

@@ -14,10 +14,26 @@ export const NEON_ABYSS_GAME: GameDefinition = {
   status: "available",
   cover: "/images/neon-abyss/steam-header.jpg",
   accent: "#f36fa6",
-  description: "查询道具、武器、宠物的效果与获取方式，浏览机制攻略。",
+  description: "道具效果、武器能力、宠物进化、角色特性，一处查阅。",
   sections: [
     { id: "encyclopedia", label: "百科", icon: "book-open" },
     { id: "guides", label: "攻略", icon: "map" },
+  ],
+};
+
+export const HADES_GAME: GameDefinition = {
+  id: "hades",
+  name: "哈迪斯",
+  englishName: "Hades",
+  shortName: "哈迪斯",
+  genres: ["动作", "Roguelike"],
+  status: "available",
+  cover: "/images/games/hades-header.jpg",
+  accent: "#e88879",
+  description: "众神祝福、获取条件、冥界武器与形态成长，一处查阅。",
+  sections: [
+    { id: "boons", label: "祝福", icon: "sparkles" },
+    { id: "weapons", label: "武器", icon: "swords" },
   ],
 };
 
@@ -45,17 +61,7 @@ export const GAME_LIBRARY: GameDefinition[] = [
     accent: "#8daedb",
     sections: [],
   },
-  {
-    id: "hades",
-    name: "哈迪斯",
-    englishName: "Hades",
-    shortName: "哈迪斯",
-    genres: ["动作", "Roguelike"],
-    status: "planned",
-    cover: "/images/games/hades-header.jpg",
-    accent: "#e88879",
-    sections: [],
-  },
+  HADES_GAME,
 ];
 
 /**

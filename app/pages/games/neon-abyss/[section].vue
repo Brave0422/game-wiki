@@ -26,7 +26,7 @@ const sectionLabel = computed(
 useSeoMeta({
   title: () => `霓虹深渊${sectionLabel.value}`,
   description:
-    "霓虹深渊 PC 版道具、武器和宠物图鉴，查询效果、主动能力、进化与特殊获取方式。",
+    "霓虹深渊 PC 版道具、武器、宠物和角色图鉴，查询效果、初始属性、专属特性、进化与特殊获取方式。",
 });
 </script>
 

@@ -2,7 +2,7 @@
 /**
  * @author Brave
  * @date 2026-10-04T17:43:08+08:00
- * @description 霓虹深渊图鉴目录，负责分类、全文检索、获取筛选和链接式详情。
+ * @description 多游戏图鉴目录，负责分类、全文检索、获取筛选和链接式详情。
  */
 import {
   ArrowDownWideNarrow,
@@ -22,7 +22,21 @@ import WikiEntryCard from "./WikiEntryCard.vue";
 import WikiEntryDetailDialog from "./WikiEntryDetailDialog.vue";
 import { GAME_BASE_PATH, PAGE_SIZE, WIKI_CATEGORIES } from "~/constants/wiki";
 import { matchesEntry, WIKI_ENTRIES } from "~/utils/wiki-data";
-import type { WikiCategory } from "~/types/wiki.types";
+import { HADES_BOON_TAG_ORDER, HADES_GODS, getHadesBoonTagStyle } from "~/utils/hades-boons";
+import type { WikiCategory, WikiCategoryDefinition, WikiEntry } from "~/types/wiki.types";
+
+const props = withDefaults(defineProps<{
+  entries?: WikiEntry[];
+  categories?: WikiCategoryDefinition[];
+  fixedCategory?: WikiCategory;
+  basePath?: string;
+  gameName?: string;
+}>(), {
+  entries: () => WIKI_ENTRIES,
+  categories: () => WIKI_CATEGORIES,
+  basePath: `${GAME_BASE_PATH}/encyclopedia`,
+  gameName: "NEON ABYSS",
+});
 
 const route = useRoute();
 const router = useRouter();
@@ -33,21 +47,29 @@ const viewMode = ref<"grid" | "list">("grid");
 let searchTimeout: ReturnType<typeof setTimeout> | undefined;
 
 const selectedCategory = computed<WikiCategory | "all">(() => {
-  const value = route.query.category;
-  return value === "items" || value === "weapons" || value === "pets"
-    ? value
-    : "all";
+  if (props.fixedCategory && route.query.favorites !== "1") return props.fixedCategory;
+  return props.categories.find((category) => category.id === route.query.category)?.id ?? "all";
 });
-const selectedTag = computed(() =>
-  typeof route.query.tag === "string" ? route.query.tag : "",
+const hasBoonFilters = computed(() =>
+  props.gameName === "HADES" && selectedCategory.value !== "weapons",
 );
+const selectedGod = computed(() => {
+  if (!hasBoonFilters.value) return "";
+  const value = route.query.god ?? route.query.tag;
+  return HADES_GODS.find((god) => god.name === value)?.name ?? "";
+});
+const selectedTag = computed(() => {
+  const value = typeof route.query.tag === "string" ? route.query.tag : "";
+  return hasBoonFilters.value && HADES_GODS.some((god) => god.name === value)
+    ? "" : value;
+});
 const isSpecialOnly = computed(() => route.query.special === "1");
 const isFavoritesOnly = computed(() => route.query.favorites === "1");
 const sortOrder = computed(() =>
   route.query.sort === "name" ? "name" : "default",
 );
 const categoryEntries = computed(() =>
-  WIKI_ENTRIES.filter(
+  props.entries.filter(
     (entry) =>
       selectedCategory.value === "all" ||
       entry.category === selectedCategory.value,
@@ -55,14 +77,14 @@ const categoryEntries = computed(() =>
 );
 const categoryCounts = computed(() =>
   Object.fromEntries(
-    WIKI_CATEGORIES.map((category) => [
+    props.categories.map((category) => [
       category.id,
-      WIKI_ENTRIES.filter((entry) => entry.category === category.id).length,
+      props.entries.filter((entry) => entry.category === category.id).length,
     ]),
   ),
 );
 const selectedCategoryInfo = computed(() =>
-  WIKI_CATEGORIES.find((category) => category.id === selectedCategory.value),
+  props.categories.find((category) => category.id === selectedCategory.value),
 );
 const heading = computed(() =>
   isFavoritesOnly.value
@@ -74,6 +96,12 @@ const availableTags = computed(() => {
   categoryEntries.value.forEach((entry) =>
     entry.tags.forEach((tag) => counts.set(tag, (counts.get(tag) ?? 0) + 1)),
   );
+  if (hasBoonFilters.value) {
+    return [...counts]
+      .filter(([name]) => !HADES_GODS.some((god) => god.name === name))
+      .sort((left, right) => HADES_BOON_TAG_ORDER.indexOf(left[0]) - HADES_BOON_TAG_ORDER.indexOf(right[0]))
+      .map(([name, count]) => ({ name, count }));
+  }
   return [...counts]
     .sort((left, right) => right[1] - left[1])
     .slice(0, 8)
@@ -83,6 +111,7 @@ const filteredEntries = computed(() => {
   const entries = categoryEntries.value.filter(
     (entry) =>
       matchesEntry(entry, searchText.value) &&
+      (!selectedGod.value || entry.tags.includes(selectedGod.value)) &&
       (!selectedTag.value || entry.tags.includes(selectedTag.value)) &&
       (!isSpecialOnly.value || Boolean(entry.specialAcquisition)) &&
       (!isFavoritesOnly.value || favoriteIds.value.includes(entry.id)),
@@ -92,7 +121,7 @@ const filteredEntries = computed(() => {
       left.name.localeCompare(right.name, "zh-CN"),
     );
   }
-  const categoryRank = { items: 0, weapons: 1, pets: 2 };
+  const categoryRank = { items: 0, boons: 0, weapons: 1, pets: 2, characters: 3 };
   return [...entries].sort((left, right) => {
     const leftRank =
       categoryRank[left.category] + (left.id.startsWith("0_") ? 0.5 : 0);
@@ -105,14 +134,15 @@ const visibleEntries = computed(() =>
   filteredEntries.value.slice(0, visibleCount.value),
 );
 const selectedEntry = computed(
-  () => WIKI_ENTRIES.find((entry) => entry.id === route.query.entry) ?? null,
+  () => props.entries.find((entry) => entry.id === route.query.entry) ?? null,
 );
 const hasActiveFilters = computed(() =>
   Boolean(
     searchText.value ||
+    selectedGod.value ||
     selectedTag.value ||
     isSpecialOnly.value ||
-    selectedCategory.value !== "all",
+    (!props.fixedCategory && selectedCategory.value !== "all"),
   ),
 );
 
@@ -134,12 +164,18 @@ function handleQuery(values: Record<string, string | null>): void {
   );
 }
 
+/** 切换类型时把旧链接中的神祇标签迁移到独立条件，保留组合筛选。 */
+function handleTagFilter(tag: string | null): void {
+  handleQuery(hasBoonFilters.value ? { tag, god: selectedGod.value || null } : { tag });
+}
+
 /** 重置检索条件时保留当前百科或收藏浏览模式。 */
 function handleClearFilters(): void {
   searchText.value = "";
   handleQuery({
     q: null,
     tag: null,
+    god: null,
     special: null,
     category: null,
   });
@@ -173,21 +209,21 @@ onUnmounted(() => clearTimeout(searchTimeout));
 <template>
   <section class="catalog" aria-labelledby="catalog-heading">
     <!-- 分类与效果筛选仅在浏览器中处理本地图鉴。 -->
-    <div class="category-tabs" aria-label="图鉴分类">
+    <div v-if="!fixedCategory || isFavoritesOnly" class="category-tabs" aria-label="图鉴分类">
       <button
         type="button"
         :class="{ 'is-active': selectedCategory === 'all' }"
         :aria-pressed="selectedCategory === 'all'"
-        @click="handleQuery({ category: null, tag: null })"
+        @click="handleQuery({ category: null, tag: null, god: null })"
       >
-        全部图鉴 <span>{{ WIKI_ENTRIES.length }}</span></button
+        全部图鉴 <span>{{ entries.length }}</span></button
       ><button
-        v-for="category in WIKI_CATEGORIES"
+        v-for="category in categories"
         :key="category.id"
         type="button"
         :class="{ 'is-active': selectedCategory === category.id }"
         :aria-pressed="selectedCategory === category.id"
-        @click="handleQuery({ category: category.id, tag: null })"
+        @click="handleQuery({ category: category.id, tag: null, god: null })"
       >
         {{ category.label }} <span>{{ categoryCounts[category.id] }}</span>
       </button>
@@ -203,7 +239,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
             isFavoritesOnly
               ? "把常用词条留在手边，收藏保存在当前浏览器。"
               : (selectedCategoryInfo?.caption ??
-                "查询道具、武器与宠物的作用和获取条件。")
+                "查询图鉴作用、属性与获取条件。")
           }}
         </p>
       </div>
@@ -235,34 +271,57 @@ onUnmounted(() => clearTimeout(searchTimeout));
         ><kbd v-else>Ctrl K</kbd>
       </form>
       <button
+        v-if="categoryEntries.some((entry) => entry.specialAcquisition)"
         type="button"
         class="filter-button"
         :class="{ 'is-active': isSpecialOnly }"
         :aria-pressed="isSpecialOnly"
         @click="handleQuery({ special: isSpecialOnly ? null : '1' })"
       >
-        <Sparkles :size="14" /><span>特殊获取</span
-        ><Check v-if="isSpecialOnly" :size="13" />
+        <Sparkles :size="14" /><span>{{ fixedCategory === 'boons' ? '有前置条件' : '特殊获取' }}</span>
+        <Check v-if="isSpecialOnly" :size="13" />
       </button>
     </div>
 
+    <!-- 神祇与祝福类型独立筛选，兼容旧链接中使用 tag 的神祇条件。 -->
+    <div v-if="hasBoonFilters" class="effect-tags god-tags" aria-label="众神筛选">
+      <span class="effect-tags__label"><Sparkles :size="12" />众神</span>
+      <button
+        type="button"
+        :class="{ 'is-active': !selectedGod }"
+        :aria-pressed="!selectedGod"
+        @click="handleQuery({ god: null, tag: selectedTag || null })"
+      >全部</button>
+      <button
+        v-for="god in HADES_GODS"
+        :key="god.name"
+        type="button"
+        class="boon-filter"
+        :class="{ 'is-active': selectedGod === god.name }"
+        :style="getHadesBoonTagStyle(god.name)"
+        :aria-pressed="selectedGod === god.name"
+        @click="handleQuery({ god: selectedGod === god.name ? null : god.name, tag: selectedTag || null })"
+      >{{ god.name }}</button>
+    </div>
+
     <div v-if="availableTags.length" class="effect-tags" aria-label="效果标签">
-      <span class="effect-tags__label"><Filter :size="12" />效果</span
-      ><button
+      <span class="effect-tags__label"><Filter :size="12" />{{ hasBoonFilters ? '祝福' : '效果' }}</span>
+      <button
         type="button"
         :class="{ 'is-active': !selectedTag }"
         :aria-pressed="!selectedTag"
-        @click="handleQuery({ tag: null })"
+        @click="handleTagFilter(null)"
       >
         全部</button
       ><button
         v-for="tag in availableTags"
         :key="tag.name"
         type="button"
-        :class="{ 'is-active': selectedTag === tag.name }"
+        :class="{ 'is-active': selectedTag === tag.name, 'boon-filter': hasBoonFilters && Boolean(getHadesBoonTagStyle(tag.name)) }"
+        :style="hasBoonFilters ? getHadesBoonTagStyle(tag.name) : undefined"
         :aria-pressed="selectedTag === tag.name"
         @click="
-          handleQuery({ tag: selectedTag === tag.name ? null : tag.name })
+          handleTagFilter(selectedTag === tag.name ? null : tag.name)
         "
       >
         {{ tag.name }}</button
@@ -272,7 +331,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
         "
         type="button"
         class="is-active"
-        @click="handleQuery({ tag: null })"
+        @click="handleTagFilter(null)"
       >
         {{ selectedTag }} <X :size="10" />
       </button>
@@ -367,7 +426,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
       </p>
       <NuxtLink
         v-if="isFavoritesOnly && (!favoriteIds.length || !hasActiveFilters)"
-        :to="`${GAME_BASE_PATH}/encyclopedia`"
+        :to="basePath"
         class="secondary-button"
       >
         查看全部图鉴 <ArrowRight :size="14" />
@@ -398,6 +457,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
     </div>
     <WikiEntryDetailDialog
       :entry="selectedEntry"
+      :game-name="gameName"
       :is-favorite="
         selectedEntry ? favoriteIds.includes(selectedEntry.id) : false
       "
@@ -587,6 +647,27 @@ onUnmounted(() => clearTimeout(searchTimeout));
   font-size: 10px;
   margin-right: 5px;
 }
+.god-tags {
+  margin-bottom: 0;
+  + .effect-tags {
+    margin-top: 10px;
+  }
+}
+.effect-tags button.boon-filter {
+  border: 1px solid transparent;
+  color: color-mix(in srgb, rgb(var(--boon-rgb)) var(--boon-text-mix), var(--text));
+  background: color-mix(in srgb, rgb(var(--boon-rgb)) 8%, var(--panel));
+  transition: border-color 0.16s, background-color 0.16s;
+  &:hover,
+  &:focus-visible,
+  &.is-active {
+    border-color: rgb(var(--boon-rgb));
+    background: color-mix(in srgb, rgb(var(--boon-rgb)) 16%, var(--panel));
+  }
+  &:focus-visible {
+    outline-color: rgb(var(--boon-rgb));
+  }
+}
 .results-heading {
   display: flex;
   align-items: center;
@@ -728,6 +809,9 @@ onUnmounted(() => clearTimeout(searchTimeout));
   .effect-tags {
     gap: 3px;
     margin-bottom: 17px;
+  }
+  .god-tags {
+    margin-bottom: 0;
   }
   .entry-grid {
     grid-template-columns: 1fr;

@@ -6,6 +6,8 @@
 import rawEntries from '~/data/neon-abyss.entries.json';
 import rawSupplements from '~/data/neon-abyss.supplements.json';
 import rawGuides from '~/data/neon-abyss.guides.json';
+import rawCharacters from '~/data/neon-abyss.characters.json';
+import rawHadesEntries from '~/data/hades.entries.json';
 import type { WikiEntry, WikiGuide, WikiSupplement } from '~/types/wiki.types';
 
 /** 统一名称与查询文本，使空格、大小写和常见标点不影响搜索。 */
@@ -31,7 +33,7 @@ function isEntry(value: unknown): value is WikiEntry {
     'name' in value &&
     typeof value.name === 'string' &&
     'category' in value &&
-    ['items', 'weapons', 'pets'].includes(String(value.category)) &&
+    ['items', 'weapons', 'pets', 'characters', 'boons'].includes(String(value.category)) &&
     'description' in value &&
     typeof value.description === 'string' &&
     'image' in value &&
@@ -89,7 +91,7 @@ const supplementByEnglishName = new Map(
     .map((entry) => [normalizeSearch(entry.englishName ?? ''), entry]),
 );
 
-export const WIKI_ENTRIES: WikiEntry[] = sourceEntries.map((entry) => {
+export const WIKI_ENTRIES: WikiEntry[] = [...sourceEntries, ...validateEntries(rawCharacters)].map((entry) => {
   const supplement =
     supplementByName.get(normalizeSearch(entry.name)) ??
     supplementByEnglishName.get(normalizeSearch(entry.englishName ?? ''));
@@ -107,6 +109,21 @@ export const WIKI_ENTRIES: WikiEntry[] = sourceEntries.map((entry) => {
   };
 });
 
+/** 校验每个游戏的完整数据集，避免静默丢弃错误词条。 */
+function validateEntries(value: unknown): WikiEntry[] {
+  if (!Array.isArray(value) || !value.every(isEntry)) {
+    throw new Error('百科数据格式不符合条目契约。');
+  }
+  return value;
+}
+
+export const HADES_ENTRIES = validateEntries(rawHadesEntries);
+
+/** 获取当前游戏的图鉴，用于目录、统计及收藏。 */
+export function getEntriesByGame(gameId: string): WikiEntry[] {
+  return gameId === 'hades' ? HADES_ENTRIES : WIKI_ENTRIES;
+}
+
 export const WIKI_GUIDES: WikiGuide[] = Array.isArray(sourceGuides)
   ? sourceGuides.filter(isGuide)
   : [];
@@ -122,6 +139,8 @@ export function matchesEntry(entry: WikiEntry, query: string): boolean {
       ...(entry.notes ?? []),
       entry.acquisition,
       entry.specialAcquisition,
+      ...(entry.stats ?? []).flatMap((stat) => [stat.label, stat.value]),
+      ...(entry.aspects ?? []).flatMap((aspect) => [aspect.name, aspect.description, aspect.acquisition, aspect.upgradeLabel]),
     ]
       .filter(Boolean)
       .join(' '),

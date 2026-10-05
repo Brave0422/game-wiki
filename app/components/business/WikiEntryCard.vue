@@ -6,6 +6,7 @@
  */
 import { ArrowUpRight, Heart, Sparkles } from '@lucide/vue';
 import type { WikiEntry } from '~/types/wiki.types';
+import { HADES_GODS, getHadesBoonTheme, getHadesBoonThemeStyle, getHadesBoonTagStyle } from '~/utils/hades-boons';
 
 const props = defineProps<{
   entry: WikiEntry;
@@ -25,12 +26,17 @@ const cardDescription = computed(() =>
     ? props.entry.notes[0]
     : props.entry.description,
 );
+const boonTheme = computed(() => getHadesBoonTheme(props.entry));
+const boonTags = computed(() => props.entry.tags.filter((tag) =>
+  HADES_GODS.some((god) => god.name === tag) || tag === '传奇祝福' || tag === '双重祝福',
+));
 </script>
 
 <template>
   <article
     class="entry-card"
-    :class="{ 'entry-card--list': viewMode === 'list' }"
+    :class="{ 'entry-card--list': viewMode === 'list', 'entry-card--weapon': Boolean(entry.aspects?.length), 'entry-card--boon': Boolean(boonTheme) }"
+    :style="getHadesBoonThemeStyle(boonTheme)"
   >
     <button
       type="button"
@@ -41,7 +47,7 @@ const cardDescription = computed(() =>
       <div class="entry-card__top">
         <span class="entry-card__image"
           ><img
-            class="pixel-image"
+            :class="{ 'pixel-image': !entry.id.startsWith('hades-') }"
             :src="imageUrl"
             :alt="entry.name"
             loading="lazy"
@@ -55,7 +61,11 @@ const cardDescription = computed(() =>
       </div>
       <p class="entry-card__description">{{ cardDescription }}</p>
       <div class="entry-card__bottom">
-        <span v-if="entry.specialAcquisition" class="entry-card__special"
+        <div v-if="boonTheme" class="entry-card__tags">
+          <span v-for="tag in boonTags" :key="tag" class="entry-card__boon-tag" :style="getHadesBoonTagStyle(tag)">{{ tag }}</span>
+          <Sparkles v-if="entry.specialAcquisition" :size="10" aria-label="有前置条件" />
+        </div>
+        <span v-else-if="entry.specialAcquisition" class="entry-card__special"
           ><Sparkles :size="10" />特殊获取</span
         ><span v-else class="entry-card__tag">{{
           entry.tags[0] || '效果说明'
@@ -94,6 +104,39 @@ const cardDescription = computed(() =>
       color: var(--accent);
     }
   }
+}
+.entry-card--boon {
+  background: color-mix(in srgb, rgb(var(--boon-rgb)) 7%, var(--panel));
+  border-color: color-mix(in srgb, rgb(var(--boon-rgb)) 22%, var(--line));
+  &:hover,
+  &:focus-within {
+    border-color: rgb(var(--boon-rgb));
+    .entry-card__bottom > svg {
+      color: rgb(var(--boon-rgb));
+    }
+  }
+  .entry-card__open:focus-visible {
+    outline-color: rgb(var(--boon-rgb));
+    outline-offset: -3px;
+  }
+  .entry-card__image {
+    background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--icon-bg));
+  }
+}
+.entry-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  > svg {
+    color: var(--special);
+  }
+}
+.entry-card__boon-tag {
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: color-mix(in srgb, rgb(var(--boon-rgb)) var(--boon-text-mix), var(--text));
+  background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--panel));
 }
 .entry-card__open {
   display: flex;
@@ -142,6 +185,11 @@ const cardDescription = computed(() =>
     color: var(--muted);
     overflow-wrap: anywhere;
   }
+}
+.entry-card--weapon .entry-card__image {
+  width: 76px;
+  height: 76px;
+  img { width: 66px; height: 66px; }
 }
 .entry-card__description {
   display: -webkit-box;

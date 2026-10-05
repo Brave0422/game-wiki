@@ -1,0 +1,3990 @@
+[
+  {
+    "id": "hades-ZeusWeaponTrait",
+    "category": "boons",
+    "name": "闪电攻击",
+    "englishName": "Lightning Strike",
+    "description": "攻击命中时，射出连环闪电。 \n 闪电伤害： 10",
+    "image": "/images/hades/ZeusWeaponTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ZeusRushTrait",
+    "category": "boons",
+    "name": "雷霆冲刺",
+    "englishName": "Thunder Dash",
+    "description": "冲刺引来一道天雷，打击邻近的敌人。 \n 闪电伤害： 10",
+    "image": "/images/hades/ZeusRushTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ZeusRangedTrait",
+    "category": "boons",
+    "name": "雷霆射击",
+    "englishName": "Electric Shot",
+    "description": "投弹射出连环闪电，在敌人之间弹射。 \n 投弹伤害： 60",
+    "image": "/images/hades/ZeusRangedTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_ZeusRangedTrait",
+    "category": "boons",
+    "name": "雷鸣电闪",
+    "englishName": "Thunder Flare",
+    "description": "投弹会引来一道天雷，轰击邻近的敌人。 \n 闪电伤害： 60",
+    "image": "/images/hades/ShieldLoadAmmo_ZeusRangedTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ZeusSecondaryTrait",
+    "category": "boons",
+    "name": "雷霆乱舞",
+    "englishName": "Thunder Flourish",
+    "description": "特殊攻击引来一道天雷，打击目标附近的敌人。 \n 闪电伤害： 30",
+    "image": "/images/hades/ZeusSecondaryTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ZeusShoutTrait",
+    "category": "boons",
+    "name": "宙斯之援",
+    "englishName": "Zeus' Aid",
+    "description": "使用求援可以在 1.5 秒 内，用天雷快速轰击附近的敌人。\n 闪电伤害： 50 \n 消耗整条神力槽的加成： 9 秒持续时间",
+    "image": "/images/hades/ZeusShoutTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-RetaliateWeaponTrait",
+    "category": "boons",
+    "name": "雷神惩击",
+    "englishName": "Heaven's Vengeance",
+    "description": "受到伤害时以天雷还击。 \n 复仇伤害： 80",
+    "image": "/images/hades/RetaliateWeaponTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-SuperGenerationTrait",
+    "category": "boons",
+    "name": "大发雷霆",
+    "englishName": "Clouded Judgment",
+    "description": "造成或受到伤害时，加速对神力槽的累积。 \n 神力累积速度： 10%",
+    "image": "/images/hades/SuperGenerationTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-OnWrathDamageBuffTrait",
+    "category": "boons",
+    "name": "无边神力",
+    "englishName": "Billowing Strength",
+    "description": "求援后，提高你造成的所有伤害。持续时间 15 秒。 \n 伤害加成： 20%",
+    "image": "/images/hades/OnWrathDamageBuffTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-PerfectDashBoltTrait",
+    "category": "boons",
+    "name": "电光石火",
+    "englishName": "Lightning Reflexes",
+    "description": "若在被击中前的瞬间冲刺，一道雷电将会击中附近的敌人。 \n 雷电伤害： 20",
+    "image": "/images/hades/PerfectDashBoltTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AmmoBoltTrait",
+    "category": "boons",
+    "name": "引电血统",
+    "englishName": "Lightning Rod",
+    "description": "掉落的血石每 1 秒引来一次天雷。 \n 闪电伤害： 70",
+    "image": "/images/hades/AmmoBoltTrait.png",
+    "tags": [
+      "宙斯",
+      "阿尔忒弥斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命攻击」、「致命乱舞」、「会心一击」、「猎手之怒」、「猎人冲刺」、「阿尔忒弥斯之援」\n2. 「闪电攻击」、「雷霆冲刺」、「雷霆乱舞」、「雷霆射击」、「雷鸣电闪」、「宙斯之援」\n冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-ZeusBoltAoETrait",
+    "category": "boons",
+    "name": "高压雷击",
+    "englishName": "High Voltage",
+    "description": "增加天雷的伤害范围。 \n 天雷伤害半径： 60%",
+    "image": "/images/hades/ZeusBoltAoETrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「雷霆乱舞」、「宙斯之援」、「雷霆冲刺」、「雷鸣电闪」"
+  },
+  {
+    "id": "hades-ZeusBonusBoltTrait",
+    "category": "boons",
+    "name": "双重雷击",
+    "englishName": "Double Strike",
+    "description": "闪电球技能将有几率袭击两次。 \n 劈击几率： 25%",
+    "image": "/images/hades/ZeusBonusBoltTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「雷霆乱舞」、「宙斯之援」、「雷霆冲刺」、「雷鸣电闪」"
+  },
+  {
+    "id": "hades-ZeusChargedBoltTrait",
+    "category": "boons",
+    "name": "闪电裂变",
+    "englishName": "Splitting Bolt",
+    "description": "每次以雷电击伤敌人时，产生一次额外雷击。\n 闪电伤害： 40",
+    "image": "/images/hades/ZeusChargedBoltTrait.png",
+    "tags": [
+      "宙斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「风暴闪电」、「高压雷击」、「双重雷击」"
+  },
+  {
+    "id": "hades-RegeneratingCappedSuperTrait",
+    "category": "boons",
+    "name": "烟熏火燎",
+    "englishName": "Smoldering Air",
+    "description": "你的神力槽会自动蓄积，但上限变成25%。\n 自动蓄积速度: 1% (每0.2秒)",
+    "image": "/images/hades/RegeneratingCappedSuperTrait.png",
+    "tags": [
+      "宙斯",
+      "阿佛洛狄忒",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「心碎攻击」、「心碎乱舞」、「倾心一箭」、「激情冲刺」、「阿弗洛狄忒之援」、「激情四射」\n2. 「闪电攻击」、「雷霆冲刺」、「雷霆乱舞」、「雷霆射击」、「雷鸣电闪」、「宙斯之援」\n不能同时持有：「哈迪斯之援」\n需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-ZeusLightningDebuff",
+    "category": "boons",
+    "name": "静电释放",
+    "englishName": "Static Discharge",
+    "description": "所有雷电效果都将施加心惊胆战。\n 心惊胆战伤害： 60",
+    "image": "/images/hades/ZeusLightningDebuff.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「雷霆乱舞」、「宙斯之援」、「雷霆冲刺」、「雷神惩击」、「闪电攻击」、「雷霆射击」、「电光石火」、「雷鸣电闪」"
+  },
+  {
+    "id": "hades-ReboundingAthenaCastTrait",
+    "category": "boons",
+    "name": "闪电杀阵",
+    "englishName": "Lightning Phalanx",
+    "description": "你的杀阵射击投弹可在敌人之间弹射。 \n 最大弹射次数： 3",
+    "image": "/images/hades/ReboundingAthenaCastTrait.png",
+    "tags": [
+      "宙斯",
+      "雅典娜",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「闪电攻击」、「雷霆乱舞」、「雷霆冲刺」、「宙斯之援」\n2. 「杀阵射击」"
+  },
+  {
+    "id": "hades-AutoRetaliateTrait",
+    "category": "boons",
+    "name": "睚眦必报",
+    "englishName": "Vengeful Mood",
+    "description": "不需受到伤害，即可触发复仇效果。 \n 自动复仇速度： 3 秒",
+    "image": "/images/hades/AutoRetaliateTrait.png",
+    "tags": [
+      "宙斯",
+      "阿瑞斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「闪电攻击」、「雷霆乱舞」、「雷霆射击」、「雷霆冲刺」、「宙斯之援」、「雷鸣电闪」\n2. 「致命诅咒」、「痛苦诅咒」、「旋刀射击」、「利刃冲刺」、「阿瑞斯之援」、「血斩旋风」\n3. 「复仇诅咒」、「雷神惩击」、「神圣盾卫」、「邀宠召祸」、「冰寒之触」"
+  },
+  {
+    "id": "hades-ZeusBonusBounceTrait",
+    "category": "boons",
+    "name": "风暴闪电",
+    "englishName": "Storm Lightning",
+    "description": "增加连环闪电的弹射次数。 \n 弹射次数： +0 → +2",
+    "image": "/images/hades/ZeusBonusBounceTrait.png",
+    "tags": [
+      "宙斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「闪电攻击」、「雷霆射击」"
+  },
+  {
+    "id": "hades-LightningCloudTrait",
+    "category": "boons",
+    "name": "光芒盛宴",
+    "englishName": "Scintillating Feast",
+    "description": "霜冻酒雾会持续引来天雷。 \n 闪电伤害： 60",
+    "image": "/images/hades/LightningCloudTrait.png",
+    "tags": [
+      "宙斯",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「闪电攻击」、「雷霆乱舞」、「雷霆冲刺」、「宙斯之援」\n2. 「致幻射击」"
+  },
+  {
+    "id": "hades-ImpactBoltTrait",
+    "category": "boons",
+    "name": "海上风暴",
+    "englishName": "Sea Storm",
+    "description": "当你的祝福击退敌人时，敌人会被天雷击中。\n 闪电伤害： 40",
+    "image": "/images/hades/ImpactBoltTrait.png",
+    "tags": [
+      "宙斯",
+      "波塞冬",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「暴风攻击」、「暴风乱舞」、「洪水射击」、「洪水滔天」、「波塞冬之援」\n2. 「闪电攻击」、「雷霆乱舞」、「雷霆射击」、「雷鸣电闪」、「雷霆冲刺」、「宙斯之援」"
+  },
+  {
+    "id": "hades-JoltDurationTrait",
+    "category": "boons",
+    "name": "冷酷聚变",
+    "englishName": "Cold Fusion",
+    "description": "身负心惊胆战效果的敌人在发起攻击时无法移除这一效果。\n 心惊胆战持续时间： 10 秒",
+    "image": "/images/hades/JoltDurationTrait.png",
+    "tags": [
+      "宙斯",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用宙斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「冰霜攻击」、「冰霜乱舞」、「冷风冲刺」、「得墨忒尔之援」\n2. 「静电释放」"
+  },
+  {
+    "id": "hades-PoseidonWeaponTrait",
+    "category": "boons",
+    "name": "暴风攻击",
+    "englishName": "Tempest Strike",
+    "description": "攻击更强，可以击退敌人。\n 攻击伤害： 30%",
+    "image": "/images/hades/PoseidonWeaponTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-PoseidonRushTrait",
+    "category": "boons",
+    "name": "海潮冲刺",
+    "englishName": "Tidal Dash",
+    "description": "冲刺时可以伤害并击退附近的敌人。 \n 冲刺伤害： 35",
+    "image": "/images/hades/PoseidonRushTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-PoseidonRangedTrait",
+    "category": "boons",
+    "name": "洪水射击",
+    "englishName": "Flood Shot",
+    "description": "投弹命中时，伤害并击退一定范围内的敌人。 \n 投弹伤害： 60",
+    "image": "/images/hades/PoseidonRangedTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_PoseidonRangedTrait",
+    "category": "boons",
+    "name": "洪水滔天",
+    "englishName": "Flood Flare",
+    "description": "投弹可以对周围的敌人造成伤害，并击退他们。\n 爆炸伤害： 60",
+    "image": "/images/hades/ShieldLoadAmmo_PoseidonRangedTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-PoseidonSecondaryTrait",
+    "category": "boons",
+    "name": "暴风乱舞",
+    "englishName": "Tempest Flourish",
+    "description": "特殊攻击更强，可以击退敌人。\n 特殊攻击伤害： 70%",
+    "image": "/images/hades/PoseidonSecondaryTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-PoseidonShoutTrait",
+    "category": "boons",
+    "name": "波塞冬之援",
+    "englishName": "Poseidon's Aid",
+    "description": "求援后，进入无敌状态，可以撞击敌人。持续时间 1.2 秒。\n 撞击伤害： 250 \n 消耗整条神力槽的加成： 7.2 秒",
+    "image": "/images/hades/PoseidonShoutTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-RoomRewardBonusTrait",
+    "category": "boons",
+    "name": "海洋恩赐",
+    "englishName": "Ocean's Bounty",
+    "description": "提升 宝石、黑暗 和 房间奖励的数额。 \n 奖励数额： 50%",
+    "image": "/images/hades/RoomRewardBonusTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DefensiveSuperGenerationTrait",
+    "category": "boons",
+    "name": "海水沸腾",
+    "englishName": "Boiling Point",
+    "description": "因受到攻击而积累的神力槽能量更多。 \n 受到攻击时，神力蓄积速度加成： 40%",
+    "image": "/images/hades/DefensiveSuperGenerationTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-EncounterStartOffenseBuffTrait",
+    "category": "boons",
+    "name": "汪洋之力",
+    "englishName": "Hydraulic Might",
+    "description": "在遭遇战最初的10 秒内，攻击 与 特殊攻击 会变得更强。\n 初始伤害加成： 50%",
+    "image": "/images/hades/EncounterStartOffenseBuffTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-BlizzardOrbTrait",
+    "category": "boons",
+    "name": "暴雪射击",
+    "englishName": "Blizzard Shot",
+    "description": "投弹射出的投掷物会缓慢移动，可以穿透敌人，并向其周围发射碎片。 \n 碎片伤害： 20",
+    "image": "/images/hades/BlizzardOrbTrait.png",
+    "tags": [
+      "波塞冬",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「冰霜攻击」、「冰霜乱舞」、「冷风冲刺」、「得墨忒尔之援」\n2. 「洪水射击」\n不能同时持有：「溺亡诅咒」、「寒冰美酒」、「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-FishingTrait",
+    "category": "boons",
+    "name": "渔获丰收",
+    "englishName": "Huge Catch",
+    "description": "在每个房间里有更高的几率出现钓鱼点。\n 钓鱼点出现几率： +20%",
+    "image": "/images/hades/FishingTrait.png",
+    "tags": [
+      "波塞冬",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「海洋恩赐」、「」\n2. 「」、「海螺壳」\n3. 「海洋恩赐」、「海螺壳」"
+  },
+  {
+    "id": "hades-PoseidonShoutDurationTrait",
+    "category": "boons",
+    "name": "海底激流",
+    "englishName": "Rip Current",
+    "description": "求援 会将敌人拉近，持续时间更长。\n 持续时间加成： 1 秒",
+    "image": "/images/hades/PoseidonShoutDurationTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「波塞冬之援」"
+  },
+  {
+    "id": "hades-BossDamageTrait",
+    "category": "boons",
+    "name": "惊涛拍浪",
+    "englishName": "Wave Pounding",
+    "description": "有击退效果的祝福对Boss将造成更高伤害。 \n 对Boss的伤害加成： 20%",
+    "image": "/images/hades/BossDamageTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「暴风攻击」、「海潮冲刺」、「洪水射击」、「洪水滔天」、「暴风乱舞」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-StatusImmunityTrait",
+    "category": "boons",
+    "name": "无匹之力",
+    "englishName": "Unshakable Mettle",
+    "description": "你不会被Boss击晕，同时能减免部分伤害。 \n Boss伤害减免： 10%",
+    "image": "/images/hades/StatusImmunityTrait.png",
+    "tags": [
+      "波塞冬",
+      "雅典娜",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「神圣攻击」、「神圣乱舞」、「杀阵射击」、「爆裂杀阵」、「雅典娜之援」\n2. 「暴风攻击」、「暴风乱舞」、「洪水射击」、「洪水滔天」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-SlamExplosionTrait",
+    "category": "boons",
+    "name": "怒浪滔天",
+    "englishName": "Breaking Wave",
+    "description": "击退敌人撞击到障碍物时，会产生波浪，造成区域伤害。 \n 波浪伤害： 100",
+    "image": "/images/hades/SlamExplosionTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「暴风攻击」、「海潮冲刺」、「洪水射击」、「洪水滔天」、「暴风乱舞」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-PoseidonAresProjectileTrait",
+    "category": "boons",
+    "name": "溺亡诅咒",
+    "englishName": "Curse of Drowning",
+    "description": "洪水射击变为脉冲，攻击你身边的敌人。\n 每次投弹脉冲攻击次数： 3",
+    "image": "/images/hades/PoseidonAresProjectileTrait.png",
+    "tags": [
+      "波塞冬",
+      "阿瑞斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命诅咒」、「痛苦诅咒」、「利刃冲刺」、「阿瑞斯之援」\n2. 「洪水射击」、「洪水滔天」\n不能同时持有：「暴雪射击」、「蜃气射击」、「赫拉形态」"
+  },
+  {
+    "id": "hades-ImprovedPomTrait",
+    "category": "boons",
+    "name": "甘甜蜜露",
+    "englishName": "Sweet Nectar",
+    "description": "提升力量石榴的效果。 \n 石榴的升级效果： +1",
+    "image": "/images/hades/ImprovedPomTrait.png",
+    "tags": [
+      "波塞冬",
+      "阿佛洛狄忒",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「暴风攻击」、「暴风乱舞」、「洪水射击」、「洪水滔天」、「海潮冲刺」、「波塞冬之援」\n2. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「阿弗洛狄忒之援」、「激情四射」"
+  },
+  {
+    "id": "hades-RaritySuperBoost",
+    "category": "boons",
+    "name": "专属体验",
+    "englishName": "Exclusive Access",
+    "description": "提升接下来拿到的祝福的质量。 \n 祝福稀有度至少为： 史诗",
+    "image": "/images/hades/RaritySuperBoost.png",
+    "tags": [
+      "波塞冬",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「暴风攻击」、「暴风乱舞」、「洪水射击」、「洪水滔天」、「海潮冲刺」、「波塞冬之援」\n2. 「醉酒攻击」、「醉酒乱舞」、「致幻射击」、「致幻爆破」、「醉酒冲刺」、「迪奥尼索司之援」"
+  },
+  {
+    "id": "hades-DoubleCollisionTrait",
+    "category": "boons",
+    "name": "滔滔不绝",
+    "englishName": "Second Wave",
+    "description": "具有击退效果的 祝福 可以将敌人多次击退。\n 额外击退效果： +1",
+    "image": "/images/hades/DoubleCollisionTrait.png",
+    "tags": [
+      "波塞冬",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「飓风怒吼」、「怒浪滔天」\n2. 「暴风攻击」、「海潮冲刺」、「洪水射击」、「暴风乱舞」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-ArtemisBonusProjectileTrait",
+    "category": "boons",
+    "name": "蜃气射击",
+    "englishName": "Mirage Shot",
+    "description": "投弹时会多射出一发，但这一发的伤害较低。\n 多射出一发的伤害： 0% → 30%",
+    "image": "/images/hades/ArtemisBonusProjectileTrait.png",
+    "tags": [
+      "波塞冬",
+      "阿尔忒弥斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命攻击」、「致命乱舞」、「会心一击」、「猎手之怒」、「阿尔忒弥斯之援」\n2. 「暴风攻击」、「暴风乱舞」、「洪水射击」、「洪水滔天」、「海潮冲刺」、「波塞冬之援」\n不能同时持有：「溺亡诅咒」"
+  },
+  {
+    "id": "hades-BonusCollisionTrait",
+    "category": "boons",
+    "name": "飓风怒吼",
+    "englishName": "Typhoon's Fury",
+    "description": "击退敌人撞到障碍物时，会造成更高伤害。 \n 撞击伤害： 200%",
+    "image": "/images/hades/BonusCollisionTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「暴风攻击」、「海潮冲刺」、「洪水射击」、「洪水滔天」、「暴风乱舞」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-SlipperyTrait",
+    "category": "boons",
+    "name": "浪如刀割",
+    "englishName": "Razor Shoals",
+    "description": "能造成击退效果的祝福还可以撕裂敌人。\n 崩裂伤害： 10（每 0.2 秒）",
+    "image": "/images/hades/SlipperyTrait.png",
+    "tags": [
+      "波塞冬",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用波塞冬的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「暴风攻击」、「海潮冲刺」、「洪水射击」、「洪水滔天」、「暴风乱舞」、「波塞冬之援」"
+  },
+  {
+    "id": "hades-AthenaWeaponTrait",
+    "category": "boons",
+    "name": "神圣攻击",
+    "englishName": "Divine Strike",
+    "description": "攻击更强，可以反弹。 \n 普通攻击伤害： 40%",
+    "image": "/images/hades/AthenaWeaponTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AthenaRushTrait",
+    "category": "boons",
+    "name": "神圣冲刺",
+    "englishName": "Divine Dash",
+    "description": "冲刺可以造成伤害，并可以反弹。 \n 冲刺伤害： 10",
+    "image": "/images/hades/AthenaRushTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AthenaRangedTrait",
+    "category": "boons",
+    "name": "杀阵射击",
+    "englishName": "Phalanx Shot",
+    "description": "投弹会造成小范围伤害，还可以反弹。 \n 投弹伤害： 85",
+    "image": "/images/hades/AthenaRangedTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_AthenaRangedTrait",
+    "category": "boons",
+    "name": "爆裂杀阵",
+    "englishName": "Phalanx Flare",
+    "description": "投弹可以对周围的敌人造成伤害，还可以反弹。\n 爆炸伤害： 80",
+    "image": "/images/hades/ShieldLoadAmmo_AthenaRangedTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-AthenaSecondaryTrait",
+    "category": "boons",
+    "name": "神圣乱舞",
+    "englishName": "Divine Flourish",
+    "description": "特殊攻击更强，可以反弹。 \n 特殊攻击伤害： 60%",
+    "image": "/images/hades/AthenaSecondaryTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AthenaShoutTrait",
+    "category": "boons",
+    "name": "雅典娜之援",
+    "englishName": "Athena's Aid",
+    "description": "求援会让你无敌并反弹所有攻击。 \n 持续时间： 1.5 秒 \n 消耗整条神力槽的加成： 6x 持续时间",
+    "image": "/images/hades/AthenaShoutTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-TrapDamageTrait",
+    "category": "boons",
+    "name": "沉稳步伐",
+    "englishName": "Sure Footing",
+    "description": "抵御来自陷阱的伤害。 \n 降低来自陷阱的伤害： 60%",
+    "image": "/images/hades/TrapDamageTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-EnemyDamageTrait",
+    "category": "boons",
+    "name": "铜墙铁壁",
+    "englishName": "Bronze Skin",
+    "description": "抵御来自敌人攻击的伤害。 \n 降低来自敌人的伤害： 5%",
+    "image": "/images/hades/EnemyDamageTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AthenaRetaliateTrait",
+    "category": "boons",
+    "name": "神圣盾卫",
+    "englishName": "Holy Shield",
+    "description": "受到伤害后，会对附近的敌人造成伤害，并产生短暂的反弹效果。 \n 复仇伤害： 30",
+    "image": "/images/hades/AthenaRetaliateTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-PreloadSuperGenerationTrait",
+    "category": "boons",
+    "name": "气宇轩昂",
+    "englishName": "Proud Bearing",
+    "description": "在遭遇战开始时神力槽里就有能量。\n 起始能量： 20%",
+    "image": "/images/hades/PreloadSuperGenerationTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-AthenaBackstabDebuffTrait",
+    "category": "boons",
+    "name": "炫目之光",
+    "englishName": "Blinding Flash",
+    "description": "带有反弹效果的攻击会让敌人进入暴露状态。\n 背刺伤害加成: 50%",
+    "image": "/images/hades/AthenaBackstabDebuffTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「神圣攻击」、「杀阵射击」、「爆裂杀阵」、「神圣冲刺」、「神圣乱舞」"
+  },
+  {
+    "id": "hades-CastBackstabTrait",
+    "category": "boons",
+    "name": "临别赠礼",
+    "englishName": "Parting Shot",
+    "description": "投弹可以获得所有的背刺伤害加成。\n 背刺伤害加成： 35%",
+    "image": "/images/hades/CastBackstabTrait.png",
+    "tags": [
+      "雅典娜",
+      "阿佛洛狄忒",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「神圣攻击」、「杀阵射击」、「神圣乱舞」、「神圣冲刺」、「雅典娜之援」\n2. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「阿弗洛狄忒之援」\n不能同时持有：「致幻射击」、「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ShieldHitTrait",
+    "category": "boons",
+    "name": "神圣保护",
+    "englishName": "Divine Protection",
+    "description": "获得一层护盾，可以用于抵消一次伤害。 \n 护盾冷却时间： 20 秒",
+    "image": "/images/hades/ShieldHitTrait.png",
+    "tags": [
+      "雅典娜",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「精彩还击」"
+  },
+  {
+    "id": "hades-TriggerCurseTrait",
+    "category": "boons",
+    "name": "仁慈解脱",
+    "englishName": "Merciful End",
+    "description": "当你以带有反弹效果的攻击击中厄运附身的敌人时，将立即触发厄运的伤害，并将其移除。\n 如此触发厄运时可造成额外伤害： 40",
+    "image": "/images/hades/TriggerCurseTrait.png",
+    "tags": [
+      "雅典娜",
+      "阿瑞斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命诅咒」、「痛苦诅咒」\n2. 「神圣攻击」、「神圣乱舞」"
+  },
+  {
+    "id": "hades-SlowProjectileTrait",
+    "category": "boons",
+    "name": "风险管理",
+    "englishName": "Calculated Risk",
+    "description": "敌人的远程射击速度变慢。 \n 敌人远程射击速度减慢： 50%",
+    "image": "/images/hades/SlowProjectileTrait.png",
+    "tags": [
+      "雅典娜",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「神圣攻击」、「神圣乱舞」、「神圣冲刺」、「雅典娜之援」\n2. 「醉酒攻击」、「醉酒乱舞」、「醉酒冲刺」、「迪奥尼索司之援」"
+  },
+  {
+    "id": "hades-AthenaShieldTrait",
+    "category": "boons",
+    "name": "精彩还击",
+    "englishName": "Brilliant Riposte",
+    "description": "提升反弹造成的伤害。 \n 反弹伤害： 80%",
+    "image": "/images/hades/AthenaShieldTrait.png",
+    "tags": [
+      "雅典娜",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「神圣攻击」、「神圣冲刺」、「神圣盾卫」、「神圣乱舞」"
+  },
+  {
+    "id": "hades-NoLastStandRegenerationTrait",
+    "category": "boons",
+    "name": "根深蒂固",
+    "englishName": "Stubborn Roots",
+    "description": "当你的 死里逃生 耗尽时，你的 会缓慢恢复。\n 战斗中生命值恢复： 1 （每0.8 秒。）",
+    "image": "/images/hades/NoLastStandRegenerationTrait.png",
+    "tags": [
+      "雅典娜",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「神圣攻击」、「神圣乱舞」、「杀阵射击」、「爆裂杀阵」、「神圣冲刺」、「雅典娜之援」\n2. 「冰霜攻击」、「冷风冲刺」、「冰霜乱舞」、「水晶射击」、「冰魂素魄」、「得墨忒尔之援」"
+  },
+  {
+    "id": "hades-ArtemisReflectBuffTrait",
+    "category": "boons",
+    "name": "致命还击",
+    "englishName": "Deadly Reversal",
+    "description": "反弹成功触发时，暂时提升20%几率造成暴击伤害。 \n 持续时间： 2 秒",
+    "image": "/images/hades/ArtemisReflectBuffTrait.png",
+    "tags": [
+      "雅典娜",
+      "阿尔忒弥斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用雅典娜的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命攻击」、「致命乱舞」、「会心一击」、「猎手之怒」、「阿尔忒弥斯之援」\n2. 「神圣攻击」、「神圣乱舞」"
+  },
+  {
+    "id": "hades-AphroditeWeaponTrait",
+    "category": "boons",
+    "name": "心碎攻击",
+    "englishName": "Heartbreak Strike",
+    "description": "攻击更强，可以施加虚弱。 \n 攻击伤害： 50%",
+    "image": "/images/hades/AphroditeWeaponTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AphroditeRushTrait",
+    "category": "boons",
+    "name": "激情冲刺",
+    "englishName": "Passion Dash",
+    "description": "冲刺时，对终点附近的敌人造成伤害，并施加虚弱。 \n 冲刺伤害： 20",
+    "image": "/images/hades/AphroditeRushTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AphroditeRangedTrait",
+    "category": "boons",
+    "name": "倾心一箭",
+    "englishName": "Crush Shot",
+    "description": "投弹射出一道短距离、宽幅的冲击波，并施加虚弱。\n投弹伤害： 90",
+    "image": "/images/hades/AphroditeRangedTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-AphroditeSecondaryTrait",
+    "category": "boons",
+    "name": "心碎乱舞",
+    "englishName": "Heartbreak Flourish",
+    "description": "特殊攻击更强，可以施加虚弱。 \n 特殊攻击伤害： 80%",
+    "image": "/images/hades/AphroditeSecondaryTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AphroditeShoutTrait",
+    "category": "boons",
+    "name": "阿弗洛狄忒之援",
+    "englishName": "Aphrodite's Aid",
+    "description": "求援射出一发跟踪箭，命中时施加魅惑。 \n 魅惑持续时间： 5 秒 \n 消耗整条神力槽的加成： 2500伤害",
+    "image": "/images/hades/AphroditeShoutTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_AphroditeRangedTrait",
+    "category": "boons",
+    "name": "激情四射",
+    "englishName": "Passion Flare",
+    "description": "投弹可以对周围的敌人造成伤害，还可以施加虚弱。\n 爆炸伤害： 80",
+    "image": "/images/hades/ShieldLoadAmmo_AphroditeRangedTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-AphroditeRetaliateTrait",
+    "category": "boons",
+    "name": "邀宠召祸",
+    "englishName": "Wave of Despair",
+    "description": "受到伤害后，会对附近的敌人造成伤害，并施加虚弱效果。 \n 复仇伤害： 50",
+    "image": "/images/hades/AphroditeRetaliateTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AphroditeDeathTrait",
+    "category": "boons",
+    "name": "夺命挽歌",
+    "englishName": "Dying Lament",
+    "description": "被杀时，敌人会对附近的敌人造成伤害，并施加虚弱。 \n 死亡时爆炸伤害： 40",
+    "image": "/images/hades/AphroditeDeathTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ProximityArmorTrait",
+    "category": "boons",
+    "name": "高攀不起",
+    "englishName": "Different League",
+    "description": "抵御附近敌人攻击产生的部分伤害。 \n 降低来自敌人的伤害： 10%",
+    "image": "/images/hades/ProximityArmorTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-HealthRewardBonusTrait",
+    "category": "boons",
+    "name": "一生相伴",
+    "englishName": "Life Affirmation",
+    "description": "提升 生命值 房间奖励的数额。 \n 奖励数额： 30%",
+    "image": "/images/hades/HealthRewardBonusTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-HeartsickCritDamageTrait",
+    "category": "boons",
+    "name": "撕心裂肺",
+    "englishName": "Heart Rend",
+    "description": "处于虚弱状态的敌人会受到更高的暴击伤害。 \n 虚弱提升暴击伤害： 150%",
+    "image": "/images/hades/HeartsickCritDamageTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "阿尔忒弥斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命攻击」、「致命乱舞」、「会心一击」、「猎手之怒」\n2. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-CharmTrait",
+    "category": "boons",
+    "name": "走火入魔",
+    "englishName": "Unhealthy Fixation",
+    "description": "施加虚弱时，有 15% 的几率施加魅惑。 \n 魅惑持续时间： 4 秒。",
+    "image": "/images/hades/CharmTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」\n2. 「怅然若失」、「拜倒裙下」、「心旌荡漾」"
+  },
+  {
+    "id": "hades-AphroditeDurationTrait",
+    "category": "boons",
+    "name": "怅然若失",
+    "englishName": "Empty Inside",
+    "description": "延长虚弱效果的持续时间。 \n 虚弱持续时间： 5 秒",
+    "image": "/images/hades/AphroditeDurationTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-AphroditeRangedBonusTrait",
+    "category": "boons",
+    "name": "爆裂飞吻",
+    "englishName": "Blown Kiss",
+    "description": "投弹射击距离更远，可对未受伤害的敌人造成更高伤害。\n 首次命中伤害加成： 50%",
+    "image": "/images/hades/AphroditeRangedBonusTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「倾心一箭」\n不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-SelfLaserTrait",
+    "category": "boons",
+    "name": "冰寒之拥",
+    "englishName": "Cold Embrace",
+    "description": "你的 投弹 放置的水晶会向你发射光束，持续 +4 秒。\n 投弹 伤害加成： 30%",
+    "image": "/images/hades/SelfLaserTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「水晶射击」\n2. 「心碎攻击」、「激情冲刺」、「心碎乱舞」、「阿弗洛狄忒之援」\n不能同时持有：「冰寒射线」"
+  },
+  {
+    "id": "hades-AphroditeWeakenTrait",
+    "category": "boons",
+    "name": "拜倒裙下",
+    "englishName": "Sweet Surrender",
+    "description": "处于虚弱状态的敌人会受到更高伤害。 \n 虚弱时伤害加成： 10%",
+    "image": "/images/hades/AphroditeWeakenTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-DionysusAphroditeStackIncreaseTrait",
+    "category": "boons",
+    "name": "纵情酒色",
+    "englishName": "Low Tolerance",
+    "description": "处于虚弱状态的敌人可以被叠加更多次的醉酒。 \n 虚弱后的醉酒叠加次数： +3",
+    "image": "/images/hades/DionysusAphroditeStackIncreaseTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「醉酒攻击」、「醉酒乱舞」、「醉酒冲刺」、「迪奥尼索司之援」\n2. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-CurseSickTrait",
+    "category": "boons",
+    "name": "求而不得",
+    "englishName": "Curse of Longing",
+    "description": "处于虚弱状态的敌人如果再被施以厄运，会持续受到厄运的伤害。 \n 每次厄运伤害降低至上一次的： 50%",
+    "image": "/images/hades/CurseSickTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "阿瑞斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命诅咒」、「痛苦诅咒」\n2. 「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-AphroditePotencyTrait",
+    "category": "boons",
+    "name": "心旌荡漾",
+    "englishName": "Broken Resolve",
+    "description": "强化虚弱对伤害的减免效果。 \n 虚弱减免伤害： -10%",
+    "image": "/images/hades/AphroditePotencyTrait.png",
+    "tags": [
+      "阿佛洛狄忒",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿佛洛狄忒的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「激情冲刺」、「倾心一箭」、「心碎攻击」、「心碎乱舞」、「激情四射」"
+  },
+  {
+    "id": "hades-ArtemisWeaponTrait",
+    "category": "boons",
+    "name": "致命攻击",
+    "englishName": "Deadly Strike",
+    "description": "攻击更强，有 15%的几率造成暴击。 \n 攻击伤害： 20%",
+    "image": "/images/hades/ArtemisWeaponTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ArtemisRushTrait",
+    "category": "boons",
+    "name": "猎人冲刺",
+    "englishName": "Hunter Dash",
+    "description": "冲刺攻击造成更高伤害。 \n 冲刺攻击伤害： 50%",
+    "image": "/images/hades/ArtemisRushTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「路西法形态」"
+  },
+  {
+    "id": "hades-ArtemisRangedTrait",
+    "category": "boons",
+    "name": "会心一击",
+    "englishName": "True Shot",
+    "description": "投弹可以追踪敌人，有 10% 的几率造成暴击。 \n 投弹伤害： 70",
+    "image": "/images/hades/ArtemisRangedTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_ArtemisRangedTrait",
+    "category": "boons",
+    "name": "猎手之怒",
+    "englishName": "Hunter's Flare",
+    "description": "投弹对周围敌人造成伤害，有10%的几率暴击。 \n 爆炸伤害： 55",
+    "image": "/images/hades/ShieldLoadAmmo_ArtemisRangedTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ArtemisSecondaryTrait",
+    "category": "boons",
+    "name": "致命乱舞",
+    "englishName": "Deadly Flourish",
+    "description": "特殊攻击更强，有 20%的几率造成暴击。 \n 特殊攻击伤害： 40%",
+    "image": "/images/hades/ArtemisSecondaryTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ArtemisShoutTrait",
+    "category": "boons",
+    "name": "阿尔忒弥斯之援",
+    "englishName": "Artemis' Aid",
+    "description": "求援发射一枚追踪箭，有35%几率造成暴击。 \n 箭矢伤害： 100 \n 消耗整条神力槽的加成 - 箭矢数量： 10",
+    "image": "/images/hades/ArtemisShoutTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-CritBonusTrait",
+    "category": "boons",
+    "name": "直指要害",
+    "englishName": "Pressure Points",
+    "description": "你造成的所有伤害都有几率暴击。 \n 暴击几率： 2%",
+    "image": "/images/hades/CritBonusTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-PoisonCritVulnerabilityTrait",
+    "category": "boons",
+    "name": "头痛欲裂",
+    "englishName": "Splitting Headache",
+    "description": "身负醉酒的敌人更容易被暴击。 \n 每次 额外 暴击 概率: 2%",
+    "image": "/images/hades/PoisonCritVulnerabilityTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「醉酒攻击」、「醉酒冲刺」、「醉酒乱舞」、「迪奥尼索司之援」\n2. 「致命攻击」、「致命乱舞」、「会心一击」、「阿尔忒弥斯之援」"
+  },
+  {
+    "id": "hades-ArtemisCriticalTrait",
+    "category": "boons",
+    "name": "干净利落",
+    "englishName": "Clean Kill",
+    "description": "提升暴击伤害。 \n 暴击伤害： 15%",
+    "image": "/images/hades/ArtemisCriticalTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命攻击」、「直指要害」、「致命乱舞」、「会心一击」、「阿尔忒弥斯之援」"
+  },
+  {
+    "id": "hades-MoreAmmoTrait",
+    "category": "boons",
+    "name": "全副武装",
+    "englishName": "Fully Loaded",
+    "description": "增加血石数量上限，供投弹使用。 \n 血石上限： 2",
+    "image": "/images/hades/MoreAmmoTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「拔箭留疮」、「直指要害」\n2. 「火力支援」、「拔箭留疮」\n3. 「火力支援」、「直指要害」"
+  },
+  {
+    "id": "hades-CriticalSuperGenerationTrait",
+    "category": "boons",
+    "name": "猎人本能",
+    "englishName": "Hunter Instinct",
+    "description": "造成暴击伤害时，神力槽能量蓄积更快。 \n 暴击时神力积累速率： 0.25%",
+    "image": "/images/hades/CriticalSuperGenerationTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命攻击」、「直指要害」、「致命乱舞」、「会心一击」\n需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-CritVulnerabilityTrait",
+    "category": "boons",
+    "name": "猎人标记",
+    "englishName": "Hunter's Mark",
+    "description": "你对敌人造成暴击伤害时，附近的一个敌人也会被标记。 \n 标记暴击几率： 30%",
+    "image": "/images/hades/CritVulnerabilityTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命攻击」、「直指要害」、「致命乱舞」、「会心一击」、「阿尔忒弥斯之援」"
+  },
+  {
+    "id": "hades-ArtemisAmmoExitTrait",
+    "category": "boons",
+    "name": "拔箭留疮",
+    "englishName": "Exit Wounds",
+    "description": "血石从敌人身上掉落时，造成伤害。 \n 掉落时伤害： 100",
+    "image": "/images/hades/ArtemisAmmoExitTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「会心一击」、「洪水射击」、「洪水滔天」、「雷霆射击」、「倾心一箭」、「杀阵射击」\n不能同时持有：「暴雪射击」、「旋刀射击」、「致幻射击」、「水晶射击」、「贝奥武夫形态」、「溺亡诅咒」"
+  },
+  {
+    "id": "hades-AresHomingTrait",
+    "category": "boons",
+    "name": "狩猎之刃",
+    "englishName": "Hunting Blades",
+    "description": "投弹放出的剑刃旋风速度更快，且能索敌。 \n 索敌时间： 15 秒",
+    "image": "/images/hades/AresHomingTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "阿瑞斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「旋刀射击」\n2. 「致命攻击」、「致命乱舞」、「猎人冲刺」、「阿尔忒弥斯之援」\n不能同时持有：「冰寒风暴」、「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-CriticalBufferMultiplierTrait",
+    "category": "boons",
+    "name": "破甲暴击",
+    "englishName": "Hide Breaker",
+    "description": "暴击对护甲造成更高伤害。 \n 暴击对护甲伤害提升： 100%",
+    "image": "/images/hades/CriticalBufferMultiplierTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命攻击」、「直指要害」、「致命乱舞」、「会心一击」、「阿尔忒弥斯之援」"
+  },
+  {
+    "id": "hades-HomingLaserTrait",
+    "category": "boons",
+    "name": "冰寒射线",
+    "englishName": "Crystal Clarity",
+    "description": "投弹更强，瞄准敌人的速度更快。\n 光线伤害： 10%",
+    "image": "/images/hades/HomingLaserTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命攻击」、「致命乱舞」、「猎人冲刺」、「阿尔忒弥斯之援」\n2. 「水晶射击」\n不能同时持有：「冰寒之拥」、「」"
+  },
+  {
+    "id": "hades-ArtemisSupportingFireTrait",
+    "category": "boons",
+    "name": "火力支援",
+    "englishName": "Support Fire",
+    "description": "当你投弹时，或者以攻击 / 特殊攻击击中目标时，射出一支跟踪箭。\n跟踪箭伤害： 10",
+    "image": "/images/hades/ArtemisSupportingFireTrait.png",
+    "tags": [
+      "阿尔忒弥斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿尔忒弥斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命攻击」、「致命乱舞」、「猎人冲刺」、「会心一击」、「猎手之怒」、「阿尔忒弥斯之援」、「直指要害」"
+  },
+  {
+    "id": "hades-AresWeaponTrait",
+    "category": "boons",
+    "name": "致命诅咒",
+    "englishName": "Curse of Agony",
+    "description": "攻击施加厄运。 \n 厄运伤害： 50",
+    "image": "/images/hades/AresWeaponTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AresRushTrait",
+    "category": "boons",
+    "name": "利刃冲刺",
+    "englishName": "Blade Dash",
+    "description": "冲刺在起点生成剑刃旋风。\n 旋风每一击伤害： 10",
+    "image": "/images/hades/AresRushTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AresRangedTrait",
+    "category": "boons",
+    "name": "旋刀射击",
+    "englishName": "Slicing Shot",
+    "description": "投弹向前射出剑刃旋风。 \n 旋风每一击伤害： 20",
+    "image": "/images/hades/AresRangedTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-AresSecondaryTrait",
+    "category": "boons",
+    "name": "痛苦诅咒",
+    "englishName": "Curse of Pain",
+    "description": "特殊攻击施加厄运。 \n 厄运伤害： 60",
+    "image": "/images/hades/AresSecondaryTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AresShoutTrait",
+    "category": "boons",
+    "name": "阿瑞斯之援",
+    "englishName": "Ares' Aid",
+    "description": "求援时变身为无敌的剑刃旋风，持续时间 1.2 秒。 \n 旋风每一击伤害： 30 \n 消耗整条神力槽的加成： 5 秒持续时间",
+    "image": "/images/hades/AresShoutTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_AresRangedTrait",
+    "category": "boons",
+    "name": "血斩旋风",
+    "englishName": "Slicing Flare",
+    "description": "投弹会向前射出大型剑刃旋风，持续较短时间。 \n 旋风每一击伤害： 30",
+    "image": "/images/hades/ShieldLoadAmmo_AresRangedTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-AresRetaliateTrait",
+    "category": "boons",
+    "name": "复仇诅咒",
+    "englishName": "Curse of Vengeance",
+    "description": "受到伤害后，向周围的敌人施加厄运。 \n 厄运 伤害： 100",
+    "image": "/images/hades/AresRetaliateTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-IncreasedDamageTrait",
+    "category": "boons",
+    "name": "杀之后快",
+    "englishName": "Urge to Kill",
+    "description": "提升攻击、特殊攻击和投弹的伤害。 \n 伤害加成： 10%",
+    "image": "/images/hades/IncreasedDamageTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-OnEnemyDeathDamageInstanceBuffTrait",
+    "category": "boons",
+    "name": "血战狂怒",
+    "englishName": "Battle Rage",
+    "description": "杀死敌人后，提升下一次攻击或特殊攻击的伤害。 \n 伤害加成： 100%",
+    "image": "/images/hades/OnEnemyDeathDamageInstanceBuffTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-LastStandDamageBonusTrait",
+    "category": "boons",
+    "name": "血迷心窍",
+    "englishName": "Blood Frenzy",
+    "description": "使用死里逃生后，你在该场遭遇战内可造成更高伤害。\n遭遇战 伤害加成： 15%",
+    "image": "/images/hades/LastStandDamageBonusTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AresLongCurseTrait",
+    "category": "boons",
+    "name": "不可终日",
+    "englishName": "Impending Doom",
+    "description": "提升厄运效果的伤害，但是触发时间推迟 +0.5。\n 厄运伤害加成： 60%",
+    "image": "/images/hades/AresLongCurseTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命诅咒」、「痛苦诅咒」、「复仇诅咒」"
+  },
+  {
+    "id": "hades-AresLoadCurseTrait",
+    "category": "boons",
+    "name": "灭顶之灾",
+    "englishName": "Dire Misfortune",
+    "description": "使厄运可以叠加，进而提高伤害。 \n 每次叠加提升的伤害： 10",
+    "image": "/images/hades/AresLoadCurseTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致命诅咒」、「痛苦诅咒」"
+  },
+  {
+    "id": "hades-StationaryRiftTrait",
+    "category": "boons",
+    "name": "冰寒风暴",
+    "englishName": "Freezing Vortex",
+    "description": "为投弹附加冰冷效果，但范围缩小，移动速度也会变慢。 \n剑刃旋风 范围： -15%",
+    "image": "/images/hades/StationaryRiftTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「旋刀射击」、「血斩旋风」\n2. 「冰霜攻击」、「冷风冲刺」、「冰霜乱舞」、「得墨忒尔之援」\n不能同时持有：「狩猎之刃」"
+  },
+  {
+    "id": "hades-PoisonTickRateTrait",
+    "category": "boons",
+    "name": "呕吐诅咒",
+    "englishName": "Curse of Nausea",
+    "description": "醉酒更快生效。 \n 醉酒 伤害速度： 0.5 秒 → 0.35 秒",
+    "image": "/images/hades/PoisonTickRateTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "狄俄尼索斯",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致命诅咒」、「痛苦诅咒」、「复仇诅咒」\n2. 「醉酒攻击」、「醉酒冲刺」、「醉酒乱舞」、「迪奥尼索司之援」"
+  },
+  {
+    "id": "hades-AresCursedRiftTrait",
+    "category": "boons",
+    "name": "战患轮回",
+    "englishName": "Vicious Cycle",
+    "description": "剑刃旋风每次连续击中目标时，可以提高伤害。 \n 每一击提高伤害： +2",
+    "image": "/images/hades/AresCursedRiftTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「黑色金属」、「漩涡吞噬」"
+  },
+  {
+    "id": "hades-AresDragTrait",
+    "category": "boons",
+    "name": "漩涡吞噬",
+    "englishName": "Engulfing Vortex",
+    "description": "延长剑刃旋风的持续时间，并拉近附近的敌人。 \n 持续时间： +0.2 秒",
+    "image": "/images/hades/AresDragTrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「旋刀射击」、「利刃冲刺」、「阿瑞斯之援」、「血斩旋风」"
+  },
+  {
+    "id": "hades-AresAoETrait",
+    "category": "boons",
+    "name": "黑色金属",
+    "englishName": "Black Metal",
+    "description": "剑刃旋风 能力可在更大的范围内造成伤害。 \n 杀伤范围奖励： 20%",
+    "image": "/images/hades/AresAoETrait.png",
+    "tags": [
+      "阿瑞斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用阿瑞斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「旋刀射击」、「利刃冲刺」、「阿瑞斯之援」、「血斩旋风」"
+  },
+  {
+    "id": "hades-DionysusWeaponTrait",
+    "category": "boons",
+    "name": "醉酒攻击",
+    "englishName": "Drunken Strike",
+    "description": "攻击施加醉酒。 \n 醉酒伤害： 4（每 0.5 秒）",
+    "image": "/images/hades/DionysusWeaponTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DionysusSecondaryTrait",
+    "category": "boons",
+    "name": "醉酒乱舞",
+    "englishName": "Drunken Flourish",
+    "description": "特殊攻击施加醉酒。 \n 醉酒伤害： 5（每 0.5 秒）",
+    "image": "/images/hades/DionysusSecondaryTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DionysusRushTrait",
+    "category": "boons",
+    "name": "醉酒冲刺",
+    "englishName": "Drunken Dash",
+    "description": "冲刺时，对起点附近的敌人多次施加醉酒。\n醉酒伤害: 2（每 0.5 秒）",
+    "image": "/images/hades/DionysusRushTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DionysusRangedTrait",
+    "category": "boons",
+    "name": "致幻射击",
+    "englishName": "Trippy Shot",
+    "description": "投弹掷出一朵爆炸性的大型霜冻酒雾。 \n 投弹伤害： 100",
+    "image": "/images/hades/DionysusRangedTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_DionysusRangedTrait",
+    "category": "boons",
+    "name": "致幻爆破",
+    "englishName": "Trippy Flare",
+    "description": "投弹对周围的敌人造成伤害，并留下一团霜冻酒雾。\n 爆炸伤害： 100",
+    "image": "/images/hades/ShieldLoadAmmo_DionysusRangedTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有其中一项：「赫拉形态」、「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-DionysusShoutTrait",
+    "category": "boons",
+    "name": "迪奥尼索司之援",
+    "englishName": "Dionysus' Aid",
+    "description": "求援向身边所有敌人施加醉酒持续1.5秒。 \n 醉酒 伤害： 15 （每0.5秒）\n 消耗整条神力槽的加成： 9 秒持续时间",
+    "image": "/images/hades/DionysusShoutTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DoorHealTrait",
+    "category": "boons",
+    "name": "宴后再聚",
+    "englishName": "After Party",
+    "description": "如果遭遇战后你的低于某个阈值，就回复至这个值。 \n 生命回复阈值： 30%",
+    "image": "/images/hades/DoorHealTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-LowHealthDefenseTrait",
+    "category": "boons",
+    "name": "苦中作乐",
+    "englishName": "Positive Outlook",
+    "description": "生命不大于 40% 时，减少所受伤害。\n伤害抵抗： 10%",
+    "image": "/images/hades/LowHealthDefenseTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-FountainDamageBonusTrait",
+    "category": "boons",
+    "name": "烈酒入喉",
+    "englishName": "Strong Drink",
+    "description": "饮用泉水会回复所有，并增加你的伤害。\n每次饮用泉水增加伤害： 3%",
+    "image": "/images/hades/FountainDamageBonusTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DionysusSlowTrait",
+    "category": "boons",
+    "name": "烂醉如泥",
+    "englishName": "Numbing Sensation",
+    "description": "使醉酒的敌人移动速度降低。\n 速度降低： 15%",
+    "image": "/images/hades/DionysusSlowTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「醉酒冲刺」、「醉酒攻击」、「醉酒乱舞」、「迪奥尼索司之援」"
+  },
+  {
+    "id": "hades-DionysusSpreadTrait",
+    "category": "boons",
+    "name": "花前劝酒",
+    "englishName": "Peer Pressure",
+    "description": "处于醉酒状态的敌人每 4 秒就会将其传染给附近的敌人。\n 醉酒伤害： 4（每 0.5 秒）",
+    "image": "/images/hades/DionysusSpreadTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「醉酒冲刺」、「醉酒攻击」、「醉酒乱舞」"
+  },
+  {
+    "id": "hades-IceStrikeArrayTrait",
+    "category": "boons",
+    "name": "寒冰美酒",
+    "englishName": "Ice Wine",
+    "description": "投弹会稍作延迟，然后在目标位置造成霜冻酒雾的爆炸，对附近的敌人造成伤害并施加冰冷。\n 爆炸伤害： 30%",
+    "image": "/images/hades/IceStrikeArrayTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "得墨忒耳",
+      "双重祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神；双重祝福也可由相关的另一位神提供。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「冰霜攻击」、「冰霜乱舞」、「冷风冲刺」、「得墨忒尔之援」\n2. 「致幻射击」、「致幻爆破」\n不能同时持有：「暴雪射击」"
+  },
+  {
+    "id": "hades-DionysusComboVulnerability",
+    "category": "boons",
+    "name": "不省人事",
+    "englishName": "Black Out",
+    "description": "处于醉酒状态的敌人站在霜冻酒雾内会受到高伤害。\n 伤害加成： 60%",
+    "image": "/images/hades/DionysusComboVulnerability.png",
+    "tags": [
+      "狄俄尼索斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「致幻射击」、「致幻爆破」\n2. 「醉酒攻击」、「醉酒乱舞」、「迪奥尼索司之援」、「醉酒冲刺」"
+  },
+  {
+    "id": "hades-DionysusPoisonPowerTrait",
+    "category": "boons",
+    "name": "恶劣影响",
+    "englishName": "Bad Influence",
+    "description": "若有至少 3 个敌人同时处于醉酒状态，你的所有攻击会造成更高伤害。\n 伤害加成： 50%",
+    "image": "/images/hades/DionysusPoisonPowerTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「醉酒冲刺」、「醉酒攻击」、「醉酒乱舞」、「迪奥尼索司之援」"
+  },
+  {
+    "id": "hades-DionysusDefenseTrait",
+    "category": "boons",
+    "name": "千杯不醉",
+    "englishName": "High Tolerance",
+    "description": "你站在霜冻酒雾范围内可以减少所受伤害。 \n 伤害抵抗： 15%",
+    "image": "/images/hades/DionysusDefenseTrait.png",
+    "tags": [
+      "狄俄尼索斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用狄俄尼索斯的信物，可以让下一次普通神祇祝福优先来自该神。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「致幻射击」、「致幻爆破」"
+  },
+  {
+    "id": "hades-DemeterWeaponTrait",
+    "category": "boons",
+    "name": "冰霜攻击",
+    "englishName": "Frost Strike",
+    "description": "攻击更强，可以施加冰冷。\n 攻击伤害： 40%",
+    "image": "/images/hades/DemeterWeaponTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DemeterSecondaryTrait",
+    "category": "boons",
+    "name": "冰霜乱舞",
+    "englishName": "Frost Flourish",
+    "description": "特殊攻击更强，可以施加冰冷。 \n 特殊攻击伤害： 60%",
+    "image": "/images/hades/DemeterSecondaryTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "特殊攻击"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DemeterRushTrait",
+    "category": "boons",
+    "name": "冷风冲刺",
+    "englishName": "Mistral Dash",
+    "description": "冲刺时会向前刮起一阵狂风，并施加冰冷。 \n 狂风伤害： 15",
+    "image": "/images/hades/DemeterRushTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "冲刺"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DemeterRangedTrait",
+    "category": "boons",
+    "name": "水晶射击",
+    "englishName": "Crystal Beam",
+    "description": "投弹放下一颗水晶向敌人发射光线，持续5秒。 \n 伤害： 8 (每0.2秒)",
+    "image": "/images/hades/DemeterRangedTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-ShieldLoadAmmo_DemeterRangedTrait",
+    "category": "boons",
+    "name": "冰魂素魄",
+    "englishName": "Icy Flare",
+    "description": "投弹可以对周围的敌人造成伤害，还可以施加冰冷。\n 爆炸伤害： 70",
+    "image": "/images/hades/ShieldLoadAmmo_DemeterRangedTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "贝奥武夫形态",
+      "投弹"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有：「贝奥武夫形态」"
+  },
+  {
+    "id": "hades-DemeterShoutTrait",
+    "category": "boons",
+    "name": "得墨忒尔之援",
+    "englishName": "Demeter's Aid",
+    "description": "求援生成一阵凛冬旋风，可以施加冰冷，持续5秒。\n旋风伤害：10 (每0.25 秒) \n 消耗整条神力槽的加成： 10秒持续时间",
+    "image": "/images/hades/DemeterShoutTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-CastNovaTrait",
+    "category": "boons",
+    "name": "暴风骤雪",
+    "englishName": "Snow Burst",
+    "description": "投弹时会对附近的敌人造成伤害，并施加冰冷。 \n 区域伤害： 40",
+    "image": "/images/hades/CastNovaTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ZeroAmmoBonusTrait",
+    "category": "boons",
+    "name": "求生意志",
+    "englishName": "Ravenous Will",
+    "description": "当你没有血石可用时，受到的伤害可以减免 10%，且对敌人造成更高伤害。\n 伤害加成： 10%",
+    "image": "/images/hades/ZeroAmmoBonusTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DemeterRetaliateTrait",
+    "category": "boons",
+    "name": "冰寒之触",
+    "englishName": "Frozen Touch",
+    "description": "受到伤害后，会对敌人造成伤害， 并将其彻底冰冷。\n 复仇伤害： 10",
+    "image": "/images/hades/DemeterRetaliateTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-MaximumChillBonusSlow",
+    "category": "boons",
+    "name": "刺骨严寒",
+    "englishName": "Killing Freeze",
+    "description": "当所有敌人同时处于冰冷状态时，他们的速度会变慢 10%并开始腐朽。\n 腐朽伤害： 20 （每 0.5 秒）",
+    "image": "/images/hades/MaximumChillBonusSlow.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「冰霜攻击」、「冰霜乱舞」、「冷风冲刺」、「得墨忒尔之援」、「冰魂素魄」、「暴风骤雪」"
+  },
+  {
+    "id": "hades-InstantChillKill",
+    "category": "boons",
+    "name": "严冬收割",
+    "englishName": "Winter Harvest",
+    "description": "处于冰冷状态的敌人的生命值低至 10% 时，会爆裂而死，爆炸会施予冰冷。\n 爆炸的区域伤害： 50",
+    "image": "/images/hades/InstantChillKill.png",
+    "tags": [
+      "得墨忒耳",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "以下各组都至少持有一项：\n1. 「极地风暴」、「求生意志」\n2. 「刺骨严寒」、「极地风暴」\n3. 「求生意志」、「刺骨严寒」"
+  },
+  {
+    "id": "hades-DemeterRangedBonusTrait",
+    "category": "boons",
+    "name": "冰川极寒",
+    "englishName": "Glacial Glare",
+    "description": "投弹持续时间更长，且会施加冰冷。 \n 持续时间加成： 2 秒",
+    "image": "/images/hades/DemeterRangedBonusTrait.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「水晶射击」"
+  },
+  {
+    "id": "hades-MaximumChillBlast",
+    "category": "boons",
+    "name": "极地风暴",
+    "englishName": "Arctic Blast",
+    "description": "冰冷叠加至10 次时，形成一阵冲击波，并清空冰冷状态。\n 冲击波区域伤害： 80",
+    "image": "/images/hades/MaximumChillBlast.png",
+    "tags": [
+      "得墨忒耳",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。使用得墨忒耳的信物，可以让下一次普通神祇祝福优先来自该神。需先到达地表的最终首领房间，得墨忒耳才会加入祝福池。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「冰霜攻击」、「冰霜乱舞」、「冷风冲刺」、「得墨忒尔之援」、「冰魂素魄」、「暴风骤雪」"
+  },
+  {
+    "id": "hades-RegeneratingSuperTrait",
+    "category": "boons",
+    "name": "迅捷赐福",
+    "englishName": "Quick Favor",
+    "description": "你的神力槽会自动蓄积。\n 自动蓄积速度： +1% （每2秒）",
+    "image": "/images/hades/RegeneratingSuperTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-ChamberGoldTrait",
+    "category": "boons",
+    "name": "意外之财",
+    "englishName": "Side Hustle",
+    "description": "每次进入房间时，都能获得少量金钱。\n 每个房间的额外金钱： +10",
+    "image": "/images/hades/ChamberGoldTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AmmoReloadTrait",
+    "category": "boons",
+    "name": "自动填弹",
+    "englishName": "Auto Reload",
+    "description": "让 血石 自动回复的速度更快。\n回复时间： 2.75 秒",
+    "image": "/images/hades/AmmoReloadTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-HermesShoutDodge",
+    "category": "boons",
+    "name": "越战越勇",
+    "englishName": "Second Wind",
+    "description": "求援后，提升闪避几率和移动速度，持续 10 秒。 \n 闪避几率和移动速度： 30%",
+    "image": "/images/hades/HermesShoutDodge.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要先获得一项援助祝福。"
+  },
+  {
+    "id": "hades-HermesWeaponTrait",
+    "category": "boons",
+    "name": "迅捷攻击",
+    "englishName": "Swift Strike",
+    "description": "你的 攻击 变得更快。\n 攻击速度： 10%",
+    "image": "/images/hades/HermesWeaponTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-HermesSecondaryTrait",
+    "category": "boons",
+    "name": "迅捷乱舞",
+    "englishName": "Swift Flourish",
+    "description": "你的 特殊攻击 变得更快。\n 特殊攻击速度： 10%",
+    "image": "/images/hades/HermesSecondaryTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「闪电暴击」"
+  },
+  {
+    "id": "hades-RushRallyTrait",
+    "category": "boons",
+    "name": "快速恢复",
+    "englishName": "Quick Recovery",
+    "description": "受到伤害后，立刻按下冲刺可恢复部分刚刚失去的。\n 生命值恢复： 所受伤害的30%",
+    "image": "/images/hades/RushRallyTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-MoveSpeedTrait",
+    "category": "boons",
+    "name": "健步如飞",
+    "englishName": "Greater Haste",
+    "description": "你的移动速度变得更快。\n 移动速度： 20%",
+    "image": "/images/hades/MoveSpeedTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-RushSpeedBoostTrait",
+    "category": "boons",
+    "name": "大步流星",
+    "englishName": "Hyper Sprint",
+    "description": "使用冲刺后，暂时获得坚韧效果，移动速度提高100% 。\n 加速持续时间： 0.5秒。",
+    "image": "/images/hades/RushSpeedBoostTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-RapidCastTrait",
+    "category": "boons",
+    "name": "极速投射",
+    "englishName": "Flurry Cast",
+    "description": "按住投弹可以连续投射。\n 投弹速度： 20%",
+    "image": "/images/hades/RapidCastTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「赫拉形态」、「贝奥武夫形态」\n冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-BonusDashTrait",
+    "category": "boons",
+    "name": "极速反应",
+    "englishName": "Greatest Reflex",
+    "description": "增加可连续 冲刺 的次数。\n增加冲刺次数: +1",
+    "image": "/images/hades/BonusDashTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-DodgeChanceTrait",
+    "category": "boons",
+    "name": "闪躲腾挪",
+    "englishName": "Greater Evasion",
+    "description": "每当你被击中时，都有一定几率自动发动闪避。\n 闪避几率： 10%",
+    "image": "/images/hades/DodgeChanceTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-AmmoReclaimTrait",
+    "category": "boons",
+    "name": "快速装弹",
+    "englishName": "Quick Reload",
+    "description": "敌人更快地掉落血石。 \n 掉落时间： 5 秒",
+    "image": "/images/hades/AmmoReclaimTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「旋刀射击」、「致幻射击」、「水晶射击」、「贝奥武夫形态」、「溺亡诅咒」\n冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-MagnetismTrait",
+    "category": "boons",
+    "name": "自动收回",
+    "englishName": "Greater Recall",
+    "description": "你的血石会自动返回身边。\n 血石返回延迟时间： 0秒。",
+    "image": "/images/hades/MagnetismTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「极速投射」、「快速装弹」、「萤光羽毛」\n冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-SpeedDamageTrait",
+    "category": "boons",
+    "name": "欲速则达",
+    "englishName": "Rush Delivery",
+    "description": "你会根据当前的移动速度加成获得伤害加成。\n 速度加成带来的伤害加成： 50%",
+    "image": "/images/hades/SpeedDamageTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "普通祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「健步如飞」、「大步流星」、「萤光羽毛」"
+  },
+  {
+    "id": "hades-UnstoredAmmoDamageTrait",
+    "category": "boons",
+    "name": "当头一棒",
+    "englishName": "Bad News",
+    "description": "投弹对于没有血石附身的敌人造成更高伤害。\n 伤害加成： 50%",
+    "image": "/images/hades/UnstoredAmmoDamageTrait.png",
+    "tags": [
+      "赫尔墨斯",
+      "传奇祝福"
+    ],
+    "acquisition": "在逃脱过程中选择对应神祇符号的房间奖励，或在卡戎商店购买对应祝福。满足前置条件后才可能进入本次选项，出现并不保证。赫尔墨斯的奖励独立于常规奥林匹斯神池，通常在逃脱流程中出现。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "至少持有其中一项：「自动填弹」、「萤光羽毛」\n不能同时持有：「自动收回」\n冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-ChaosBlessingMeleeTrait",
+    "category": "boons",
+    "name": "攻击",
+    "englishName": "Strike",
+    "description": "此后，你的攻击伤害增加 30% 。",
+    "image": "/images/hades/ChaosBlessingMeleeTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingRangedTrait",
+    "category": "boons",
+    "name": "射击",
+    "englishName": "Shot",
+    "description": "此后，你的投弹伤害增加 30% 。",
+    "image": "/images/hades/ChaosBlessingRangedTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingAmmoTrait",
+    "category": "boons",
+    "name": "抓取",
+    "englishName": "Grasp",
+    "description": "此后， 获得 1 个血石。",
+    "image": "/images/hades/ChaosBlessingAmmoTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingMaxHealthTrait",
+    "category": "boons",
+    "name": "灵魂",
+    "englishName": "Soul",
+    "description": "此后，提升 30。",
+    "image": "/images/hades/ChaosBlessingMaxHealthTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingBoonRarityTrait",
+    "category": "boons",
+    "name": "关照",
+    "englishName": "Favor",
+    "description": "此后，祝福 将有 11%的几率成为稀有或更高等级。",
+    "image": "/images/hades/ChaosBlessingBoonRarityTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingMoneyTrait",
+    "category": "boons",
+    "name": "暴富",
+    "englishName": "Affluence",
+    "description": "此后，获取的 会增值 30%。",
+    "image": "/images/hades/ChaosBlessingMoneyTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingMetapointTrait",
+    "category": "boons",
+    "name": "日蚀",
+    "englishName": "Eclipse",
+    "description": "此后，获取的 与 会增值 50%。",
+    "image": "/images/hades/ChaosBlessingMetapointTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingSecondaryTrait",
+    "category": "boons",
+    "name": "乱舞",
+    "englishName": "Flourish",
+    "description": "此后，你的特殊攻击伤害增加 30% 。",
+    "image": "/images/hades/ChaosBlessingSecondaryTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-ChaosBlessingDashAttackTrait",
+    "category": "boons",
+    "name": "冲击",
+    "englishName": "Lunge",
+    "description": "此后，你的冲刺攻击伤害增加 40% 。",
+    "image": "/images/hades/ChaosBlessingDashAttackTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "不能同时持有：「路西法形态」"
+  },
+  {
+    "id": "hades-ChaosBlessingExtraChanceTrait",
+    "category": "boons",
+    "name": "逃生",
+    "englishName": "Defiance",
+    "description": "此后，获得 +1 次死里逃生（限本次逃脱行动可用）。",
+    "image": "/images/hades/ChaosBlessingExtraChanceTrait.png",
+    "tags": [
+      "混沌",
+      "传奇祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "需要持有其中一项：「攻击」、「射击」、「抓取」、「灵魂」、「关照」、「暴富」、「日蚀」、「乱舞」、「冲击」、「伏击」、「突击」"
+  },
+  {
+    "id": "hades-ChaosBlessingBackstabTrait",
+    "category": "boons",
+    "name": "伏击",
+    "englishName": "Ambush",
+    "description": "此后，你的背刺攻击造成60%伤害。",
+    "image": "/images/hades/ChaosBlessingBackstabTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-ChaosBlessingAlphaStrikeTrait",
+    "category": "boons",
+    "name": "突击",
+    "englishName": "Assault",
+    "description": "此后，你对未受伤的敌人造成30%伤害。",
+    "image": "/images/hades/ChaosBlessingAlphaStrikeTrait.png",
+    "tags": [
+      "混沌",
+      "普通祝福"
+    ],
+    "acquisition": "进入混沌之门，支付入口生命代价并选择混沌恩赐；持宇宙之卵可免除入口生命代价。先承受随机诅咒规定的遭遇次数，随后获得该永久增益。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ],
+    "specialAcquisition": "冥夜之镜必须选择："
+  },
+  {
+    "id": "hades-HadesShoutTrait",
+    "category": "boons",
+    "name": "哈迪斯之援",
+    "englishName": "Hades' Aid",
+    "description": "求援使你变成隐形。 \n 隐形额外伤害： 50% \n 消耗整条神力槽的加成： 则变成无形",
+    "image": "/images/hades/HadesShoutTrait.png",
+    "tags": [
+      "哈迪斯",
+      "普通祝福",
+      "援助"
+    ],
+    "acquisition": "与哈迪斯的好感达到赠予信物条件，赠送蜜露取得冥王印玺；装备它后获得专属援助，无法同时拥有普通奥林匹斯援助。",
+    "notes": [
+      "作用数值按初始等级、普通稀有度（传奇或双重祝福采用其固定稀有度）展示；强化与更高稀有度会改变可成长属性。"
+    ]
+  },
+  {
+    "id": "hades-SwordWeapon",
+    "category": "weapons",
+    "name": "冥界之刃",
+    "englishName": "Stygius · Stygian Blade",
+    "description": "近战三连斩，特殊攻击为周身范围震击；可以用冲刺攻击快速贴近敌人。初始武器，无需钥匙解锁。",
+    "image": "/images/hades/SwordBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "近战",
+      "4 种形态"
+    ],
+    "acquisition": "初始解锁。",
+    "aspects": [
+      {
+        "id": "SwordBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/SwordBaseUpgradeTrait-portrait.png",
+        "description": "冥界之刃首先以这种形态展现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "额外攻击与移动速度",
+        "levels": [
+          {
+            "level": 1,
+            "value": "3%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "6%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "9%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "12%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "15%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "SwordCriticalParryTrait",
+        "name": "涅墨西斯形态",
+        "image": "/images/hades/SwordCriticalParryTrait-portrait.png",
+        "description": "使用特殊攻击后的3 秒内，攻击有几率造成暴击伤害。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "暴击几率",
+        "levels": [
+          {
+            "level": 1,
+            "value": "15%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "19%",
+            "delta": "增加 4 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "23%",
+            "delta": "增加 4 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "26%",
+            "delta": "增加 3 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "30%",
+            "delta": "增加 4 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "DislodgeAmmoTrait",
+        "name": "波塞冬形态",
+        "image": "/images/hades/DislodgeAmmoTrait-portrait.png",
+        "description": "特殊攻击击中附有 血石 的敌人时，会使其 血石 掉落。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "投弹伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "10%",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "20%",
+            "delta": "增加 10 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "30%",
+            "delta": "增加 10 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "40%",
+            "delta": "增加 10 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "50%",
+            "delta": "增加 10 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "SwordConsecrationTrait",
+        "name": "亚瑟形态",
+        "image": "/images/hades/SwordConsecrationTrait-portrait.png",
+        "description": "持有王者之圣剑可增加生命上限 +50。",
+        "acquisition": "先揭示关羽形态，并在冥界之刃上累计投入至少 5 份泰坦之血；与倪克斯交谈取得唤醒密语，再在武器架揭示。",
+        "upgradeLabel": "光环可减免伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "20%",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "25%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "30%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "35%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "40%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hades-SpearWeapon",
+    "category": "weapons",
+    "name": "永恒之矛",
+    "englishName": "Varatha · Eternal Spear",
+    "description": "攻击可远距离突刺，长按可蓄力旋转；特殊攻击投出长矛，再次使用将其召回。",
+    "image": "/images/hades/SpearBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "近战与投掷",
+      "4 种形态"
+    ],
+    "acquisition": "在武器架消耗 4 把冥府钥匙解锁。",
+    "aspects": [
+      {
+        "id": "SpearBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/SpearBaseUpgradeTrait-portrait.png",
+        "description": "永恒之矛首先以这种形态呈现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "特殊攻击伤害、射程、速度加成",
+        "levels": [
+          {
+            "level": 1,
+            "value": "10%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "14%",
+            "delta": "增加 4 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "18%",
+            "delta": "增加 4 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "21%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "25%",
+            "delta": "增加 4 个百分点",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "SpearTeleportTrait",
+        "name": "阿喀琉斯形态",
+        "image": "/images/hades/SpearTeleportTrait-portrait.png",
+        "description": "使用 特殊攻击 后，可以用 冲锋陷阵 取回你的矛。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "冲锋陷阵后的伤害加成",
+        "levels": [
+          {
+            "level": 1,
+            "value": "50%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "75%",
+            "delta": "增加 25 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "100%",
+            "delta": "增加 25 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "125%",
+            "delta": "增加 25 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "150%",
+            "delta": "增加 25 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "SpearWeaveTrait",
+        "name": "哈迪斯形态",
+        "image": "/images/hades/SpearWeaveTrait-portrait.png",
+        "description": "旋转攻击升级为神罚攻击。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "神罚后伤害加成",
+        "levels": [
+          {
+            "level": 1,
+            "value": "30%",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "60%",
+            "delta": "增加 30 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "90%",
+            "delta": "增加 30 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "120%",
+            "delta": "增加 30 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "150%",
+            "delta": "增加 30 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "SpearSpinTravel",
+        "name": "关羽形态",
+        "image": "/images/hades/SpearSpinTravel-portrait.png",
+        "description": "持有冷艳锯，但你的 生命上限 和 生命回复 会降低。",
+        "acquisition": "购买承包商的命运清单，至少用泰坦之血解锁 5 个非扎格列欧斯形态，并到达最终首领；与阿喀琉斯交谈取得唤醒密语，再在武器架揭示。",
+        "upgradeLabel": "生命上限与回复惩罚",
+        "levels": [
+          {
+            "level": 1,
+            "value": "-70%",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "-65%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "-60%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "-55%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "-50%",
+            "delta": "增加 5 个百分点",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hades-ShieldWeapon",
+    "category": "weapons",
+    "name": "混沌之盾",
+    "englishName": "Aegis · Shield of Chaos",
+    "description": "攻击挥盾，长按可格挡正面攻击并蓄力发动蛮牛冲撞；特殊攻击投盾，盾牌可弹射后返回。",
+    "image": "/images/hades/ShieldBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "近战与投掷",
+      "4 种形态"
+    ],
+    "acquisition": "在武器架消耗 3 把冥府钥匙解锁。",
+    "aspects": [
+      {
+        "id": "ShieldBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/ShieldBaseUpgradeTrait-portrait.png",
+        "description": "混沌之盾最初以这种形态呈现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "攻击与冲刺攻击伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "3",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "6",
+            "delta": "增加 3",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "9",
+            "delta": "增加 3",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "12",
+            "delta": "增加 3",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "15",
+            "delta": "增加 3",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "ShieldRushBonusProjectileTrait",
+        "name": "卡俄斯形态",
+        "image": "/images/hades/ShieldRushBonusProjectileTrait-portrait.png",
+        "description": "蛮牛冲撞之后，下次特殊攻击可投出多个盾牌。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "投盾数目增加",
+        "levels": [
+          {
+            "level": 1,
+            "value": "1",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "2",
+            "delta": "增加 1",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "3",
+            "delta": "增加 1",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "4",
+            "delta": "增加 1",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "5",
+            "delta": "增加 1",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "ShieldTwoShieldTrait",
+        "name": "宙斯形态",
+        "image": "/images/hades/ShieldTwoShieldTrait-portrait.png",
+        "description": "特殊攻击替换成风暴之盾。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "风暴之盾每次造成基础伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "8",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "13",
+            "delta": "增加 5",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "19",
+            "delta": "增加 6",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "24",
+            "delta": "增加 5",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "30",
+            "delta": "增加 6",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "ShieldLoadAmmoTrait",
+        "name": "贝奥武夫形态",
+        "image": "/images/hades/ShieldLoadAmmoTrait-portrait.png",
+        "description": "你获得奈格灵之盾，但会承受10%伤害。",
+        "acquisition": "先揭示关羽形态，并在混沌之盾上累计投入至少 5 份泰坦之血；持盾与混沌交谈触发相关对话，再取得唤醒密语。",
+        "upgradeLabel": "巨龙怒袭 伤害加成与范围加成",
+        "levels": [
+          {
+            "level": 1,
+            "value": "20%",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "40%",
+            "delta": "增加 20 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "60%",
+            "delta": "增加 20 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "80%",
+            "delta": "增加 20 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "100%",
+            "delta": "增加 20 个百分点",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hades-BowWeapon",
+    "category": "weapons",
+    "name": "索心弓",
+    "englishName": "Coronacht · Heart-Seeking Bow",
+    "description": "长按攻击蓄力射箭，在合适时机释放可发动强力射击；特殊攻击向前扇形射出多支箭。",
+    "image": "/images/hades/BowBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "远程",
+      "4 种形态"
+    ],
+    "acquisition": "在武器架消耗 1 把冥府钥匙解锁。",
+    "aspects": [
+      {
+        "id": "BowBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/BowBaseUpgradeTrait-portrait.png",
+        "description": "索心弓最初以这种形态呈现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "攻击造成暴击的几率",
+        "levels": [
+          {
+            "level": 1,
+            "value": "3%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "6%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "9%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "12%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "15%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "BowMarkHomingTrait",
+        "name": "喀戎形态",
+        "image": "/images/hades/BowMarkHomingTrait-portrait.png",
+        "description": "最后被攻击击中的敌人，将短暂成为特殊攻击自动追踪的目标。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "特殊攻击的箭矢数目",
+        "levels": [
+          {
+            "level": 1,
+            "value": "4",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "5",
+            "delta": "增加 1",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "6",
+            "delta": "增加 1",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "7",
+            "delta": "增加 1",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "8",
+            "delta": "增加 1",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "BowLoadAmmoTrait",
+        "name": "赫拉形态",
+        "image": "/images/hades/BowLoadAmmoTrait-portrait.png",
+        "description": "投弹改为给下一次攻击附着血石，射中敌人时发动。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "血石掉落时间",
+        "levels": [
+          {
+            "level": 1,
+            "value": "10 秒",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "8 秒",
+            "delta": "减少 2 秒",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "6.67 秒",
+            "delta": "减少 1.33 秒",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "6.15 秒",
+            "delta": "减少 0.52 秒",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "5 秒",
+            "delta": "减少 1.15 秒",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "BowBondTrait",
+        "name": "罗摩形态",
+        "image": "/images/hades/BowBondTrait-portrait.png",
+        "description": "你拥有了天神之弓沙兰迦，可以使出同甘共苦。",
+        "acquisition": "先揭示关羽形态，并在索心弓上累计投入至少 5 份泰坦之血；持弓与阿尔忒弥斯触发相关对话，再取得唤醒密语。",
+        "upgradeLabel": "同甘共苦 伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "30%",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "38%",
+            "delta": "增加 8 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "45%",
+            "delta": "增加 7 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "53%",
+            "delta": "增加 8 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "60%",
+            "delta": "增加 7 个百分点",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hades-FistWeapon",
+    "category": "weapons",
+    "name": "双子之拳",
+    "englishName": "Malphon · Twin Fists",
+    "description": "攻击为快速连续拳击，特殊攻击为上勾拳；冲刺后可衔接冲刺攻击和冲刺特殊攻击。",
+    "image": "/images/hades/FistBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "近战",
+      "4 种形态"
+    ],
+    "acquisition": "在武器架消耗 8 把冥府钥匙解锁。",
+    "aspects": [
+      {
+        "id": "FistBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/FistBaseUpgradeTrait-portrait.png",
+        "description": "双子之拳最初以这种形态呈现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "闪避几率",
+        "levels": [
+          {
+            "level": 1,
+            "value": "5%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "8%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "10%",
+            "delta": "增加 2 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "13%",
+            "delta": "增加 3 个百分点",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "15%",
+            "delta": "增加 2 个百分点",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "FistVacuumTrait",
+        "name": "塔罗斯形态",
+        "image": "/images/hades/FistVacuumTrait-portrait.png",
+        "description": "特殊攻击变为磁力勾拳，可以拉动敌人，拉动伤害为 20 。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "磁化敌人受攻击与投弹伤害增加",
+        "levels": [
+          {
+            "level": 1,
+            "value": "10%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "20%",
+            "delta": "增加 10 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "30%",
+            "delta": "增加 10 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "40%",
+            "delta": "增加 10 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "50%",
+            "delta": "增加 10 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "FistWeaveTrait",
+        "name": "得墨忒尔形态",
+        "image": "/images/hades/FistWeaveTrait-portrait.png",
+        "description": "以攻击击中敌人 12 次之后，下一次特殊攻击可以瞬间多次打击。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "特殊攻击增加打击次数",
+        "levels": [
+          {
+            "level": 1,
+            "value": "1",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "2",
+            "delta": "增加 1",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "3",
+            "delta": "增加 1",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "4",
+            "delta": "增加 1",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "5",
+            "delta": "增加 1",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "FistDetonateTrait",
+        "name": "吉尔伽美什形态",
+        "image": "/images/hades/FistDetonateTrait-portrait.png",
+        "description": "持有恩奇都之爪，其冲刺特殊攻击可使敌人致残。",
+        "acquisition": "先揭示关羽形态，并在双子之拳上累计投入至少 5 份泰坦之血；持拳套遇到阿斯忒里俄斯的单独战斗，触发相关对话并取得唤醒密语。",
+        "upgradeLabel": "致残伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "100",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "175",
+            "delta": "增加 75",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "250",
+            "delta": "增加 75",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "325",
+            "delta": "增加 75",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "400",
+            "delta": "增加 75",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hades-GunWeapon",
+    "category": "weapons",
+    "name": "狮鹫坚炮",
+    "englishName": "Exagryph · Adamant Rail",
+    "description": "攻击连射并消耗弹药，可手动装填；特殊攻击向选定区域发射爆炸榴弹。",
+    "image": "/images/hades/GunBaseUpgradeTrait-portrait.png",
+    "tags": [
+      "远程",
+      "4 种形态"
+    ],
+    "acquisition": "在武器架消耗 8 把冥府钥匙解锁。需先解锁其它五种武器。",
+    "aspects": [
+      {
+        "id": "GunBaseUpgradeTrait",
+        "name": "扎格列欧斯形态",
+        "image": "/images/hades/GunBaseUpgradeTrait-portrait.png",
+        "description": "狮鹫弩炮最初以这种形态呈现。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "弹药量增加",
+        "levels": [
+          {
+            "level": 1,
+            "value": "4",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "6",
+            "delta": "增加 2",
+            "cost": 1
+          },
+          {
+            "level": 3,
+            "value": "8",
+            "delta": "增加 2",
+            "cost": 1
+          },
+          {
+            "level": 4,
+            "value": "10",
+            "delta": "增加 2",
+            "cost": 1
+          },
+          {
+            "level": 5,
+            "value": "12",
+            "delta": "增加 2",
+            "cost": 1
+          }
+        ]
+      },
+      {
+        "id": "GunGrenadeSelfEmpowerTrait",
+        "name": "厄里斯形态",
+        "image": "/images/hades/GunGrenadeSelfEmpowerTrait-portrait.png",
+        "description": "被自己的特殊攻击击中后，所有攻击造成更高伤害。效果持续 4 秒。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "伤害加成",
+        "levels": [
+          {
+            "level": 1,
+            "value": "15%",
+            "delta": "首次解锁",
+            "cost": 1
+          },
+          {
+            "level": 2,
+            "value": "30%",
+            "delta": "增加 15 个百分点",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "45%",
+            "delta": "增加 15 个百分点",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "60%",
+            "delta": "增加 15 个百分点",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "75%",
+            "delta": "增加 15 个百分点",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "GunManualReloadTrait",
+        "name": "赫斯提亚形态",
+        "image": "/images/hades/GunManualReloadTrait-portrait.png",
+        "description": "手动 手动装填 后，下一次攻击将得到强化。",
+        "acquisition": "解锁全部六种武器并推进逃脱，开启形态系统后，在武器架消耗泰坦之血解锁或升级。",
+        "upgradeLabel": "强化攻击基础伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "50",
+            "delta": "首次解锁",
+            "cost": 2
+          },
+          {
+            "level": 2,
+            "value": "75",
+            "delta": "增加 25",
+            "cost": 2
+          },
+          {
+            "level": 3,
+            "value": "100",
+            "delta": "增加 25",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "125",
+            "delta": "增加 25",
+            "cost": 4
+          },
+          {
+            "level": 5,
+            "value": "150",
+            "delta": "增加 25",
+            "cost": 5
+          }
+        ]
+      },
+      {
+        "id": "GunLoadedGrenadeTrait",
+        "name": "路西法形态",
+        "image": "/images/hades/GunLoadedGrenadeTrait-portrait.png",
+        "description": "你获得伊甸之火，可以射出威力巨大的地狱烈焰。",
+        "acquisition": "先揭示关羽形态，并在狮鹫坚炮上累计投入至少 5 份泰坦之血；与宙斯交谈取得唤醒密语，再在武器架揭示。",
+        "upgradeLabel": "地狱烈焰 爆炸伤害",
+        "levels": [
+          {
+            "level": 1,
+            "value": "50",
+            "delta": "首次解锁",
+            "cost": 3
+          },
+          {
+            "level": 2,
+            "value": "63",
+            "delta": "增加 13",
+            "cost": 3
+          },
+          {
+            "level": 3,
+            "value": "75",
+            "delta": "增加 12",
+            "cost": 3
+          },
+          {
+            "level": 4,
+            "value": "88",
+            "delta": "增加 13",
+            "cost": 3
+          },
+          {
+            "level": 5,
+            "value": "100",
+            "delta": "增加 12",
+            "cost": 3
+          }
+        ]
+      }
+    ]
+  }
+]

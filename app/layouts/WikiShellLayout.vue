@@ -20,6 +20,8 @@ import {
   Puzzle,
   Search,
   Sun,
+  Sparkles,
+  Swords,
   Trophy,
   X,
 } from "@lucide/vue";
@@ -29,14 +31,16 @@ import {
   getGameById,
   getGameEntryPath,
 } from "~/constants/games";
-import { GAME_BASE_PATH } from "~/constants/wiki";
-import { WIKI_ENTRIES } from "~/utils/wiki-data";
+import { getEntriesByGame } from "~/utils/wiki-data";
 
 const route = useRoute();
 const router = useRouter();
 const currentGame = computed(
   () => getGameById(route.path.split("/")[2] ?? "") ?? NEON_ABYSS_GAME,
 );
+const currentEntries = computed(() => getEntriesByGame(currentGame.value.id));
+const defaultPath = computed(() => getGameEntryPath(currentGame.value) ?? '/');
+const isHades = computed(() => currentGame.value.id === 'hades');
 const { favoriteIds, isLightTheme, toggleTheme } = useWikiPreferences();
 const isGameMenuOpen = ref(false);
 const isSourceDialogOpen = ref(false);
@@ -45,7 +49,7 @@ const activeSection = computed(() =>
   String(route.params.section ?? "encyclopedia"),
 );
 const isFavoritesView = computed(
-  () => activeSection.value === "encyclopedia" && route.query.favorites === "1",
+  () => route.query.favorites === "1",
 );
 const sectionIcons = {
   "book-open": BookOpen,
@@ -53,12 +57,23 @@ const sectionIcons = {
   puzzle: Puzzle,
   layers: Layers3,
   trophy: Trophy,
+  sparkles: Sparkles,
+  swords: Swords,
 };
 const knownFavoritesCount = computed(
   () =>
-    WIKI_ENTRIES.filter((entry) => favoriteIds.value.includes(entry.id)).length,
+    currentEntries.value.filter((entry) => favoriteIds.value.includes(entry.id)).length,
 );
-const heroImagePath = `${useRuntimeConfig().app.baseURL.replace(/\/$/, "")}/images/neon-abyss/steam-header.jpg`;
+const baseURL = useRuntimeConfig().app.baseURL;
+const heroImagePath = computed(() => `${baseURL.replace(/\/$/, "")}${currentGame.value.cover ?? ''}`);
+const sourceLinks = computed(() => isHades.value ? [
+  { label: 'Supergiant Games · Hades', url: 'https://www.supergiantgames.com/games/hades/' },
+  { label: 'Steam · 哈迪斯 PC 版', url: 'https://store.steampowered.com/app/1145360/Hades/' },
+] : [
+  { label: 'Veewo Games · 官方更新日志', url: 'https://www.veewo.com/na-log?lang=zh' },
+  { label: 'Neon Abyss Wiki · PC 版资料', url: 'https://neonabyss.fandom.com/wiki/Neon_Abyss_Wiki' },
+  { label: 'Steam · 游戏主视觉', url: 'https://store.steampowered.com/app/788100/Neon_Abyss/' },
+]);
 
 /** 将站内搜索导航至当前百科，并把焦点交给搜索输入框。 */
 async function handleFocusSearch(): Promise<void> {
@@ -66,8 +81,8 @@ async function handleFocusSearch(): Promise<void> {
     sourceDialog.value?.close();
     isSourceDialogOpen.value = false;
   }
-  if (activeSection.value !== "encyclopedia")
-    await router.push(`${GAME_BASE_PATH}/encyclopedia`);
+  if (activeSection.value === "guides")
+    await router.push(defaultPath.value);
   else if (route.query.entry)
     await router.replace({ query: { ...route.query, entry: undefined } });
   await nextTick();
@@ -113,7 +128,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
               aria-controls="game-switcher"
               @click="isGameMenuOpen = !isGameMenuOpen"
             >
-              <span class="game-avatar">NA</span
+              <span class="game-avatar">{{ isHades ? 'HA' : 'NA' }}</span
               ><span
                 ><strong>{{ currentGame.name }}</strong
                 ><small>{{
@@ -181,14 +196,14 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
               ><span class="platform-badge">PC</span>
             </div>
             <h1 id="game-title">{{ currentGame.name }}</h1>
-            <p>道具效果、武器能力、宠物进化，一处查阅。</p>
+            <p>{{ currentGame.description }}</p>
             <div class="hero-meta">
               <span
                 ><BookOpen :size="13" />{{
-                  WIKI_ENTRIES.length
+                  currentEntries.length
                 }}
                 个图鉴条目</span
-              ><span class="hero-divider" /><span>PC 1.5.3.2 · 中文资料</span>
+              ><span class="hero-divider" /><span>{{ isHades ? 'PC · 中文资料' : 'PC 1.5.3.2 · 中文资料' }}</span>
             </div>
           </div>
         </section>
@@ -209,12 +224,12 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
             ><component :is="sectionIcons[section.icon]" :size="17" />{{
               section.label
             }}<span v-if="section.id === 'encyclopedia'" class="tab-count">{{
-              WIKI_ENTRIES.length
+              currentEntries.length
             }}</span></NuxtLink
           >
           <NuxtLink
             class="section-tabs__favorites"
-            :to="`${GAME_BASE_PATH}/encyclopedia?favorites=1`"
+            :to="`${defaultPath}?favorites=1`"
             :class="{ 'is-active': isFavoritesView }"
             :aria-current="isFavoritesView ? 'page' : undefined"
             ><Heart :size="17" />我的收藏<span class="tab-count">{{
@@ -225,7 +240,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
 
         <slot />
         <footer class="page-footer">
-          <span>游戏图鉴 · 霓虹深渊 PC 版</span
+          <span>游戏图鉴 · {{ currentGame.name }} PC 版</span
           ><button type="button" @click="isSourceDialogOpen = true">
             资料与图片来源 <ExternalLink :size="12" />
           </button>
@@ -252,28 +267,15 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
         </button>
       </div>
       <h2 id="sources-title">资料与图片来源</h2>
-      <p>
-        图鉴名称、基础效果与像素图标来自霓虹深渊 PC
-        游戏资源。特殊获取条件和进阶说明参考下列资料，具体出处也会在相关词条中列出。
+      <p v-if="isHades">
+        祝福名称、作用与图标来自哈迪斯 PC 游戏资源。获取前置条件、武器形态和逐级属性来自游戏配置；数值按初始祝福等级展示，实际效果随稀有度与强化变化。武器图片按游戏图集中的形态引用提取。
       </p>
-      <a
-        href="https://www.veewo.com/na-log?lang=zh"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Veewo Games · 官方更新日志 <ArrowUpRight :size="16"
-      /></a>
-      <a
-        href="https://neonabyss.fandom.com/wiki/Neon_Abyss_Wiki"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Neon Abyss Wiki · PC 版资料 <ArrowUpRight :size="16"
-      /></a>
-      <a
-        href="https://store.steampowered.com/app/788100/Neon_Abyss/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Steam · 游戏主视觉 <ArrowUpRight :size="16"
-      /></a>
+      <p v-else>
+        图鉴名称、基础效果、角色属性与像素图标来自霓虹深渊 PC 游戏资源。特殊获取条件和进阶说明参考下列资料，具体出处也会在相关词条中列出。
+      </p>
+      <a v-for="source in sourceLinks" :key="source.url" :href="source.url" target="_blank" rel="noopener noreferrer">
+        {{ source.label }} <ArrowUpRight :size="16" />
+      </a>
       <p class="source-dialog__note">
         游戏图片与原始文本归原权利人所有。不同版本可能存在效果差异，获取说明以词条注明的条件为准。
       </p>
@@ -387,12 +389,22 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 9px 0;
+    padding: 9px 8px;
+    margin-inline: -8px;
+    border-radius: 5px;
     font-size: 12px;
     text-decoration: none;
+    transition: background-color 0.16s;
+    &:hover {
+      background: var(--hover);
+    }
   }
   > a {
     color: var(--accent);
+    &:focus-visible {
+      background: var(--hover);
+      outline-offset: -2px;
+    }
   }
   small {
     font-size: 10px;

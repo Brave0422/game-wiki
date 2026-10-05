@@ -15,41 +15,61 @@ import {
 } from '@lucide/vue';
 import type { WikiEntry } from '~/types/wiki.types';
 import { WIKI_CATEGORIES } from '~/constants/wiki';
+import { getHadesBoonTheme, getHadesBoonThemeStyle, getHadesBoonTagStyle } from '~/utils/hades-boons';
 
-const props = defineProps<{ entry: WikiEntry | null; isFavorite: boolean }>();
+const props = withDefaults(
+  defineProps<{
+    entry: WikiEntry | null;
+    isFavorite: boolean;
+    gameName?: string;
+  }>(),
+  { gameName: 'NEON ABYSS' },
+);
 const emit = defineEmits<{ close: []; 'toggle-favorite': [id: string] }>();
 const dialog = ref<HTMLDialogElement | null>(null);
 const copyStatus = ref('');
+let isMounted = false;
 let previousOverflow = '';
 let hasScrollLock = false;
 const baseURL = useRuntimeConfig().app.baseURL;
 const categoryLabel = computed(
   () =>
     WIKI_CATEGORIES.find((category) => category.id === props.entry?.category)
-      ?.label ?? '词条',
+      ?.label ?? (props.entry?.category === 'boons' ? '祝福' : '词条'),
 );
 const imageUrl = computed(
   () =>
     `${baseURL.replace(/\/$/, '')}/${props.entry?.image.replace(/^\//, '') ?? ''}`,
 );
 
+/** 初次从分享链接进入时，必须等对话框已挂载到文档后再调用 showModal。 */
+function syncEntryDialog(): void {
+  if (!isMounted) return;
+  if (props.entry && dialog.value && !dialog.value.open) {
+    previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    hasScrollLock = true;
+    dialog.value.showModal();
+  } else if (!props.entry && dialog.value?.open) {
+    dialog.value.close();
+    releaseScrollLock();
+  }
+}
+
 watch(
   () => props.entry,
   async () => {
     copyStatus.value = '';
     await nextTick();
-    if (props.entry && dialog.value && !dialog.value.open) {
-      previousOverflow = document.body.style.overflow;
-      document.body.style.overflow = 'hidden';
-      hasScrollLock = true;
-      dialog.value.showModal();
-    } else if (!props.entry && dialog.value?.open) {
-      dialog.value.close();
-      releaseScrollLock();
-    }
+    syncEntryDialog();
   },
-  { immediate: true },
+  { flush: 'post' },
 );
+const boonTheme = computed(() => getHadesBoonTheme(props.entry));
+onMounted(() => {
+  isMounted = true;
+  syncEntryDialog();
+});
 
 /** 只在点到原生对话框外部遮罩时关闭，保留内容区的点击。 */
 function handleBackdropClick(event: MouseEvent): void {
@@ -87,13 +107,15 @@ onBeforeUnmount(releaseScrollLock);
   <dialog
     ref="dialog"
     class="entry-dialog"
+    :class="{ 'entry-dialog--boon': Boolean(boonTheme) }"
+    :style="getHadesBoonThemeStyle(boonTheme)"
     aria-labelledby="entry-detail-title"
     @cancel.prevent="emit('close')"
     @click="handleBackdropClick"
   >
     <template v-if="entry">
       <header class="entry-dialog__header">
-        <span class="eyebrow">NEON ABYSS / {{ categoryLabel }}</span
+        <span class="eyebrow">{{ gameName }} / {{ categoryLabel }}</span
         ><button
           type="button"
           class="icon-button"
@@ -106,7 +128,7 @@ onBeforeUnmount(releaseScrollLock);
       <div class="entry-dialog__identity">
         <span class="entry-dialog__image"
           ><img
-            class="pixel-image"
+            :class="{ 'pixel-image': !entry.id.startsWith('hades-') }"
             :src="imageUrl"
             :alt="entry.name"
             width="76"
@@ -117,16 +139,78 @@ onBeforeUnmount(releaseScrollLock);
           <p v-if="entry.englishName">{{ entry.englishName }}</p>
           <div class="detail-tags">
             <span>{{ categoryLabel }}</span
-            ><span v-for="tag in entry.tags" :key="tag">{{ tag }}</span>
+            ><span
+              v-for="tag in entry.tags"
+              :key="tag"
+              :class="{ 'detail-tags__boon': Boolean(boonTheme && getHadesBoonTagStyle(tag)) }"
+              :style="boonTheme ? getHadesBoonTagStyle(tag) : undefined"
+            >{{ tag }}</span>
           </div>
         </div>
       </div>
       <section class="detail-section">
-        <h3>作用效果</h3>
+        <h3>{{ entry.category === 'characters' ? '角色特性' : '作用效果' }}</h3>
         <p class="detail-description">{{ entry.description }}</p>
       </section>
+      <section v-if="entry.stats?.length" class="detail-section">
+        <h3>{{ entry.category === 'characters' ? '初始属性' : '属性说明' }}</h3>
+        <dl class="detail-stats">
+          <div v-for="stat in entry.stats" :key="stat.label">
+            <dt>{{ stat.label }}</dt>
+            <dd>{{ stat.value }}</dd>
+          </div>
+        </dl>
+      </section>
+      <!-- 每种形态独立列出 I–V 级效果、相邻级增量及本级消耗。 -->
+      <section v-if="entry.aspects?.length" class="detail-section">
+        <h3>武器形态与升级</h3>
+        <p>每级消耗泰坦之血。I 级是首次解锁的效果，增量从 II 级起与上一级比较。</p>
+        <article
+          v-for="aspect in entry.aspects"
+          :key="aspect.id"
+          class="weapon-aspect"
+        >
+          <div class="weapon-aspect__identity">
+            <img
+              :src="`${baseURL.replace(/\/$/, '')}${aspect.image}`"
+              :alt="aspect.name"
+              width="64"
+              height="64"
+              loading="lazy"
+            />
+            <h4>{{ aspect.name }}</h4>
+          </div>
+          <p>{{ aspect.description }}</p>
+          <p class="weapon-aspect__acquisition">
+            <strong>解锁：</strong>{{ aspect.acquisition }}
+          </p>
+          <div class="aspect-table-wrapper">
+            <table class="aspect-table">
+              <caption>{{ aspect.upgradeLabel }}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">等级</th>
+                  <th scope="col">升级后属性</th>
+                  <th scope="col">本级变化</th>
+                  <th scope="col">泰坦之血</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="level in aspect.levels" :key="level.level">
+                  <th scope="row">{{ ['I', 'II', 'III', 'IV', 'V'][level.level - 1] }}</th>
+                  <td>{{ level.value }}</td>
+                  <td>{{ level.delta }}</td>
+                  <td>{{ level.cost }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </section>
       <section v-if="entry.specialAcquisition" class="special-acquisition">
-        <h3><Sparkles :size="15" />特殊获取方式</h3>
+        <h3>
+          <Sparkles :size="15" />{{ entry.category === 'boons' ? '前置获取条件' : '特殊获取方式' }}
+        </h3>
         <p>{{ entry.specialAcquisition }}</p>
       </section>
       <section v-if="entry.acquisition" class="detail-section">
@@ -195,6 +279,17 @@ onBeforeUnmount(releaseScrollLock);
     backdrop-filter: blur(6px);
   }
 }
+.entry-dialog--boon {
+  background: color-mix(in srgb, rgb(var(--boon-rgb)) 5%, var(--panel-raised));
+  border-color: rgb(var(--boon-rgb));
+  .entry-dialog__image {
+    background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--icon-bg));
+  }
+}
+.detail-tags span.detail-tags__boon {
+  color: color-mix(in srgb, rgb(var(--boon-rgb)) var(--boon-text-mix), var(--text));
+  background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--panel));
+}
 .entry-dialog__header {
   display: flex;
   align-items: center;
@@ -232,7 +327,43 @@ onBeforeUnmount(releaseScrollLock);
   img {
     width: 64px;
     height: 64px;
+    object-fit: contain;
   }
+}
+.detail-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  > div { padding: 12px; border: 1px solid var(--line); border-radius: 7px; background: var(--panel); }
+  dt { font-size: 11px; color: var(--muted); }
+  dd { margin: 6px 0 0; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+}
+.weapon-aspect {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--panel);
+  p + p { margin-top: 9px; }
+}
+.weapon-aspect__identity {
+  display: flex; align-items: center; gap: 14px; margin-bottom: 12px;
+  img { object-fit: contain; }
+  h4 { margin: 0; font-size: 15px; }
+}
+.weapon-aspect__acquisition { font-size: 12px; }
+.aspect-table-wrapper { overflow-x: auto; margin-top: 14px; }
+.aspect-table {
+  width: 100%; border-collapse: collapse; font-size: 11px; text-align: left;
+  caption { text-align: left; color: var(--accent); margin-bottom: 9px; font-weight: 600; }
+  th, td { padding: 9px 8px; border-bottom: 1px solid var(--line); line-height: 1.7; }
+  thead { color: var(--muted); }
+  tbody td:nth-child(3) { color: var(--accent); }
+}
+@media (max-width: 480px) {
+  .detail-stats { grid-template-columns: 1fr; }
+  .weapon-aspect { padding: 12px; }
 }
 .detail-tags {
   display: flex;

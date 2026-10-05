@@ -1,0 +1,887 @@
+[
+  {
+    "id": "character-wade",
+    "category": "characters",
+    "name": "韦德",
+    "englishName": "Wade",
+    "description": "具备基础射击、跳跃与近战能力。",
+    "image": "/images/neon-abyss/characters/wade.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "影子"
+      }
+    ],
+    "notes": [
+      "获奖无数的战地记者，具备多种战斗技巧。"
+    ],
+    "acquisition": "在酒吧的角色选择处使用。"
+  },
+  {
+    "id": "character-james",
+    "category": "characters",
+    "name": "詹姆斯",
+    "englishName": "James",
+    "description": "【双色王牌】【角色特性】詹姆斯可以携带两个枪械。使用角色技能键来切换武器。",
+    "image": "/images/neon-abyss/characters/james.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "2 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "红蝎、黑鹰"
+      }
+    ],
+    "notes": [
+      "沉默寡言的职业杀手，擅长使用多种武器。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-zack",
+    "category": "characters",
+    "name": "扎克",
+    "englishName": "Zack",
+    "description": "【蓝晶吊坠】【角色特性】扎克可以进行一次蓄力斩，对路径上的敌人造成近战伤害。按住角色技能键来进行蓄力斩。",
+    "image": "/images/neon-abyss/characters/zack.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "2 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "金丝雀"
+      }
+    ],
+    "notes": [
+      "孤傲的皇室后裔，在流浪中意外学会了失传的剑术。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-lucas",
+    "category": "characters",
+    "name": "卢卡斯",
+    "englishName": "Lucas",
+    "description": "【打火机】【角色特性】卢卡斯可以放置一个不稳定的地雷，有可能会立刻爆炸。使用角色技能键来放置地雷。",
+    "image": "/images/neon-abyss/characters/lucas.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "灰熊"
+      }
+    ],
+    "notes": [
+      "热情的退伍军人，对爆炸物情有独钟。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-ming",
+    "category": "characters",
+    "name": "小明",
+    "englishName": "Ming",
+    "description": "【象棋子】【角色特性】小明可以预览到下一个蛋的孵化结果。另外，蛋在孵化的时候，你可以手动使用取消键来中止孵化进程。",
+    "image": "/images/neon-abyss/characters/ming.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "犀牛"
+      }
+    ],
+    "notes": [
+      "外向的游戏玩家，同时也是一名宠物爱好者。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-matt",
+    "category": "characters",
+    "name": "马特",
+    "englishName": "Matt",
+    "description": "【绷带卷】【角色特性】马特可以向前翻滚一小段距离，过程中免疫伤害。按角色技能键来使用。",
+    "image": "/images/neon-abyss/characters/matt.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "雨中曲"
+      }
+    ],
+    "notes": [
+      "才华横溢的特技演员，可以进行一些高难度动作。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-david",
+    "category": "characters",
+    "name": "阿米尔",
+    "englishName": "Amir",
+    "description": "【白色花瓣】【角色特性】阿米尔不拾取道具也可以预览它们的详细信息。他初始拥有更多红心容器，但是每过一层会减少一个。如果没有红心容器，则可以飞行。",
+    "image": "/images/neon-abyss/characters/david.png",
+    "tags": [
+      "基础角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "5 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "钢管"
+      }
+    ],
+    "notes": [
+      "泰坦集团秘密研究的试验品之一，拥有强大的精神力。"
+    ],
+    "acquisition": "拥有 Lovable Rogues Pack DLC 后，在酒吧选择角色。",
+    "specialAcquisition": "拥有 Lovable Rogues Pack DLC 后，在酒吧选择角色。"
+  },
+  {
+    "id": "character-ray",
+    "category": "characters",
+    "name": "R-6",
+    "englishName": "R-6",
+    "description": "【纸鹤】【角色特性】R-6没有红心容器，只能获得护盾。另外他不拾取道具也可以预览到它们的详细信息。",
+    "image": "/images/neon-abyss/characters/ray.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "0 格"
+      },
+      {
+        "label": "护盾",
+        "value": "4 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "猎户座"
+      }
+    ],
+    "notes": [
+      "具有高超智慧的机器人，目前仍处于研究测试阶段。"
+    ],
+    "acquisition": "在酒吧解锁树中解锁，角色节点消耗 10 枚宝石；还需解锁通往该节点的前置节点。"
+  },
+  {
+    "id": "character-anna",
+    "category": "characters",
+    "name": "安娜",
+    "englishName": "Anna",
+    "description": "【战斗匕首】【角色特性】使用近战武器进行一次攻击。无消耗。",
+    "image": "/images/neon-abyss/characters/anna.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "4 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "海鸥"
+      }
+    ],
+    "notes": [
+      "作为火花组织最优秀的特工，她肩负着巨大的责任。"
+    ],
+    "acquisition": "在酒吧的角色选择处使用。"
+  },
+  {
+    "id": "character-kanon",
+    "category": "characters",
+    "name": "纱夜",
+    "englishName": "Saya",
+    "description": "【兔子玩偶】【角色特性】纱夜拥有远程和近战两种战斗形态，分别使用枪械和武士刀。空中挥砍的次数取决于跳跃次数。使用角色技能键来切换武器和形态。",
+    "image": "/images/neon-abyss/characters/kanon.png",
+    "tags": [
+      "基础角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "4 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "粉焰"
+      }
+    ],
+    "notes": [
+      "泰坦集团秘密研究的试验体之一，擅长使用武士刀。"
+    ],
+    "acquisition": "拥有 Lovable Rogues Pack DLC 后，在酒吧选择角色。",
+    "specialAcquisition": "拥有 Lovable Rogues Pack DLC 后，在酒吧选择角色。"
+  },
+  {
+    "id": "character-buro",
+    "category": "characters",
+    "name": "布若",
+    "englishName": "Buro",
+    "description": "【充气锤】【角色特性】布若可以使用角色技能键进入节奏模式，出现金色音符时点击攻击键开始进行演奏。每次Combo成功会发出音波消除敌人子弹，并造成近战伤害。不要Miss！",
+    "image": "/images/neon-abyss/characters/buro.png",
+    "tags": [
+      "基础角色"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "彩色皮球"
+      }
+    ],
+    "notes": [
+      "来自Muse Dash的可爱演员，擅长使用音乐节拍进行战斗。"
+    ],
+    "acquisition": "PC 版 Muse Dash 联动角色，在酒吧的角色选择处使用。"
+  },
+  {
+    "id": "character-wade-alter",
+    "category": "characters",
+    "name": "韦德 · 异装",
+    "englishName": "Wade · Alter Ego",
+    "description": "【牛肉罐头】【角色特性】韦德可以举起游戏中的某些物品。按角色技能键来使用。",
+    "image": "/images/neon-abyss/characters/wade-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "影子"
+      }
+    ],
+    "notes": [
+      "获奖无数的战地记者，具备多种战斗技巧。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-james-alter",
+    "category": "characters",
+    "name": "詹姆斯 · 异装",
+    "englishName": "James · Alter Ego",
+    "description": "【同花顺】【角色特性】詹姆斯可以改造并合并武器，但每合并一把武器都会使你受伤时遭受额外一次伤害。使用角色技能键来改造地面上的武器。",
+    "image": "/images/neon-abyss/characters/james-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "铁狮"
+      }
+    ],
+    "notes": [
+      "沉默寡言的职业杀手，擅长使用多种武器。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-zack-alter",
+    "category": "characters",
+    "name": "扎克 · 异装",
+    "englishName": "Zack · Alter Ego",
+    "description": "【恶魔吊坠】【角色特性】扎克的蓄力斩击中敌人可以增加连击数并提高伤害和范围，失败会重置。按住角色技能键在正确的时机来进行蓄力斩。",
+    "image": "/images/neon-abyss/characters/zack-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "2 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "金丝雀"
+      }
+    ],
+    "notes": [
+      "孤傲的皇室后裔，在流浪中意外学会了失传的剑术。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-lucas-alter",
+    "category": "characters",
+    "name": "卢卡斯 · 异装",
+    "englishName": "Lucas · Alter Ego",
+    "description": "【狗牌】【角色特性】卢卡斯使用炸弹消灭敌人时，返还1~2个炸弹掉落。他携带的炸弹数量越多，造成的爆炸伤害越高。",
+    "image": "/images/neon-abyss/characters/lucas-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "灰熊"
+      }
+    ],
+    "notes": [
+      "热情的退伍军人，对爆炸物情有独钟。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-ming-alter",
+    "category": "characters",
+    "name": "小明 · 异装",
+    "englishName": "Ming · Alter Ego",
+    "description": "【急救包】【角色特性】小明可以消耗一颗红心，复活最后一个离世的宠物。按角色技能键来使用。",
+    "image": "/images/neon-abyss/characters/ming-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "犀牛"
+      }
+    ],
+    "notes": [
+      "外向的游戏玩家，同时也是一名宠物爱好者。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-matt-alter",
+    "category": "characters",
+    "name": "马特 · 异装",
+    "englishName": "Matt · Alter Ego",
+    "description": "【暗核】【角色特性】马特可以短暂的化为一团霓虹黑影。按角色技能键来使用。",
+    "image": "/images/neon-abyss/characters/matt-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "1 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "雨中曲"
+      }
+    ],
+    "notes": [
+      "才华横溢的特技演员，可以进行一些高难度动作。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-david-alter",
+    "category": "characters",
+    "name": "阿米尔 · 异装",
+    "englishName": "Amir · Alter Ego",
+    "description": "【精神类药物】【角色特性】阿米尔每过一层会减少一个红心容器。如果没有红心容器，则解锁新的能力，可以重置当前房间的物品或受伤，使用角色技能键来使用。",
+    "image": "/images/neon-abyss/characters/david-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "5 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "钢管"
+      }
+    ],
+    "notes": [
+      "泰坦集团秘密研究的试验品之一，拥有强大的精神力。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。另需 Lovable Rogues Pack DLC。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。另需 Lovable Rogues Pack DLC。"
+  },
+  {
+    "id": "character-ray-alter",
+    "category": "characters",
+    "name": "R-6 · 异装",
+    "englishName": "R-6 · Alter Ego",
+    "description": "【陀螺】【角色特性】R-6只能获得护盾。当他处于濒死状态下，如果无伤清理战斗房间，则会恢复半个护盾并获得额外道具。\n【纸鹤】【角色特性】R-6没有红心容器，只能获得护盾。另外他不拾取道具也可以预览到它们的详细信息。",
+    "image": "/images/neon-abyss/characters/ray-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "0 格"
+      },
+      {
+        "label": "护盾",
+        "value": "3 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "1 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "猎户座"
+      }
+    ],
+    "notes": [
+      "具有高超智慧的机器人，目前仍处于研究测试阶段。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-anna-alter",
+    "category": "characters",
+    "name": "安娜 · 异装",
+    "englishName": "Anna · Alter Ego",
+    "description": "【笔记本】【角色特性】安娜击败首领后会掉落两个道具，但是她只能挑选其中一个。",
+    "image": "/images/neon-abyss/characters/anna-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "2 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "1 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "海鸥"
+      }
+    ],
+    "notes": [
+      "作为火花组织最优秀的特工，她肩负着巨大的责任。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。"
+  },
+  {
+    "id": "character-kanon-alter",
+    "category": "characters",
+    "name": "纱夜 · 异装",
+    "englishName": "Saya · Alter Ego",
+    "description": "【小熊玩偶】【角色特性】纱夜拥有远程和近战两种战斗形态。她的武士刀击中敌人后，可以立刻再进行一次挥砍。",
+    "image": "/images/neon-abyss/characters/kanon-alter.png",
+    "tags": [
+      "异装角色",
+      "DLC"
+    ],
+    "stats": [
+      {
+        "label": "生命容器",
+        "value": "3 格"
+      },
+      {
+        "label": "护盾",
+        "value": "0 格"
+      },
+      {
+        "label": "钥匙",
+        "value": "0 把"
+      },
+      {
+        "label": "手雷",
+        "value": "0 枚"
+      },
+      {
+        "label": "金币",
+        "value": "0 枚"
+      },
+      {
+        "label": "初始武器",
+        "value": "粉焰"
+      }
+    ],
+    "notes": [
+      "泰坦集团秘密研究的试验体之一，擅长使用武士刀。"
+    ],
+    "acquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。另需 Lovable Rogues Pack DLC。",
+    "specialAcquisition": "拥有 Alter Ego DLC，并已解锁对应基础角色后，在酒吧切换异装。另需 Lovable Rogues Pack DLC。"
+  }
+]
