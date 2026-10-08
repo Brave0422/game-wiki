@@ -1,0 +1,127 @@
+/**
+ * @author Brave
+ * @date 2026-10-05T13:17:27+08:00
+ * @description 文明六专区的蓝金地图与羊皮纸主题，限定在当前游戏布局内。
+ */
+.wiki-shell.wiki-shell--civilization {
+  --page-bg: #14232e;
+  --sidebar-bg: #0c1d2b;
+  --panel: #1c303d;
+  --panel-raised: #213744;
+  --hover: #2a404c;
+  --text: #f0e6d1;
+  --secondary-text: #c4c6ba;
+  --muted: #a2afac;
+  --dimmed: #8d9b9d;
+  --line: #bba06b26;
+  --line-strong: #bba06b50;
+  --accent: #e2bb76;
+  --accent-soft: #d6ad6814;
+  --accent-border: #d6ad685b;
+  --special: #b9cca5;
+  --special-soft: #b9cca512;
+  --icon-bg: #0f2b42;
+  --hero-line: #bba06b80;
+  min-height: 100dvh;
+  color: var(--text);
+  background-color: var(--page-bg);
+  background-image: linear-gradient(#14232eed, #14232eed), var(--civilization-parchment);
+
+  .topbar {
+    border-bottom: 2px solid #a2834c;
+    color: #ede3cd;
+    background: #0c1d2b;
+    --text: #ede3cd;
+    --muted: #b4bfc3;
+    --panel: #132b3e;
+    --hover: #213b4e;
+    --panel-raised: #132b3e;
+    --line: #ba9c6045;
+    --accent: #e2bb76;
+    --accent-soft: #d6ad6814;
+  }
+  .game-avatar {
+    color: #e7c98d;
+    border: 1px solid #a88a51;
+    border-radius: 50%;
+    background: radial-gradient(circle at top, #255574, #092238);
+    font-family: Georgia, serif;
+    font-size: 14px;
+  }
+  .game-picker { width: 220px; }
+  .game-picker__trigger small { font-size: 8px; letter-spacing: 0.2px; }
+  .game-hero {
+    min-height: 217px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 4px #bba06b16, 0 5px 20px #00000015;
+  }
+  .game-hero::after {
+    background: linear-gradient(90deg, #0c2438 4%, #0c2438ed 32%, #0c2438a8 54%, #0c243830);
+  }
+  .game-hero__art {
+    inset-inline-start: 0;
+    opacity: 0.85;
+    mask-image: linear-gradient(90deg, transparent 20%, #000 65%);
+  }
+  .game-hero__content h1 { color: #f5e4be; font-family: "Georgia", "Noto Serif SC", "SimSun", serif; letter-spacing: 4px; font-size: 35px; }
+  .game-hero__kicker { color: #cfb883; letter-spacing: 2px; }
+  .game-hero__content p, .hero-meta { color: #c5ced0; }
+  .platform-badge { color: #d7c297; border-color: #bba06b80; }
+  .section-tabs { background: var(--page-bg); }
+  .catalog-title h2 { font-family: "Georgia", "Noto Serif SC", "SimSun", serif; }
+  .category-tabs {
+    padding-top: 22px;
+    gap: 8px;
+    button {
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--panel);
+    }
+    button.is-active { color: #f4dfb0; background: #15354f; border-color: #bba06b; }
+    button.is-active span { color: #cfb883; }
+  }
+  .entry-grid:not(.entry-grid--list) { grid-template-columns: repeat(auto-fill, minmax(245px, 1fr)); }
+  .catalog-search { background: var(--panel); border-radius: 4px; }
+  .primary-button { color: #132b3e; }
+  .detail-stats > div { border-radius: 3px; }
+}
+
+:root[data-theme="light"] .wiki-shell--civilization {
+  color-scheme: light;
+  --page-bg: #eae2cf;
+  --sidebar-bg: #eae2cf;
+  --panel: #f7f0e0;
+  --panel-raised: #f6eedb;
+  --hover: #e8dec6;
+  --text: #2e332f;
+  --secondary-text: #51574f;
+  --muted: #6c7166;
+  --dimmed: #787d70;
+  --line: #a3906738;
+  --line-strong: #a3906780;
+  --accent: #85652c;
+  --accent-soft: #a4813712;
+  --accent-border: #a4813770;
+  --special: #55704b;
+  --special-soft: #6c885812;
+  --shadow: 0 18px 60px #362d241f;
+  background-image: linear-gradient(#eae2cf40, #eae2cf40), var(--civilization-parchment);
+  .entry-card {
+    background-image: linear-gradient(#f7f0e0d9, #f7f0e0d9), var(--civilization-parchment);
+    box-shadow: 0 2px 8px #53401f06;
+  }
+  .entry-dialog { background-image: linear-gradient(#f6eedbd9, #f6eedbd9), var(--civilization-parchment); }
+}
+
+@media (max-width: 760px) {
+  .wiki-shell--civilization {
+    .game-picker { width: 190px; }
+    .game-hero__content h1 { font-size: 29px; }
+    .game-hero__compass { right: 10px; opacity: 0.5; }
+    .category-tabs { gap: 6px; button { padding: 7px 9px; } }
+  }
+}
+@media (max-width: 580px) {
+  .wiki-shell--civilization .entry-grid:not(.entry-grid--list) { grid-template-columns: 1fr; }
+}

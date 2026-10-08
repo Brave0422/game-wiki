@@ -1,6 +1,6 @@
 # 游戏百科
 
-PC 端游戏资料站，收录《霓虹深渊》的道具、武器、宠物与角色，以及《哈迪斯》的祝福与武器。采用 Nuxt 4、Vue 3、TypeScript、SCSS 和 Lucide 图标，关闭服务端渲染，浏览器直接读取项目中的本地数据，无需数据库或后端服务。
+PC 端游戏资料站，收录《霓虹深渊》的道具、武器、宠物与角色，《哈迪斯》的祝福与武器，以及《文明 VI》的中文图文百科。采用 Nuxt 4、Vue 3、TypeScript、SCSS 和 Lucide 图标，关闭服务端渲染，浏览器直接读取项目中的本地数据，无需数据库或后端服务。
 
 ## 本地运行
 
@@ -17,9 +17,10 @@ npm run dev
 
 ## 当前功能
 
-- 游戏库首页提供游戏封面、中英文搜索与收录状态筛选，霓虹深渊和哈迪斯可进入专区；饥荒、文明 VI 标为待收录。
+- 游戏库首页提供游戏封面、中英文搜索与收录状态筛选，霓虹深渊、哈迪斯和文明 VI 可进入专区；饥荒标为待收录。
 - 霓虹深渊提供百科和攻略；百科内提供道具、武器、宠物、角色分类，角色分类紧随宠物。
 - 哈迪斯提供祝福与武器导航，祝福包含作用和前置获取条件；六种武器提供全部二十四种形态的 I–V 级效果、每级属性增量和泰坦之血消耗。
+- 文明 VI 提供风云变幻规则集的十类图文百科：文明、领袖、单位、区域、建筑、奇观、科技、市政、资源和游戏机制；展示能力、基础属性、研究与建造条件、议程及历史背景，采用深蓝金色与浅色羊皮纸主题。
 - 名称/英文名/效果搜索、效果标签、特殊获取筛选、名称排序、卡片/列表切换与加载更多。
 - 词条详情展示完整作用、武器附带技能、宠物形态说明、角色初始属性、获取条件与参考链接；详情链接可直接打开和分享。
 - 本地收藏、深浅主题和 `Ctrl/Cmd + K` 搜索快捷键。
@@ -32,7 +33,7 @@ npm run generate
 npm run preview
 ```
 
-将 `.output/public/` 部署到静态托管即可。首页及已开放游戏的各栏目生成独立 HTML 入口，也提供 `200.html` / `404.html` 回退。当前生成游戏库首页、霓虹深渊百科与攻略、哈迪斯祝福与武器入口。预览与开发共用 3000 端口，切换前先停止原服务。
+将 `.output/public/` 部署到静态托管即可。首页及已开放游戏的各栏目生成独立 HTML 入口，也提供 `200.html` / `404.html` 回退。当前生成游戏库首页、霓虹深渊百科与攻略、哈迪斯祝福与武器、文明 VI 百科入口。预览与开发共用 3000 端口，切换前先停止原服务。
 
 游戏目录维护在 `app/constants/games.ts`：各游戏的 `sections` 决定导航顺序和默认入口，栏目 ID 不限制为百科、攻略、模组。新增游戏时配置所需栏目并实现对应页面，静态构建会读取已开放游戏的栏目路由。待收录游戏没有可点击的专区入口。
 
@@ -53,3 +54,17 @@ npm run preview
 霓虹深渊新增 21 个角色条目（11 个基础角色、10 个异装），共 474 条。`neon-abyss.characters.json` 保存头像、初始生命容器/护盾/钥匙/手雷/金币、初始武器和角色特性；`neon-abyss.characters.source.json` 保存实际配置与图标引用。可用 `scripts/extract-neon-abyss-characters.py` 从本地安装重新提取。
 
 哈迪斯共 172 个祝福、6 把武器，24 种形态合计 120 行升级数据。`hades.entries.json` 保存可展示的图文；`hades.source.json` 记录配置文件摘要、祝福前置关系、形态属性引用与图集裁剪坐标。图片均从本地游戏 GUI 图集按实际动画引用提取；运行网站不需要 Steam 安装。提取脚本为 `scripts/extract-hades.py`，依赖 `pillow`、`lz4`、`sjson`、`lupa` 和 [deppth](https://github.com/quaerus/deppth)。来源说明见 `research/hades-sources.md`。
+
+文明 VI 的图文百科按本地 PC 游戏的风云变幻规则集整理，包含 762 个条目：50 个文明、77 位领袖、144 种单位、35 种区域、82 座建筑、53 座奇观、77 项科技、61 项市政、52 种资源和 131 项机制。名称、介绍、能力与数值从游戏 XML/SQL 和简体中文文本生成；排除情景、可选模式和模组。成本展示基础值，实际费用随游戏速度及其他修正变化。
+
+`civilization-vi.entries.json` 保存图文词条，`civilization-vi.source.json` 保存规则集、来源文件摘要与提取记录。`public/images/civilization-vi/` 保存真实游戏图标和原始羊皮纸纹理，`image-map.json` 记录图片来源与校验摘要。图像从 [Civilopedia](https://www.civilopedia.net/zh-CN/gathering-storm/concepts/intro/) 的游戏美术资源下载，部分图标按本地游戏的别名配置复用。详见 `research/civilization-vi-sources.md`。
+
+重新提取文明 VI 资料与图片（两个脚本只使用 Python 标准库，游戏目录只读）：
+
+```sh
+python scripts/extract-civilization-vi.py --game "E:/SteamLibrary/steamapps/common/Sid Meier's Civilization VI"
+python scripts/extract-civilization-vi-assets.py --game-dir "E:/SteamLibrary/steamapps/common/Sid Meier's Civilization VI"
+npm run check:data
+```
+
+网站运行与静态部署无需 Python、Steam 游戏目录或第三方实时请求。

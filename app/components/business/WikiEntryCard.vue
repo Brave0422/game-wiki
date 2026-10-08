@@ -27,6 +27,7 @@ const cardDescription = computed(() =>
     : props.entry.description,
 );
 const boonTheme = computed(() => getHadesBoonTheme(props.entry));
+const isCivilization = computed(() => props.entry.id.startsWith('civ6-'));
 const boonTags = computed(() => props.entry.tags.filter((tag) =>
   HADES_GODS.some((god) => god.name === tag) || tag === '传奇祝福' || tag === '双重祝福',
 ));
@@ -35,19 +36,19 @@ const boonTags = computed(() => props.entry.tags.filter((tag) =>
 <template>
   <article
     class="entry-card"
-    :class="{ 'entry-card--list': viewMode === 'list', 'entry-card--weapon': Boolean(entry.aspects?.length), 'entry-card--boon': Boolean(boonTheme) }"
+    :class="{ 'entry-card--list': viewMode === 'list', 'entry-card--weapon': Boolean(entry.aspects?.length), 'entry-card--boon': Boolean(boonTheme), 'entry-card--civilization': isCivilization }"
     :style="getHadesBoonThemeStyle(boonTheme)"
   >
     <button
       type="button"
       class="entry-card__open"
-      :aria-label="`查看${entry.name}的效果与获取方式`"
+      :aria-label="`查看${entry.name}的${isCivilization ? '介绍与属性' : '效果与获取方式'}`"
       @click="emit('open', entry.id)"
     >
       <div class="entry-card__top">
         <span class="entry-card__image"
           ><img
-            :class="{ 'pixel-image': !entry.id.startsWith('hades-') }"
+            :class="{ 'pixel-image': !entry.id.startsWith('hades-') && !isCivilization }"
             :src="imageUrl"
             :alt="entry.name"
             loading="lazy"
@@ -60,6 +61,9 @@ const boonTags = computed(() => props.entry.tags.filter((tag) =>
         </div>
       </div>
       <p class="entry-card__description">{{ cardDescription }}</p>
+      <div v-if="isCivilization && entry.stats?.length" class="entry-card__stats">
+        <span v-for="stat in entry.stats.slice(0, 2)" :key="stat.label">{{ stat.label }} <strong>{{ stat.value }}</strong></span>
+      </div>
       <div class="entry-card__bottom">
         <div v-if="boonTheme" class="entry-card__tags">
           <span v-for="tag in boonTags" :key="tag" class="entry-card__boon-tag" :style="getHadesBoonTagStyle(tag)">{{ tag }}</span>
@@ -122,6 +126,31 @@ const boonTags = computed(() => props.entry.tags.filter((tag) =>
   .entry-card__image {
     background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--icon-bg));
   }
+}
+.entry-card--civilization {
+  border-radius: 5px;
+  border-top: 2px solid var(--accent-border);
+  .entry-card__image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-color: var(--accent-border);
+    background: radial-gradient(circle at 40% 30%, #275575, #0b243b 75%);
+    box-shadow: inset 0 0 0 3px #ffffff06, 0 2px 5px #00000015;
+    img { width: 56px; height: 56px; }
+  }
+  .entry-card__title h3 { font-family: "Georgia", "Noto Serif SC", "SimSun", serif; font-size: 16px; }
+  .entry-card__description { -webkit-line-clamp: 3; }
+}
+.entry-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  margin: -5px 0 12px;
+  color: var(--muted);
+  font-size: 10px;
+  span { max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  strong { color: var(--secondary-text); font-weight: 500; }
 }
 .entry-card__tags {
   display: flex;
@@ -245,6 +274,7 @@ const boonTags = computed(() => props.entry.tags.filter((tag) =>
   }
 }
 .entry-card--list {
+  .entry-card__stats { display: none; }
   .entry-card__open {
     display: grid;
     grid-template-columns: 230px minmax(0, 1fr) 104px;

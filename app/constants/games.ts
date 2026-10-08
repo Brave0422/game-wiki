@@ -37,6 +37,19 @@ export const HADES_GAME: GameDefinition = {
   ],
 };
 
+export const CIVILIZATION_GAME: GameDefinition = {
+  id: "civilization-vi",
+  name: "文明 VI",
+  englishName: "Sid Meier's Civilization VI",
+  shortName: "文明6",
+  genres: ["策略", "回合制"],
+  status: "available",
+  cover: "/images/games/civilization-vi-header.jpg",
+  accent: "#bd9959",
+  description: "文明与领袖、城市与奇观、科技与市政，书写你的文明史。",
+  sections: [{ id: "encyclopedia", label: "百科", icon: "book-open" }],
+};
+
 export const GAME_LIBRARY: GameDefinition[] = [
   NEON_ABYSS_GAME,
   {
@@ -50,17 +63,7 @@ export const GAME_LIBRARY: GameDefinition[] = [
     accent: "#d4b37c",
     sections: [],
   },
-  {
-    id: "civilization-vi",
-    name: "文明 VI",
-    englishName: "Sid Meier's Civilization VI",
-    shortName: "文明",
-    genres: ["策略", "回合制"],
-    status: "planned",
-    cover: "/images/games/civilization-vi-header.jpg",
-    accent: "#8daedb",
-    sections: [],
-  },
+  CIVILIZATION_GAME,
   HADES_GAME,
 ];
 

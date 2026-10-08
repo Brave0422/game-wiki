@@ -8,6 +8,8 @@ import rawSupplements from '~/data/neon-abyss.supplements.json';
 import rawGuides from '~/data/neon-abyss.guides.json';
 import rawCharacters from '~/data/neon-abyss.characters.json';
 import rawHadesEntries from '~/data/hades.entries.json';
+import rawCivilizationEntries from '~/data/civilization-vi.entries.json';
+import { CIVILIZATION_CATEGORIES } from '~/constants/wiki';
 import type { WikiEntry, WikiGuide, WikiSupplement } from '~/types/wiki.types';
 
 /** 统一名称与查询文本，使空格、大小写和常见标点不影响搜索。 */
@@ -33,7 +35,7 @@ function isEntry(value: unknown): value is WikiEntry {
     'name' in value &&
     typeof value.name === 'string' &&
     'category' in value &&
-    ['items', 'weapons', 'pets', 'characters', 'boons'].includes(String(value.category)) &&
+    ['items', 'weapons', 'pets', 'characters', 'boons', ...CIVILIZATION_CATEGORIES.map((category) => category.id)].includes(String(value.category)) &&
     'description' in value &&
     typeof value.description === 'string' &&
     'image' in value &&
@@ -118,10 +120,13 @@ function validateEntries(value: unknown): WikiEntry[] {
 }
 
 export const HADES_ENTRIES = validateEntries(rawHadesEntries);
+export const CIVILIZATION_ENTRIES = validateEntries(rawCivilizationEntries);
 
 /** 获取当前游戏的图鉴，用于目录、统计及收藏。 */
 export function getEntriesByGame(gameId: string): WikiEntry[] {
-  return gameId === 'hades' ? HADES_ENTRIES : WIKI_ENTRIES;
+  if (gameId === 'hades') return HADES_ENTRIES;
+  if (gameId === 'civilization-vi') return CIVILIZATION_ENTRIES;
+  return gameId === 'neon-abyss' ? WIKI_ENTRIES : [];
 }
 
 export const WIKI_GUIDES: WikiGuide[] = Array.isArray(sourceGuides)

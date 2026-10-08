@@ -5,6 +5,7 @@
  * @description 游戏百科应用入口，提供统一布局和全局样式。
  */
 import "~/assets/styles/main.scss";
+import "~/assets/styles/civilization.scss";
 
 useHead({ htmlAttrs: { lang: "zh-CN" }, titleTemplate: "%s · 游戏图鉴" });
 </script>

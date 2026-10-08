@@ -31,14 +31,22 @@ const props = withDefaults(defineProps<{
   fixedCategory?: WikiCategory;
   basePath?: string;
   gameName?: string;
+  editionLabel?: string;
 }>(), {
   entries: () => WIKI_ENTRIES,
   categories: () => WIKI_CATEGORIES,
   basePath: `${GAME_BASE_PATH}/encyclopedia`,
   gameName: "NEON ABYSS",
+  editionLabel: "PC 原版",
 });
 
 const route = useRoute();
+const isCivilization = computed(() => props.gameName === "CIVILIZATION VI");
+const baseURL = useRuntimeConfig().app.baseURL.replace(/\/$/, "");
+const categoryImageById = computed(() => Object.fromEntries(props.categories.map((category) => [
+  category.id,
+  `${baseURL}/images/civilization-vi/icon_civilopedia_${category.id === 'leaders' ? 'civilizations' : category.id}.png`,
+])));
 const router = useRouter();
 const { favoriteIds, toggleFavorite } = useWikiPreferences();
 const searchText = ref(typeof route.query.q === "string" ? route.query.q : "");
@@ -121,12 +129,12 @@ const filteredEntries = computed(() => {
       left.name.localeCompare(right.name, "zh-CN"),
     );
   }
-  const categoryRank = { items: 0, boons: 0, weapons: 1, pets: 2, characters: 3 };
+  const categoryRank = new Map(props.categories.map((category, index) => [category.id, index]));
   return [...entries].sort((left, right) => {
     const leftRank =
-      categoryRank[left.category] + (left.id.startsWith("0_") ? 0.5 : 0);
+      (categoryRank.get(left.category) ?? props.categories.length) + (left.id.startsWith("0_") ? 0.5 : 0);
     const rightRank =
-      categoryRank[right.category] + (right.id.startsWith("0_") ? 0.5 : 0);
+      (categoryRank.get(right.category) ?? props.categories.length) + (right.id.startsWith("0_") ? 0.5 : 0);
     return leftRank - rightRank;
   });
 });
@@ -207,7 +215,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
 </script>
 
 <template>
-  <section class="catalog" aria-labelledby="catalog-heading">
+  <section class="catalog" :class="{ 'catalog--civilization': isCivilization }" aria-labelledby="catalog-heading">
     <!-- 分类与效果筛选仅在浏览器中处理本地图鉴。 -->
     <div v-if="!fixedCategory || isFavoritesOnly" class="category-tabs" aria-label="图鉴分类">
       <button
@@ -216,6 +224,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
         :aria-pressed="selectedCategory === 'all'"
         @click="handleQuery({ category: null, tag: null, god: null })"
       >
+        <img v-if="isCivilization" :src="`${baseURL}/images/civilization-vi/icon_civilopedia_concepts.png`" alt="" width="23" height="23" />
         全部图鉴 <span>{{ entries.length }}</span></button
       ><button
         v-for="category in categories"
@@ -225,6 +234,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
         :aria-pressed="selectedCategory === category.id"
         @click="handleQuery({ category: category.id, tag: null, god: null })"
       >
+        <img v-if="isCivilization" :src="categoryImageById[category.id]" alt="" width="23" height="23" />
         {{ category.label }} <span>{{ categoryCounts[category.id] }}</span>
       </button>
     </div>
@@ -239,11 +249,11 @@ onUnmounted(() => clearTimeout(searchTimeout));
             isFavoritesOnly
               ? "把常用词条留在手边，收藏保存在当前浏览器。"
               : (selectedCategoryInfo?.caption ??
-                "查询图鉴作用、属性与获取条件。")
+                (isCivilization ? "查阅文明特色、城市建设、研究发展与胜利机制。" : "查询图鉴作用、属性与获取条件。"))
           }}
         </p>
       </div>
-      <div class="catalog-title__hint"><span class="status-dot" />PC 原版</div>
+      <div class="catalog-title__hint"><span class="status-dot" />{{ editionLabel }}</div>
     </div>
 
     <div class="catalog-toolbar">
@@ -253,12 +263,12 @@ onUnmounted(() => clearTimeout(searchTimeout));
         @submit.prevent="handleSearchSubmit"
       >
         <Search :size="17" /><label for="wiki-search" class="sr-only"
-          >搜索名称、效果或获取方式</label
+          >{{ isCivilization ? '搜索名称、能力或解锁条件' : '搜索名称、效果或获取方式' }}</label
         ><input
           id="wiki-search"
           v-model="searchText"
           type="search"
-          placeholder="搜索名称、效果或获取方式…"
+          :placeholder="isCivilization ? '搜索文明、领袖、科技或解锁条件…' : '搜索名称、效果或获取方式…'"
           autocomplete="off"
         /><button
           v-if="searchText"
@@ -305,7 +315,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
     </div>
 
     <div v-if="availableTags.length" class="effect-tags" aria-label="效果标签">
-      <span class="effect-tags__label"><Filter :size="12" />{{ hasBoonFilters ? '祝福' : '效果' }}</span>
+      <span class="effect-tags__label"><Filter :size="12" />{{ hasBoonFilters ? '祝福' : isCivilization ? '类型' : '效果' }}</span>
       <button
         type="button"
         :class="{ 'is-active': !selectedTag }"
@@ -418,7 +428,7 @@ onUnmounted(() => clearTimeout(searchTimeout));
       <p>
         {{
           isFavoritesOnly && !favoriteIds.length
-            ? "点击图鉴卡片上的爱心，将常用道具、武器或宠物加入收藏。"
+            ? "点击图鉴卡片上的爱心，将常用词条加入收藏。"
             : isFavoritesOnly
               ? "试试中文名、英文名或作用关键词，也可以清除筛选查看全部收藏。"
               : "试试中文名、英文名或作用关键词，也可以清除筛选查看全部图鉴。"

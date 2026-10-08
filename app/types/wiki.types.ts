@@ -3,7 +3,10 @@
  * @date 2026-10-04T17:35:49+08:00
  * @description 定义游戏百科条目、内容来源及攻略的展示契约。
  */
-export type WikiCategory = "items" | "weapons" | "pets" | "characters" | "boons";
+export type WikiCategory =
+  | "items" | "weapons" | "pets" | "characters" | "boons"
+  | "civilizations" | "leaders" | "units" | "buildings" | "wonders"
+  | "districts" | "technologies" | "civics" | "resources" | "concepts";
 
 export interface WikiCategoryDefinition {
   id: WikiCategory;

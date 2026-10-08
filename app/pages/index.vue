@@ -8,7 +8,7 @@ import { ArrowRight, Gamepad2, Search, X } from "@lucide/vue";
 import GameLibraryCard from "~/components/business/GameLibraryCard.vue";
 import {
   GAME_LIBRARY,
-  NEON_ABYSS_GAME,
+  CIVILIZATION_GAME,
   getGameEntryPath,
 } from "~/constants/games";
 
@@ -41,7 +41,8 @@ const visibleGames = computed(() => {
     return matchesStatus && (!keyword || searchableText.includes(keyword));
   });
 });
-const neonEntryPath = getGameEntryPath(NEON_ABYSS_GAME);
+const civilizationEntryPath = getGameEntryPath(CIVILIZATION_GAME);
+const availableGames = GAME_LIBRARY.filter((game) => game.status === "available");
 
 function resetFilters(): void {
   searchTerm.value = "";
@@ -122,16 +123,16 @@ function resetFilters(): void {
     </section>
 
     <aside
-      v-if="neonEntryPath"
+      v-if="civilizationEntryPath"
       class="library-update"
       aria-label="目前开放的游戏资料"
     >
       <span class="library-update__icon"><Gamepad2 :size="21" /></span>
       <div>
-        <strong>霓虹深渊资料已开放</strong>
-        <p>道具、武器与宠物图鉴，以及机制与搭配攻略。</p>
+        <strong>{{ availableGames.length }} 款游戏资料已开放</strong>
+        <p>{{ availableGames.map((game) => game.name).join(' · ') }}，从游戏库进入各自的图文百科。</p>
       </div>
-      <NuxtLink :to="neonEntryPath">查阅资料<ArrowRight :size="16" /></NuxtLink>
+      <NuxtLink :to="civilizationEntryPath">探索文明<ArrowRight :size="16" /></NuxtLink>
     </aside>
   </div>
 </template>

@@ -11,6 +11,7 @@ import {
   Check,
   ChevronsUpDown,
   Command,
+  Compass,
   ExternalLink,
   Heart,
   Layers3,
@@ -41,6 +42,9 @@ const currentGame = computed(
 const currentEntries = computed(() => getEntriesByGame(currentGame.value.id));
 const defaultPath = computed(() => getGameEntryPath(currentGame.value) ?? '/');
 const isHades = computed(() => currentGame.value.id === 'hades');
+const isCivilization = computed(() => currentGame.value.id === 'civilization-vi');
+const gameMonogram = computed(() => isCivilization.value ? 'VI' : isHades.value ? 'HA' : 'NA');
+const editionLabel = computed(() => isCivilization.value ? '风云变幻 · 中文资料' : isHades.value ? 'PC · 中文资料' : 'PC 1.5.3.2 · 中文资料');
 const { favoriteIds, isLightTheme, toggleTheme } = useWikiPreferences();
 const isGameMenuOpen = ref(false);
 const isSourceDialogOpen = ref(false);
@@ -66,7 +70,13 @@ const knownFavoritesCount = computed(
 );
 const baseURL = useRuntimeConfig().app.baseURL;
 const heroImagePath = computed(() => `${baseURL.replace(/\/$/, "")}${currentGame.value.cover ?? ''}`);
-const sourceLinks = computed(() => isHades.value ? [
+const civilizationStyle = computed(() => isCivilization.value ? {
+  '--civilization-parchment': `url("${baseURL.replace(/\/$/, '')}/images/civilization-vi/parchment-pattern.png")`,
+} : undefined);
+const sourceLinks = computed(() => isCivilization.value ? [
+  { label: 'Civilopedia · 文明百科（风云变幻）', url: 'https://www.civilopedia.net/zh-CN/gathering-storm/concepts/intro/' },
+  { label: 'Steam · 席德·梅尔的文明 VI', url: 'https://store.steampowered.com/app/289070/' },
+] : isHades.value ? [
   { label: 'Supergiant Games · Hades', url: 'https://www.supergiantgames.com/games/hades/' },
   { label: 'Steam · 哈迪斯 PC 版', url: 'https://store.steampowered.com/app/1145360/Hades/' },
 ] : [
@@ -110,7 +120,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
 </script>
 
 <template>
-  <div class="wiki-shell">
+  <div class="wiki-shell" :class="{ 'wiki-shell--civilization': isCivilization }" :style="civilizationStyle">
     <div class="main-shell">
       <!-- 全站与游戏切换集中于页头，游戏内容栏目只在下方导航展示。 -->
       <header class="topbar">
@@ -128,7 +138,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
               aria-controls="game-switcher"
               @click="isGameMenuOpen = !isGameMenuOpen"
             >
-              <span class="game-avatar">{{ isHades ? 'HA' : 'NA' }}</span
+              <span class="game-avatar">{{ gameMonogram }}</span
               ><span
                 ><strong>{{ currentGame.name }}</strong
                 ><small>{{
@@ -191,6 +201,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
             :style="{ backgroundImage: `url(${heroImagePath})` }"
           />
           <div class="game-hero__content">
+            <Compass v-if="isCivilization" class="game-hero__compass" :size="145" :stroke-width="0.65" aria-hidden="true" />
             <div class="game-hero__kicker">
               <span>{{ currentGame.englishName.toUpperCase() }}</span
               ><span class="platform-badge">PC</span>
@@ -203,7 +214,7 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
                   currentEntries.length
                 }}
                 个图鉴条目</span
-              ><span class="hero-divider" /><span>{{ isHades ? 'PC · 中文资料' : 'PC 1.5.3.2 · 中文资料' }}</span>
+              ><span class="hero-divider" /><span>{{ editionLabel }}</span>
             </div>
           </div>
         </section>
@@ -267,7 +278,10 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
         </button>
       </div>
       <h2 id="sources-title">资料与图片来源</h2>
-      <p v-if="isHades">
+      <p v-if="isCivilization">
+        文明、领袖、城市建设、科技与市政等介绍来自本地文明 VI PC 游戏的简体中文文本与规则配置，以风云变幻规则集整理。图标来自文明百科中的游戏美术资源。词条列出研究、建造与使用条件；费用以基础值展示，会随游戏速度和其他修正变化。
+      </p>
+      <p v-else-if="isHades">
         祝福名称、作用与图标来自哈迪斯 PC 游戏资源。获取前置条件、武器形态和逐级属性来自游戏配置；数值按初始祝福等级展示，实际效果随稀有度与强化变化。武器图片按游戏图集中的形态引用提取。
       </p>
       <p v-else>
@@ -506,6 +520,13 @@ onUnmounted(() => window.removeEventListener("keydown", handleKeyboard));
     font-size: 12px;
     margin: 0;
   }
+}
+.game-hero__compass {
+  position: absolute;
+  top: 25px;
+  right: 36px;
+  z-index: -1;
+  color: #dfbd7650;
 }
 .game-hero__kicker {
   display: flex;

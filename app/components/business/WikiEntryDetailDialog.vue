@@ -14,7 +14,7 @@ import {
   X,
 } from '@lucide/vue';
 import type { WikiEntry } from '~/types/wiki.types';
-import { WIKI_CATEGORIES } from '~/constants/wiki';
+import { CIVILIZATION_CATEGORIES, HADES_CATEGORIES, WIKI_CATEGORIES } from '~/constants/wiki';
 import { getHadesBoonTheme, getHadesBoonThemeStyle, getHadesBoonTagStyle } from '~/utils/hades-boons';
 
 const props = withDefaults(
@@ -34,9 +34,11 @@ let hasScrollLock = false;
 const baseURL = useRuntimeConfig().app.baseURL;
 const categoryLabel = computed(
   () =>
-    WIKI_CATEGORIES.find((category) => category.id === props.entry?.category)
-      ?.label ?? (props.entry?.category === 'boons' ? '祝福' : '词条'),
+    [...WIKI_CATEGORIES, ...HADES_CATEGORIES, ...CIVILIZATION_CATEGORIES].find((category) => category.id === props.entry?.category)
+      ?.label ?? '词条',
 );
+const isCivilization = computed(() => props.entry?.id.startsWith('civ6-') ?? false);
+const detailTags = computed(() => props.entry?.tags.filter((tag) => tag !== categoryLabel.value) ?? []);
 const imageUrl = computed(
   () =>
     `${baseURL.replace(/\/$/, '')}/${props.entry?.image.replace(/^\//, '') ?? ''}`,
@@ -107,7 +109,7 @@ onBeforeUnmount(releaseScrollLock);
   <dialog
     ref="dialog"
     class="entry-dialog"
-    :class="{ 'entry-dialog--boon': Boolean(boonTheme) }"
+    :class="{ 'entry-dialog--boon': Boolean(boonTheme), 'entry-dialog--civilization': isCivilization }"
     :style="getHadesBoonThemeStyle(boonTheme)"
     aria-labelledby="entry-detail-title"
     @cancel.prevent="emit('close')"
@@ -128,7 +130,7 @@ onBeforeUnmount(releaseScrollLock);
       <div class="entry-dialog__identity">
         <span class="entry-dialog__image"
           ><img
-            :class="{ 'pixel-image': !entry.id.startsWith('hades-') }"
+            :class="{ 'pixel-image': !entry.id.startsWith('hades-') && !isCivilization }"
             :src="imageUrl"
             :alt="entry.name"
             width="76"
@@ -140,7 +142,7 @@ onBeforeUnmount(releaseScrollLock);
           <div class="detail-tags">
             <span>{{ categoryLabel }}</span
             ><span
-              v-for="tag in entry.tags"
+              v-for="tag in detailTags"
               :key="tag"
               :class="{ 'detail-tags__boon': Boolean(boonTheme && getHadesBoonTagStyle(tag)) }"
               :style="boonTheme ? getHadesBoonTagStyle(tag) : undefined"
@@ -149,7 +151,7 @@ onBeforeUnmount(releaseScrollLock);
         </div>
       </div>
       <section class="detail-section">
-        <h3>{{ entry.category === 'characters' ? '角色特性' : '作用效果' }}</h3>
+        <h3>{{ isCivilization ? '百科介绍' : entry.category === 'characters' ? '角色特性' : '作用效果' }}</h3>
         <p class="detail-description">{{ entry.description }}</p>
       </section>
       <section v-if="entry.stats?.length" class="detail-section">
@@ -214,7 +216,7 @@ onBeforeUnmount(releaseScrollLock);
         <p>{{ entry.specialAcquisition }}</p>
       </section>
       <section v-if="entry.acquisition" class="detail-section">
-        <h3><PackageOpen :size="15" />获取说明</h3>
+        <h3><PackageOpen :size="15" />{{ isCivilization ? '解锁与使用' : '获取说明' }}</h3>
         <p>{{ entry.acquisition }}</p>
       </section>
       <section v-if="entry.notes?.length" class="detail-section">
@@ -285,6 +287,19 @@ onBeforeUnmount(releaseScrollLock);
   .entry-dialog__image {
     background: color-mix(in srgb, rgb(var(--boon-rgb)) 10%, var(--icon-bg));
   }
+}
+.entry-dialog--civilization {
+  border-radius: 5px;
+  border-top: 3px solid var(--accent);
+  .entry-dialog__image {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 30%, #275575, #0b243b 75%);
+    border-color: var(--accent-border);
+    img { width: 96px; height: 96px; }
+  }
+  .entry-dialog__identity h2 { font-family: "Georgia", "Noto Serif SC", "SimSun", serif; }
 }
 .detail-tags span.detail-tags__boon {
   color: color-mix(in srgb, rgb(var(--boon-rgb)) var(--boon-text-mix), var(--text));
